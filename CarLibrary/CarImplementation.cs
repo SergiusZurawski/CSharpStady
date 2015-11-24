@@ -17,7 +17,7 @@ namespace CarLibrary
         public override void TurboBoost()
         {
             engState = EngineState.engineDead;
-            MessageBox.Show("");
+            MessageBox.Show("Disaster");
         }
     }
 
@@ -29,7 +29,7 @@ namespace CarLibrary
         public override void TurboBoost()
         {
             engState = EngineState.engineDead;
-            MessageBox.Show("");
+            MessageBox.Show("Faster you can go Faster");
         }
     }
 }
