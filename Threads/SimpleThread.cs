@@ -48,5 +48,60 @@ namespace Threads
             t.Start(5);
             t.Join();
         }
+
+        // Stop thread 
+        public static void CallExampleStopThread()
+        {
+            Thread t = new Thread(new ParameterizedThreadStart(ThreadMethod));
+            t.Start(5);
+            t.Abort();  // Not Recomended
+            t.Join();
+        }
+
+        // Recommended way to use a shared variable
+        public static void CallExampleSafeStopThread()
+        {
+            bool stopped = false;
+            Thread t = new Thread(new ThreadStart(() => 
+            {                
+                while (!stopped)
+                {
+                    Console.WriteLine("Running...");
+                    Thread.Sleep(1000);
+                }
+            }));
+            
+            t.Start();
+            Console.WriteLine("Press any key to exit");
+            Console.ReadKey();
+            stopped  = true;
+            t.Join();
+        }
+
+        //Thread Static 
+        [ThreadStatic]
+        public static int _field;  //A thread can also have its own data that’s not a local variable. By marking a field with the
+                                    //ThreadStatic attribute, each thread gets its own copy of a field
+        public static void CallExampleThreadStatic()
+        {
+            new Thread(() =>
+               { 
+                    for(int x = 0; x < 10; x++)
+                    {
+                        _field++;
+                        Console.WriteLine("Thread A: {0}", _field);
+                    }
+                }).Start();
+
+            new Thread(() =>
+                {  for(int x = 0; x < 10; x++)
+                    {
+                        _field++;
+                        Console.WriteLine("Thread B: {0}", _field);
+                    }
+                }).Start();
+                Console.ReadKey();
+        }
+
     }
 }

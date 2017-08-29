@@ -10,7 +10,7 @@ namespace Tutorial
         public static void Main()
          {
              //Threads.SimpleThread.CallExample();
-             Threads.SimpleThread.CallExampleParametrized();
+             Threads.SimpleThread.CallExampleThreadStatic();
              //CallExampleBackGroundProcess
          }
 
