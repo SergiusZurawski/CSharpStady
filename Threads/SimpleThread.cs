@@ -103,5 +103,33 @@ namespace Threads
                 Console.ReadKey();
         }
 
+        //ThreadLocal<T>
+        public static ThreadLocal<int> _fieldLocal = 
+            new ThreadLocal<int>(() => 
+            {
+                return Thread.CurrentThread.ManagedThreadId;
+            });
+        
+        public static void CallExampleThreadLocal()
+        {
+            new Thread(() =>
+                { 
+                    for(int x = 0; x < _fieldLocal.Value; x++)
+                    {
+                        Console.WriteLine("Thread local A: {0}", x);
+                    }
+                }).Start();
+            
+             new Thread(() =>
+                {
+                    for (int x = 0; x < _fieldLocal.Value; x++)
+                    {
+                        Console.WriteLine("Thread local B: {0}", x);
+                    }
+                }).Start();
+            Console.ReadKey();
+        }
+        
+
     }
 }
