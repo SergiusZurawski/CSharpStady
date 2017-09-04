@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 using static Threads.SimpleThread;
-using static Threads.ThreadPools;
+using static Threads.Tasks;
 
 namespace Tutorial
 {
@@ -12,9 +12,10 @@ namespace Tutorial
          {
              //Threads.SimpleThread.CallExample();
             //  Threads.SimpleThread.CallExampleThreadLocal();
-             Threads.ThreadPools.Example();
+             Threads.Tasks.ExampleContinuationTask2();
              //CallExampleBackGroundProcess
          }
 
     }
+
 }
