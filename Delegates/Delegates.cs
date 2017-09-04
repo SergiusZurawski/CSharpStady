@@ -23,6 +23,7 @@ namespace Delegates
 
     public class Delegates
     {
+        delegate void StringProcessorClassLevel(string input); // on class level
         void PrintString(string x)               //suitable for delegate 
         {
             Console.WriteLine("PrintString");
