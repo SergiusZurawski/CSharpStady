@@ -8,6 +8,7 @@ namespace Delegates
         static void Main(string[] args)
         {
             Delegates.Example();
+            SimpleDelegateUse.Example();
         }
     }
 }

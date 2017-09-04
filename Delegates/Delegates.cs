@@ -64,14 +64,15 @@ namespace Delegates
         }
     }
 
+    // Example of Delegate and Instance variables
     class Person
     {
-    string name;
-    public Person(string name) { this.name = name; }
-    public void Say(string message)
-    {
-    Console.WriteLine("{0} says: {1}", name, message);
-    }
+        string name;
+        public Person(string name) { this.name = name; }
+        public void Say(string message)
+        {
+            Console.WriteLine("{0} says: {1}", name, message);
+        }
     }
     class Background
     {
@@ -80,9 +81,9 @@ namespace Delegates
             Console.WriteLine("({0})", note);
         }
     }
-    class SimpleDelegateUse
+    public class SimpleDelegateUse
     {
-        static void Example()
+        public static void Example()
         {
             Person jon = new Person("Jon");
             Person tom = new Person("Tom");
