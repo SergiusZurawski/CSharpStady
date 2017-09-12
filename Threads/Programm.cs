@@ -12,7 +12,8 @@ namespace Tutorial
          {
              //Threads.SimpleThread.CallExample();
             //  Threads.SimpleThread.CallExampleThreadLocal();
-             Threads.Tasks.ExampleContinuationTask2();
+             //Threads.Tasks.ExampleContinuationTask2();
+             Threads.AsyncAwait.Example();
              //CallExampleBackGroundProcess
          }
 

@@ -8,6 +8,16 @@ This can result in memory leaks
 short-lived object subscribes to an event in
 a long-lived object, using itself as the target. The long-lived object indirectly
 holds a reference to the short-lived one, prolonging its lifetime.
+
+When a delegate instance is invoked, all its actions are executed in order.
+If the delegate’s signature has a nonvoid return type, the value returned by Invoke is the
+value returned by the last action executed.
+- All the other actions are never seen unless the invoking code explicitly executes the
+actions one at a time, using Delegate.GetInvocationList to fetch the list of actions.
+
+If any of the actions in the invocation list throws an exception, that prevents any of
+the subsequent actions from being executed.
+[a, b, c] , b - throws Exception, c is not executed.
  */
 namespace Delegates
 {
@@ -97,4 +107,49 @@ namespace Delegates
             background("An airplane flies past.");
         }
     }
+
+    public class DelegateCreation{
+        
+        static void HandleDemoEvent(object sender, EventArgs e)
+        {
+            Console.WriteLine ("Handled by HandleDemoEvent");
+        }
+        //https://msdn.microsoft.com/en-us/library/system.eventhandler(v=vs.110).aspx
+        EventHandler handler;
+        handler = new EventHandler(HandleDemoEvent);   //Specifies delegate type and method
+        handler(null, EventArgs.Empty);
+        handler = HandleDemoEvent;
+        handler(null, EventArgs.Empty);                //Implicitly converts to delegate instance
+        
+        handler = delegate(object sender, EventArgs e) //Specifies action with anonymous method
+        {
+            Console.WriteLine ("Handled anonymously");
+        };
+
+        handler(null, EventArgs.Empty);
+        handler = delegate                              //Uses anonymous method shortcut
+        {;
+            Console.WriteLine ("Handled anonymously again");
+        };
+        handler(null, EventArgs.Empty);
+
+        MouseEventHandler mouseHandler = HandleDemoEvent;  //Uses delegate contravariance
+        mouseHandler(null, new MouseEventArgs(MouseButtons.None,0, 0, 0, 0));
+    }
 }
+
+//Summary
+/* 
+    Delegates encapsulate behavior with a particular return type and set of parame-
+        ters, similar to a single-method interface.
+     The type signature described by a delegate type declaration determines
+        which methods can be used to create delegate instances, and the signature
+        for invocation.
+     Creating a delegate instance requires a method and (for instance methods) a
+        target to call the method on.
+     Delegate instances are immutable.
+     Delegate instances each contain an invocation list—a list of actions.
+     Delegate instances can be combined with and removed from each other.
+     Events aren’t delegate instances—they’re just add/remove method pairs (think
+property getters/setters).
+*/

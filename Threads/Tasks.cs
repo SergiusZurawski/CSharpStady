@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -121,6 +122,51 @@ namespace Threads
                });
             finalTask.Wait();
             //use the method WaitAll to wait for multiple Tasks to finish before continuing executio
+        }
+
+        public static void ExampleWaitAll()
+        {
+            Task[] tasks = new Task[3];
+            tasks[0] = Task.Run(() => { 
+                Thread.Sleep(1000); 
+                Console.WriteLine("1");
+                return 1; 
+            });
+            tasks[1] = Task.Run(() => { 
+                Thread.Sleep(1000); 
+                Console.WriteLine("2");
+                return 2; 
+            });
+            tasks[2] = Task.Run(() => { 
+                Thread.Sleep(1000); 
+                Console.WriteLine("3");
+                return 3; }
+            );
+           Task.WaitAll(tasks);
+        }
+
+        public static void ExampleWaitAny()
+        {
+            Task<int>[] atasks = new Task<int>[3];
+            atasks[0] = Task.Run(() => {Thread.Sleep(2000); return 1;});
+            atasks[1] = Task.Run(() => {Thread.Sleep(2000); return 2;});
+            atasks[2] = Task.Run(() => {Thread.Sleep(2000); return 3;});
+
+            // int [] ai = new int[] {1 ,2};
+            // List<int> lst = ai.OfType<int>().ToList();
+            // Console.WriteLine(lst);
+
+            
+            
+            while(atasks.Length > 0)
+            {
+                int i = Task.WaitAny(atasks);
+                Task<int> completedTask = atasks[i];
+                Console.WriteLine(completedTask.Result);
+                var temp = atasks.ToList();
+                temp.RemoveAt(i);
+                atasks = temp.ToArray();
+            }
         }
     }
 }
