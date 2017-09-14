@@ -35,7 +35,7 @@ namespace Generics
 
     }
 
-    //Second example
+    // Advence example
     // type parameter T in angle brackets
     public class GenericListAdvanced<T> 
     {

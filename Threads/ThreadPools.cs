@@ -19,9 +19,9 @@ namespace Threads
             });
             Console.ReadLine();
         }
-        /*because threads are being reused, they also reuse their
-        local state. You may not rely on state that can potentially be shared between multiple
-        operations. 
+        /*  because threads are being reused, they also reuse their
+            local state. You may not rely on state that can potentially be shared between multiple
+            operations. 
         */
 
     }
