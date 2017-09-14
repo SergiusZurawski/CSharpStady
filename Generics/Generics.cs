@@ -17,6 +17,54 @@ namespace Generics
        void Add(T input){}
     }
 
+    //Generic classes encapsulate operations that are not specific to a particular data type. 
+    //Generic classes can inherit from concrete, closed constructed, or open constructed base classes:
+    class BaseNode { }
+    class BaseNodeGeneric<T> { }
+    // concrete type
+    class NodeConcrete<T> : BaseNode { }
+    //closed constructed type
+    class NodeClosed<T> : BaseNodeGeneric<int> { }
+    //open constructed type 
+    class NodeOpen<T> : BaseNodeGeneric<T> { }
+
+    //Non-generic, in other words, concrete, classes can inherit from closed constructed base classes, but not from open constructed classes
+    //No error
+    class Node1 : BaseNodeGeneric<int> { }
+    //Generates an error
+    //class Node2 : BaseNodeGeneric<T> {}
+    //Generates an error
+    //class Node3 : T {}
+
+    //Generic classes that inherit from open constructed types must supply type arguments for any base class type 
+    //  parameters that are not shared by the inheriting class
+
+    class BaseNodeMultiple<T, U> { }
+    //No error
+    class Node4<T> : BaseNodeMultiple<T, int> { }
+    //No error
+    class Node5<T, U> : BaseNodeMultiple<T, U> { }
+    //Generates an error
+    //class Node6<T> : BaseNodeMultiple<T, U> {}
+
+    //Generic classes that inherit from open constructed types must specify constraints that are a superset of,or imply, the constraints on the base type
+    class NodeItem<T> where T : System.IComparable<T>, new() { }
+    class SpecialNodeItem<T> : NodeItem<T> where T : System.IComparable<T>, new() { }
+
+    //Open constructed and closed constructed types can be used as method parameters:
+    class CodeExample{
+        void Swap<T>(List<T> list1, List<T> list2)
+        {
+            //code to swap items
+        }
+
+        void Swap(List<int> list1, List<int> list2)
+        {
+            //code to swap items
+        }
+    }
+
+
     class TestGenericList
     {
         //Declere A list of a Type 

@@ -148,6 +148,11 @@ namespace Generics
         where U : struct
         where T : Base, new() { }
 
+    class SuperKeyType<K, V, U>
+        where U : System.IComparable<U>
+        where V : new()
+        { }
+
     // Unbounded Type Parameters
     // Type parameters that have no constraints, such as T in public class SampleClass<T>{}, are called unbounded type parameters
     // Unbounded type parameters have the following rules:
