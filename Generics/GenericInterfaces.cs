@@ -155,9 +155,9 @@ namespace Generics
         }
     }
 
-    class ProgramExample
+    class InterfaseAndContstrainsInAction
     {
-        static void Main()
+        static void Example()
         {
             //Declare and instantiate a new generic SortedList class.
             //Person is the type argument.
@@ -205,4 +205,33 @@ namespace Generics
         }
     }
 
+    //Multiple interfaces can be specified as constraints on a single type, as follows:
+    class Stack0<T> where T : System.IComparable<T>, IEnumerable<T>
+    {}
+
+    //An interface can define more than one type parameter, as follows:
+    interface IDictionary<K, V>
+    {}
+
+    //The rules of inheritance that apply to classes also apply to interfaces:
+    interface IMonth<T> { }
+
+    interface IJanuary     : IMonth<int> { }  //No error
+    interface IFebruary<T> : IMonth<int> { }  //No error
+    interface IMarch<T>    : IMonth<T> { }    //No error
+    //interface IApril<T>  : IMonth<T, U> {}  //Error
+
+    //Concrete classes can implement closed constructed interfaces, as follows:
+    interface IBaseInterface<T> { }
+
+    class SampleClass0 : IBaseInterface<string> { }
+
+    //Generic classes can implement generic interfaces or closed constructed 
+    // interfaces as long as the class parameter list supplies all arguments required by the interface
+
+    interface IBaseInterface1<T> { }
+    interface IBaseInterface2<T, U> { }
+
+    class SampleClass1<T> : IBaseInterface1<T> { }          //No error
+    class SampleClass2<T> : IBaseInterface2<T, string> { }  //No error
 }

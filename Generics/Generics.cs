@@ -12,7 +12,7 @@ namespace Generics
     }
 
     // Declare the generic class.
-    public class GenericList<T>
+    public class GenericList0<T>
     {
        void Add(T input){}
     }
@@ -53,28 +53,25 @@ namespace Generics
 
     //Open constructed and closed constructed types can be used as method parameters:
     class CodeExample{
-        void Swap<T>(List<T> list1, List<T> list2)
-        {
-            //code to swap items
-        }
-
-        void Swap(List<int> list1, List<int> list2)
-        {
-            //code to swap items
-        }
+        void Swap<T>(List<T> list1, List<T> list2){}
+        void Swap(List<int> list1, List<int> list2){}
     }
 
+    //If a generic class implements an interface, all instances of that class can be cast to that interface
+    //Generic classes are invariant. In other words, if an input parameter specifies a 
+    //List<BaseClass>, you will get a compile-time error if you try to provide a 
+    //List<DerivedClass>
 
     class TestGenericList
     {
         //Declere A list of a Type 
-        GenericList<int> genericList = new GenericList<int>();
+        GenericList0<int> genericList = new GenericList0<int>();
 
         // Declare a list of type string.
-        GenericList<string> list2 = new GenericList<string>();
+        GenericList0<string> list2 = new GenericList0<string>();
 
         // Declare a list of type ExampleClass.
-        GenericList<TestGenericList> list3 = new GenericList<TestGenericList>();
+        GenericList0<TestGenericList> list3 = new GenericList0<TestGenericList>();
 
 
         public static void Example(){
