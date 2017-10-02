@@ -33,4 +33,7 @@ namespace GenericsAttributes
     //An attribute that references a generic type parameter will cause a compile-time error:
     //[CustomAttribute(info = typeof(GenericClass3<int, T, string>))]  //Error
     class ClassD<T> { }
+
+    //A generic type cannot inherit from Attribute:
+    //public class CustomAtt<T> : System.Attribute {}  //Error
 }
