@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collection.Generics;
+using System.Collections.Generic;
 
     //When a generic type/method is compiled into(IL), it contains metadata that identifies it as having type parameters. 
     //When a generic type is first constructed with a value type as a parameter, 
