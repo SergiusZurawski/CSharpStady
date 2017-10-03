@@ -49,3 +49,14 @@ namespace Equality
         }
     }
 }
+
+//THE GENERIC COMPARISON INTERFACES 
+// 4 main interfaces
+// the following 2 are implemented by types that are capable of comparing two different values,
+// IComparer<T>
+// IEqualityComparer<T>
+//  
+// the following 2  are capable of comparing itself with another value
+// 
+// IComparable<T> or IEquatable<T>
+
