@@ -1,7 +1,13 @@
 ﻿using System;
 using Generics;
 using Equality;
+using StaticFieldsAndConstructors;
+using ReflectionsForGenerics;
+using static IterationsOverCustomMadeType.IterationsOverCustomMadeTypeExample;
 using static Generics.TestGenericList;
+using static ExampleOfPair;
+//using static StaticFieldsAndConstructors.StaticFieldsExample;
+
 
 namespace Generics
 {
@@ -11,7 +17,12 @@ namespace Generics
         {
             //Generics.GenericListAdvanced<int>.Example2();
             //Generics.EqullityVerification.Example();
-            Equality.ComparisonsOverridden.Example();
+            //Equality.ComparisonsOverridden.Example();
+            //StaticFieldsAndConstructors.StaticFieldsExample.Example();
+            //StaticFieldsAndConstructors.StaticConstructorAndNestedGenericsExample.Example();
+            //IterationsOverCustomMadeType.IterationsOverCustomMadeTypeExample.Example();
+            GenericReflectionExample.Example();
+
         }
     }
 }
