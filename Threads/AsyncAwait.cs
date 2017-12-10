@@ -8,7 +8,7 @@ using System.Net.Http;
 //
 namespace Threads
 {
-    public static class AsyncAwait
+    public class AsyncAwait
     {
 
         /*A method marked with async just starts running synchronously on the current thread.

@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace Properties
 {
@@ -13,7 +15,7 @@ namespace Properties
     decimal price;
     public decimal Price { get { return price; } }
     
-    public Product(string name, decimal price)
+    public ProductC1(string name, decimal price)
     {
         this.name = name;
         this.price = price;
@@ -22,10 +24,10 @@ namespace Properties
         {
             //ArrayList is not Parametrised. YOu can add anything
             ArrayList list = new ArrayList();
-            list.Add(new Product("West Side Story", 9.99m));
-            list.Add(new Product("Assassins", 14.99m));
-            list.Add(new Product("Frogs", 13.99m));
-            list.Add(new Product("Sweeney Todd", 10.99m));
+            list.Add(new ProductC1("West Side Story", 9.99m));
+            list.Add(new ProductC1("Assassins", 14.99m));
+            list.Add(new ProductC1("Frogs", 13.99m));
+            list.Add(new ProductC1("Sweeney Todd", 10.99m));
             return list;
         }
         public override string ToString()
@@ -51,20 +53,20 @@ namespace Properties
             private set { price = value; }
         }
 
-        public Product(string name, decimal price)
+        public ProductC2(string name, decimal price)
         {
             Name = name;
             Price = price;
         }
 
-        public static List<Product> GetSampleProducts()
+        public static List<ProductC2> GetSampleProducts()
         {
             //Strongly typed collections
-            List<Product> list = new List<Product>();
-            list.Add(new Product("West Side Story", 9.99m));
-            list.Add(new Product("Assassins", 14.99m));
-            list.Add(new Product("Frogs", 13.99m));
-            list.Add(new Product("Sweeney Todd", 10.99m));
+            List<ProductC2> list = new List<ProductC2>();
+            list.Add(new ProductC2("West Side Story", 9.99m));
+            list.Add(new ProductC2("Assassins", 14.99m));
+            list.Add(new ProductC2("Frogs", 13.99m));
+            list.Add(new ProductC2("Sweeney Todd", 10.99m));
             return list;
         }
 
@@ -79,22 +81,22 @@ namespace Properties
         //Automatically implemented properties
         public string Name { get; private set; }
         public decimal Price { get; private set; }
-        public Product(string name, decimal price)
+        public ProductC3(string name, decimal price)
         {
             Name = name;
             Price = price;
         }
-        Product() {}
+        ProductC3() {}
 
-        public static List<Product> GetSampleProducts()
+        public static List<ProductC3> GetSampleProducts()
         {
             //simpler initialization
-            return new List<Product>
+            return new List<ProductC3>
             {
-                new Product { Name="West Side Story", Price = 9.99m },
-                new Product { Name="Assassins", Price=14.99m },
-                new Product { Name="Frogs", Price=13.99m },
-                new Product { Name="Sweeney Todd", Price=10.99m}
+                new ProductC3 { Name="West Side Story", Price = 9.99m },
+                new ProductC3 { Name="Assassins", Price=14.99m },
+                new ProductC3 { Name="Frogs", Price=13.99m },
+                new ProductC3 { Name="Sweeney Todd", Price=10.99m}
             };
         }
         public override string ToString()
@@ -111,20 +113,20 @@ namespace Properties
         readonly decimal price;
         public decimal Price { get { return price; } }
         
-        public Product(string name, decimal price)
+        public ProductC4(string name, decimal price)
         {
             this.name = name;
             this.price = price;
         }
-        public static List<Product> GetSampleProducts()
+        public static List<ProductC4> GetSampleProducts()
         {
-            return new List<Product>
+            return new List<ProductC4>
             {
                 //Named arguments
-                new Product( name: "West Side Story", price: 9.99m),
-                new Product( name: "Assassins", price: 14.99m),
-                new Product( name: "Frogs", price: 13.99m),
-                new Product( name: "Sweeney Todd", price: 10.99m)
+                new ProductC4( name: "West Side Story", price: 9.99m),
+                new ProductC4( name: "Assassins", price: 14.99m),
+                new ProductC4( name: "Frogs", price: 13.99m),
+                new ProductC4( name: "Sweeney Todd", price: 10.99m)
             };
         }
         

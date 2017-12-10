@@ -108,33 +108,38 @@ namespace Delegates
         }
     }
 
-    public class DelegateCreation{
-        
+    public class DelegateCreation
+    {
+       
+        public static void CallExample()
+        {
+            //https://msdn.microsoft.com/en-us/library/system.eventhandler(v=vs.110).aspx
+            EventHandler handler;
+            handler = new EventHandler(HandleDemoEvent);   //Specifies delegate type and method
+            handler(null, EventArgs.Empty);
+            handler = HandleDemoEvent;
+            handler(null, EventArgs.Empty);                //Implicitly converts to delegate instance
+            handler = delegate(object sender, EventArgs e) //Specifies action with anonymous method
+            {
+                Console.WriteLine ("Handled anonymously");
+            };
+
+            handler(null, EventArgs.Empty);
+            handler = delegate                              //Uses anonymous method shortcut
+            {
+                Console.WriteLine ("Handled anonymously again");
+            };
+            handler(null, EventArgs.Empty);
+
+            MouseEventHandler mouseHandler = HandleDemoEvent;  //Uses delegate contravariance
+            mouseHandler(null, new MouseEventArgs(MouseButtons.None,0, 0, 0, 0));
+        }
         static void HandleDemoEvent(object sender, EventArgs e)
         {
             Console.WriteLine ("Handled by HandleDemoEvent");
         }
-        //https://msdn.microsoft.com/en-us/library/system.eventhandler(v=vs.110).aspx
-        EventHandler handler;
-        handler = new EventHandler(HandleDemoEvent);   //Specifies delegate type and method
-        handler(null, EventArgs.Empty);
-        handler = HandleDemoEvent;
-        handler(null, EventArgs.Empty);                //Implicitly converts to delegate instance
+
         
-        handler = delegate(object sender, EventArgs e) //Specifies action with anonymous method
-        {
-            Console.WriteLine ("Handled anonymously");
-        };
-
-        handler(null, EventArgs.Empty);
-        handler = delegate                              //Uses anonymous method shortcut
-        {;
-            Console.WriteLine ("Handled anonymously again");
-        };
-        handler(null, EventArgs.Empty);
-
-        MouseEventHandler mouseHandler = HandleDemoEvent;  //Uses delegate contravariance
-        mouseHandler(null, new MouseEventArgs(MouseButtons.None,0, 0, 0, 0));
     }
 }
 

@@ -10,7 +10,7 @@
 //The value of a value type variable is always a value of that type.
 namespace RefferenceValueTypes
 {
-    class Program
+    class DummyClass
     {
         static void Example()
         {
