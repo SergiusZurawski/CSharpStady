@@ -33,29 +33,7 @@ namespace Generics
             // it cannot infer the type parameters only from a constraint or return value. 
             // Therefore type inference does not work with methods that have no parameter
 
-            //Within a generic class, non-generic methods can access the class-level type parameters
-            class SampleClass<T>
-            {
-                void Swap(ref T lhs, ref T rhs) { }
-            }
-
-            /*
-                If you define a generic method that takes the same type parameters as the containing class, 
-                the compiler generates warning CS0693 because within the method scope, 
-                the argument supplied for the inner T hides the argument supplied for the outer T
-             */
-
-            class GenericList<T>
-            {
-                // CS0693
-                void SampleMethod<T>() { }
-            }
-
-            class GenericList2<T>
-            {
-                //No warning
-                void SampleMethod<U>() { }
-            }
+            
 
             //Use constraints to enable more specialized operations 
             void SwapIfGreater<T>(ref T lhs, ref T rhs) where T : System.IComparable<T>
@@ -68,14 +46,34 @@ namespace Generics
                     rhs = temp;
                 }
             }
-
             //Generic methods can be overloaded on several type parameters. For example, the following methods can all be located in the same class
             void DoWork() { }
             void DoWork<T>() { }
             void DoWork<T, U>() { }
         }
 
-        
+        //Within a generic class, non-generic methods can access the class-level type parameters
+        class SampleClass<T>
+        {
+            void Swap(ref T lhs, ref T rhs) { }
+        }
+
+        /*
+            If you define a generic method that takes the same type parameters as the containing class, 
+            the compiler generates warning CS0693 because within the method scope, 
+            the argument supplied for the inner T hides the argument supplied for the outer T
+            */
+
+        class GenericList<T>
+        {
+            // CS0693
+            void SampleMethod<T>() { }
+        }
+
+        class GenericList2<T>
+        {
+            //No warning
+            void SampleMethod<U>() { }
+        }
     }
-    
 }

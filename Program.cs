@@ -6,7 +6,7 @@ namespace CSharpCertification
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Boxing.CallExample();
         }
     }
 }
