@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ExampleVarianceDelegate;
+using System;
 using System.Drawing;
 using System.Threading;
 using System.Threading.Tasks;
@@ -9,16 +10,52 @@ namespace Delegates
 
     public class Variance
     {
+        public static event DelegateA riseA;
+        public static event DelegateB riseB;
+        public static event DelegateC riseC;
+
         public static void Example()
         {
-            ExampleVarianceDelegate.DelegateA delegateA = HandleDemoEvent;  // No variavnce
-            ExampleVarianceDelegate.DelegateB delegateB = HandleDemoEvent;  // Contravariance
-            ExampleVarianceDelegate.DelegateC delegateC = HandleDemoEvent;  // Contravariance
+            DelegateA delegateA = HandleDemoEvent;  // No variavnce
+            DelegateB delegateB = HandleDemoEvent;  // Contravariance
+            DelegateC delegateC = HandleDemoEvent;  // Contravariance
+
+            //ExampleVarianceDelegate.DelegateB delegateB1 = HandleDemoEventC;  // Exception
+            //ExampleVarianceDelegate.DelegateC delegateC1 = HandleDemoEventB;  // Exception
+
+            //ExampleVarianceDelegate.DelegateC delegateA1 = HandleDemoEventB;  // Covariance doesn't work Exception
+
+            delegateA("", new EventArgs());
+            //delegateB("", new EventArgs());  //Exception, you can't call it with EventArgs
+            //delegateC("", new EventArgs());  //Exception, you can't call it with EventArgs
+            delegateB("", new KeyPressEventArgs('b'));
+            delegateC("", new MausePressEventArgs(new Object(),1, 1, 1, 1));
+
+            // EVENTS The same rule
+            riseA += HandleDemoEvent;         
+            riseB += HandleDemoEvent;   //Contravariance
+            riseC += HandleDemoEvent;   //Contravariance
+            //riceC += HandleDemoEventB;  //Exceptoion
+            //riceB += HandleDemoEvent; // Covariance Exception
+
+            riseA.Invoke("", new EventArgs());
+            riseB.Invoke("", new KeyPressEventArgs('b'));
+            riseC.Invoke("", new MausePressEventArgs(new Object(), 1, 1, 1, 1));
         }
 
         static void HandleDemoEvent(object sender, EventArgs e)
         {
-            Console.WriteLine("LogKey");
+            Console.WriteLine("HandleDemoEvent");
+        }
+
+        static void HandleDemoEventB(object sender, KeyPressEventArgs e)
+        {
+            Console.WriteLine("HandleDemoEventB");
+        }
+
+        static void HandleDemoEventC(object sender, MausePressEventArgs e)
+        {
+            Console.WriteLine("HandleDemoEventC");
         }
     }
 
@@ -27,9 +64,9 @@ namespace Delegates
 
 namespace ExampleVarianceDelegate
 {
-    delegate void DelegateA(string input, EventArgs eventArgs);
-    delegate void DelegateB(string input, KeyPressEventArgs eventArgs);
-    delegate void DelegateC(string input, MausePressEventArgs eventArgs);
+    public delegate void DelegateA(string input, EventArgs eventArgs);
+    public delegate void DelegateB(string input, KeyPressEventArgs eventArgs);
+    public delegate void DelegateC(string input, MausePressEventArgs eventArgs);
 
     public class DelegateConsulmer
     {
