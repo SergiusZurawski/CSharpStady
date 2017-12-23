@@ -131,9 +131,8 @@ namespace Delegates
             };
             handler(null, EventArgs.Empty);
 
-            MouseEventHandler mouseHandler = HandleDemoEvent;  //Uses delegate contravariance
-            mouseHandler(null, new MouseEventArgs(MouseButtons.None,0, 0, 0, 0));
         }
+
         static void HandleDemoEvent(object sender, EventArgs e)
         {
             Console.WriteLine ("Handled by HandleDemoEvent");

@@ -9,6 +9,7 @@ namespace Delegates
         {
             Delegates.Example();
             SimpleDelegateUse.Example();
+            Variance.Example();
         }
     }
 }
