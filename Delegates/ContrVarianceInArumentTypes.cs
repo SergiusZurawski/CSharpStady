@@ -8,12 +8,13 @@ namespace Delegates
 {
    
 
-    public class Variance
+    public class ContrVarianceInArumentTypes
     {
         public static event DelegateA riseA;
         public static event DelegateB riseB;
         public static event DelegateC riseC;
 
+        //Contrvariance in Arugments
         public static void Example()
         {
             DelegateA delegateA = HandleDemoEvent;  // No variavnce

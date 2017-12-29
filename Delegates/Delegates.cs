@@ -44,9 +44,9 @@ namespace Delegates
             Console.WriteLine("PrintStringStatic");
             Console.WriteLine(x);
         }
-        void PrintInteger(int x){}                 // not suitable for delegate 
-        void PrintTwoStrings(string x, string y){}  // not suitable for delegate 
-        int GetStringLength(string x){ return 0;}   // not suitable for delegate 
+        void PrintInteger(int x) { }                 // not suitable for delegate 
+        void PrintTwoStrings(string x, string y) { }  // not suitable for delegate 
+        int GetStringLength(string x) { return 0; }   // not suitable for delegate 
         void PrintObject(object x)                  // suitable for delegate
         {
             Console.WriteLine("PrintObject");
@@ -60,7 +60,7 @@ namespace Delegates
             Delegates instance = new Delegates();
             proc1 = new StringProcessor(instance.PrintString);       // Instance 
             proc3 = new StringProcessor(instance.PrintObject);
-            
+
             proc2 = new StringProcessor(Delegates.PrintStringStatic);// Static
 
             Console.WriteLine("!!!---11---!!!");
@@ -110,7 +110,7 @@ namespace Delegates
 
     public class DelegateCreation
     {
-       
+
         public static void CallExample()
         {
             //https://msdn.microsoft.com/en-us/library/system.eventhandler(v=vs.110).aspx
@@ -119,15 +119,15 @@ namespace Delegates
             handler(null, EventArgs.Empty);
             handler = HandleDemoEvent;
             handler(null, EventArgs.Empty);                //Implicitly converts to delegate instance
-            handler = delegate(object sender, EventArgs e) //Specifies action with anonymous method
+            handler = delegate (object sender, EventArgs e) //Specifies action with anonymous method
             {
-                Console.WriteLine ("Handled anonymously");
+                Console.WriteLine("Handled anonymously");
             };
 
             handler(null, EventArgs.Empty);
             handler = delegate                              //Uses anonymous method shortcut
             {
-                Console.WriteLine ("Handled anonymously again");
+                Console.WriteLine("Handled anonymously again");
             };
             handler(null, EventArgs.Empty);
 
@@ -135,11 +135,12 @@ namespace Delegates
 
         static void HandleDemoEvent(object sender, EventArgs e)
         {
-            Console.WriteLine ("Handled by HandleDemoEvent");
+            Console.WriteLine("Handled by HandleDemoEvent");
         }
 
-        
+
     }
+
 }
 
 //Summary
