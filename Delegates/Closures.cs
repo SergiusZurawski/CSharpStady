@@ -16,6 +16,15 @@ namespace Delegates
         captured variables eliminate the need to write extra classes just to store the information
             a delegate needs to act on, beyond what it’s passed via parameters.
         
+
+        Main points:
+        1. The variable is captured—not its value at the point of delegate instance creation. 
+        2. Captured variables have lifetimes extended to at least that of the capturing delegate. 
+        3. Multiple delegates can capture the same variable... 
+        4. ...but within loops, the same variable declaration can effectively refer to different variable “instances.” 
+        5. for loop declarations create variables that live for the duration of the loop—they’re not instantiated on each iteration. The same is true for foreach statements before C# 5. 
+        6. Extra types are created, where necessary, to hold captured variables. 
+        7. Be careful! Simple is almost always better than clever.
     
     */
     public class Closures
@@ -123,8 +132,52 @@ namespace Delegates
                    and so on.
             */
         }
-        public static void ExampleOfDifferenceForLocalVariableInstallation()
+        public static void ExampleOfLocalVariableInitializedInLoop()
         {
+            List<Action> list = new List<Action>();
+            for (int index = 0; index < 5; index++)
+            {
+                int counter = index * 10;
+                list.Add(delegate() 
+                {
+                    Console.WriteLine(counter);
+                    counter++;
+                });
+            }
+            foreach (Action t in list)
+            {
+                t();
+            }
+            list[0]();
+            list[0]();
+            list[0]();
+            list[1]();
+        }
+
+        public static void ExampleOfClosureVariableOfMixedUsed()
+        {
+            Action[] delegates = new Action[2];
+            int outside = 0;
+            for (int i = 0; i< 2; i++)
+            {
+                int inside = 0;
+                delegates[i] = delegate
+                {
+                    Console.WriteLine("");
+                    outside++;
+                    inside++;
+                };
+            }
+
+            Action first = delegates[0];
+            Action second = delegates[1];
+
+            first();
+            first();
+            first();
+
+            second();
+            second();
         }
     }
 }   

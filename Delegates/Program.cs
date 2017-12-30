@@ -13,6 +13,8 @@ namespace Delegates
             CovarianceOnReturnTypes.Example();
             Closures.ExampleOfBehavoiurOfCapturedVariable();
             Closures.ExampleOfExtendedLifeTime();
+            Console.WriteLine("---------------");
+            Closures.ExampleOfLocalVariableInitializedInLoop();
         }
     }
 }
