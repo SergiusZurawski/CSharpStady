@@ -119,7 +119,7 @@ namespace Iterators
 
             iterator.MoveNext();
             Console.WriteLine("recieved {0}", iterator.Current);
-            Thread.Sleep(3000);
+            //Thread.Sleep(3000);  // IF you add this then finialy will be called
             iterator.MoveNext();
             Console.WriteLine("recieved {0}", iterator.Current);
 
