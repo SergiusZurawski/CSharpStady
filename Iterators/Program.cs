@@ -16,8 +16,9 @@ namespace Iterators
     {
         static void Main(string[] args)
         {
+            /*
             object[] values = { "a", "b", "c", "d", "e" };
-            IterationSample collection = new IterationSample(values, 3);
+            IteratingOverDates collection = new IteratingOverDates(values, 3);
             foreach (object x in collection)
             {
                 Console.WriteLine(x);
@@ -47,6 +48,10 @@ namespace Iterators
             CallOrder.CallExampleWithBreakWithFiniallyAndRetrunInCallingMehod();
             // Iterator with Break And Finially and manual iteration
             CallOrder.CallExampleWithBreakWithFiniallyAndRetrunInCallingMehodWithoutForEach();
+            
+            */
+            OldFileReader.CallExample();
+            NewFileReader.CallExample();
         }
     }
 }

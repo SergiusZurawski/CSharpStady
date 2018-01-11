@@ -18,12 +18,12 @@ namespace Iterators
 
 
      */
-    public class IterationSample : IEnumerable
+    public class IteratingOverDates : IEnumerable
     {
         private object[] values;
         private int startigPoint;
 
-        public IterationSample(object[] values, int startigPoint)
+        public IteratingOverDates(object[] values, int startigPoint)
         {
             this.values = values;
             this.startigPoint = startigPoint;
@@ -36,10 +36,10 @@ namespace Iterators
 
         class IterationSampleIterator : IEnumerator
         {
-            IterationSample parent;
+            IteratingOverDates parent;
             int postion;
 
-            internal IterationSampleIterator(IterationSample parent)
+            internal IterationSampleIterator(IteratingOverDates parent)
             {
                 this.parent = parent;
                 this.postion = -1;
