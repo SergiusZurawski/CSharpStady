@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using System.IO;
+using System.Text;
 
 namespace Iterators
 {
@@ -54,4 +55,31 @@ namespace Iterators
             }
         }
     }
+
+
+    public class FileReaderAsAFunction
+    {
+        public static void CallExample()
+        {
+            //
+            string filename = "DemoFile.txt";
+            foreach (string line in ReadLines(() => File.OpenText(filename)))
+            {
+                Console.WriteLine(line);
+            }
+        }
+
+        public static IEnumerable<string> ReadLines(Func<TextReader> provider)
+        {
+            using (TextReader reader = provider())
+            {
+                string line;
+                while ((line = reader.ReadLine()) != null)
+                {
+                    yield return line;
+                }
+            }
+        }
+    }
+
 }

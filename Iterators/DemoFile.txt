@@ -1,3 +1,7 @@
 1. Test
 2. Something
-3. EndOfFile
+3. NotEndOfFile
+4. Somethig
+PredicateText  1
+PredicateText  2
+5. EndOfFile

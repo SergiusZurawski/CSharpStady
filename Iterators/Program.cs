@@ -52,6 +52,7 @@ namespace Iterators
             */
             OldFileReader.CallExample();
             NewFileReader.CallExample();
+            ImplementingLinqWhereWithIterator.CallExample();
         }
     }
 }
