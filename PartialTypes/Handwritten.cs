@@ -16,6 +16,8 @@ namespace PartialTypes
          They have to be private, but they can be static and/or generic.
 
          If the method isn’t implemented in one of the files, the whole statement calling it is removed, including any argument evaluations .
+
+        If evaluating any of the arguments has a side effect that you want to occur whether or not the partial method is implemented,
          */
     }
 
