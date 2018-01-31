@@ -38,7 +38,10 @@ namespace Properties
 
     public class ProductC2
     {
-        //Properties, getters public , setters private
+        // Properties, getters public , setters private
+        // if you don’t specify anything, the default is to give the getter or setter the same access as the overall property itself.
+        // You can’t declare the property itself to be private and make the getter public—you can only make a particular getter or setter more private than the property.
+        // you can’t specify an access modifier for both the getter and the setter—that. (you could declare the property itself to be whichever is the more public of the two modifiers.)
         string name;
         public string Name
         {
