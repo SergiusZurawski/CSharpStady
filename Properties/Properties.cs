@@ -6,14 +6,18 @@ using System.Collections.Generic;
 
 namespace Properties
 {
-   public class ProductC1
+    public class ProductC1
     {
-    //Public getters , means public setters
-    string name;
-    public string Name { get { return name; } }
+        //Public getters , means public setters
+        string name;
+        public string Name { get { return name; } }
 
-    decimal price;
-    public decimal Price { get { return price; } }
+        //Authomatically Implemented Property
+        public string SurName { get; set;}
+
+        decimal price;
+        public decimal Price { get { return price; }
+    }
     
     public ProductC1(string name, decimal price)
     {
