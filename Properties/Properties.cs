@@ -14,9 +14,19 @@ namespace Properties
 
         //Authomatically Implemented Property
         public string SurName { get; set;}
+        public int Age { get; private set; }
+        // YOu cann specify accsess modifiers for both
+        //public int Age2 { private get; private set; }
+
+        //static
+        public static int Age3 { get; private set; }
 
         decimal price;
         public decimal Price { get { return price; }
+
+        //Thread save static property
+       
+
     }
     
     public ProductC1(string name, decimal price)
@@ -142,4 +152,26 @@ namespace Properties
             return string.Format("{0}: {1}", name, price);
         }
     }
+
+    //Thread save static variables, you have to use lock 
+    public class ProductC5
+    {
+        //Properties with public getters
+        public string Name { get; private set; }
+        public int Age { get; private set; }
+        private static int InstanceCounter { get; set; }
+        private static readonly object counterLock = new object();
+
+        public void InstanceCountingPerons(string name, int age)
+        {
+            Name = name;
+            Age = age;
+            lock (counterLock)
+            {
+                InstanceCounter++;
+            }
+        }
+
+    }
+
 }
