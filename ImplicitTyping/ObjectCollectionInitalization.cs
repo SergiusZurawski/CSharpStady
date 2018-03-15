@@ -9,7 +9,7 @@ namespace ImplicitTyping
     /*
         Object initializers are most commonly used to set properties, but everything shown here also applies to fields.
      */
-    class ObjectInitalization
+    class ObjectCollectionInitalization
     {
         static void CallExample()
         {
