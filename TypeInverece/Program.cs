@@ -78,6 +78,23 @@ namespace TypeInverece
 			Console.WriteLine(typeof(T)); 
 		} 
 		
+		
+		//EXAMPLE4
+		static void ConvertTwice<TInput,TMiddle,TOutput> (TInput input, Converter<TInput,TMiddle> firstConversion, Converter<TMiddle,TOutput> secondConversion) 
+		{ 
+			TMiddle middle = firstConversion(input); 
+			TOutput output = secondConversion(middle); 
+			Console.WriteLine(output); 
+		}
+		
+		public static void Example3()
+		{
+			ConvertTwice("Another string", text => text.Length, length => Math.Sqrt(length));
+		}
+		
+		///The body of a lambda expression cannot be checked until the input parameter types are known.
+		
+		
     }	
 	
 }
