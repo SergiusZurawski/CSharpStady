@@ -1,5 +1,9 @@
 ﻿using System;
-
+/// lambda expressions almost entirely replace anonymous methods.
+/// Anonymous methods are supported for the sake of backward compatibility,
+/// compact syntax for delegate creation.
+/// can be converted into expression trees,
+/// The expression trees can then be processed by other code, possibly performing equivalent actions in different execution environments. Without this ability, LINQ would be restricted to in-process queries.
 namespace Lambda
 {
     class Lambda

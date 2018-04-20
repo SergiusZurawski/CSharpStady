@@ -4,6 +4,12 @@ namespace TypeInverece
 {
     class Program
     {
+		/// Anonymous functions (anonymous methods and lambda expressions) have inferred return types based on the types of all the return statements.
+		/// Lambda expressions can only be understood by the compiler when the types of all the parameters are known.
+		/// Type inference no longer requires that each argument independently come to exactly the same conclusion about type parameters, as long as the results stay compatible.
+		/// Type inference is now multistage: the inferred return type of one anonymous function can be used as a parameter type for another.
+		/// Finding the best overloaded method when anonymous functions are involved takes the inferred return type into account.
+		
         static void Main(string[] args)
         {
             Console.WriteLine("Compiles");
