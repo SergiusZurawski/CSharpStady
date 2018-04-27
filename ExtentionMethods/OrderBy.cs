@@ -31,5 +31,61 @@ namespace ExtentionMethods
                 Console.WriteLine(element);
             }
         }
+
+        public static void Example2()
+        {
+            var company = new {
+                Departments = new[]
+                                {
+                                    new {
+                                            Name = "DataScience",
+                                            Employees = new []
+                                                            {
+                                                                new { Name = "N1", Salary = 50000},
+                                                                new { Name = "N2", Salary = 51000}
+                                                            },
+                                        },
+                                    new {
+                                            Name = "DevOps",
+                                            Employees = new []
+                                                            {
+                                                                new { Name = "N1mcSon", Salary = 45000},
+                                                                new { Name = "N2mcSon", Salary = 46000}
+                                                            },
+                                        },
+                                    new {
+                                            Name = "SoftwareArhitects",
+                                            Employees = new []
+                                                            {
+                                                                new { Name = "SZhuravskyi", Salary = 500000},
+                                                                new { Name = "O'Someone", Salary = 346000}
+                                                            },
+                                        },
+                                    new {
+                                            Name = "Software Engineers",
+                                            Employees = new []
+                                                            {
+                                                                new { Name = "JrSZhuravskyi", Salary = 50000},
+                                                                new { Name = "LongNose", Salary = 36000}
+                                                            },
+                                        },
+                                }
+                              };
+            //Main Part
+            var companyResult = company.Departments.Select(
+                    dept => new
+                              {
+                                dept.Name,
+                                Cost = dept.Employees.Sum(person => person.Salary)
+                               })
+                               .OrderByDescending(deptWithCost => deptWithCost.Cost);
+
+
+            
+            foreach (var element in companyResult)
+            {
+                Console.WriteLine(element);
+            }
+        }
     }
 }

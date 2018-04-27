@@ -52,6 +52,7 @@ namespace ExtentionMethods
 			SelectProjectionUsingLambdaAndAnonymousType.Example1();
 			Console.WriteLine("OrderBy");
 			OrderBy.Example1();
+            OrderBy.Example2();
         }
 
 		public static void ExampleWithAndWithoutExtentionMethod()
