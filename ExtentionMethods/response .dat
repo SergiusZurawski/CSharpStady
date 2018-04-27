@@ -50,7 +50,7 @@
     <meta name="apple-mobile-web-app-title" content="Home"/>
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic&subset=latin' rel='stylesheet' type='text/css'>
     <title>Manning | Home</title>
-    <link rel="stylesheet" href="/assets/application-b22cf05f433abb5a1f3d8794899c2922.css"/>
+    <link rel="stylesheet" href="/assets/application-7172af404b50ced12c5ea58d27fc4750.css"/>
     
     
     <script type="text/javascript">
@@ -114,7 +114,7 @@
                 <span class="fa fa-clock-o"></span>
                 <label>DotD:</label>
                 <span class="deal-of-the-day-link" uri="/dotd">
-                    <em class="deal-of-the-day-brief">Get Half off D3.js in Motion - use code dotd042418</em>
+                    <em class="deal-of-the-day-brief">Get Half off Data Science at Scale with Python and Dask - use code dotd042518</em>
                 </span>
             </div>
         </a>
@@ -264,7 +264,7 @@
                 <span class="fa fa-clock-o"></span>
                 <label>DEAL OF THE DAY:</label>
                 <span class="deal-of-the-day-link" id="dotd-link-non-mobile">
-                    <em class="deal-of-the-day-brief">Get Half off D3.js in Motion - use code dotd042418</em>
+                    <em class="deal-of-the-day-brief">Get Half off Data Science at Scale with Python and Dask - use code dotd042518</em>
                 </span>
             </div>
         </a>
@@ -367,20 +367,20 @@
         
         <div class="tweet-box">
             <div class="tweet">
-                Hey <a href='https://twitter.com/hashtag/dotnext?src=hash'>#dotnext</a>! Save 40% on "RxNet in Action" by Tamir Dresher <a href='https://t.co/fkXJPMqzSj'>bit.ly/2HFEHSi</a> and other Manning books and vi… <a href='https://t.co/2arZ0jrMlx'>twitter.com/i/web/status/9…</a>
+                Have a look at the first chapter from D3.js in Action, Second Ed. for free on <a href='https://twitter.com/hashtag/liveBook?src=hash'>#liveBook</a>: <a href='https://t.co/OOcpIVxRMz…'>https://t.co/OOcpIVxRMz…</a> <a href='https://t.co/ZaSVBVPPgJ'>twitter.com/i/web/status/9…</a>
             </div>
             <div class="relative-time">
-                <a href="https://twitter.com/ManningBooks/status/988673900270751744">55 minutes ago</a>
+                <a href="https://twitter.com/ManningBooks/status/988873690845728768">10 hours ago</a>
             </div>
         </div>
     
         
         <div class="tweet-box">
             <div class="tweet">
-                Setting up an HTTP imposter, from Testing Microservices with Mountebank <a href='https://t.co/8ZlOgudGvB'>bit.ly/2wOnNZX</a> <a href='http://www.twitter.com/BrandonByars'>@BrandonByars</a>… <a href='https://t.co/6LUT8MQJUz'>twitter.com/i/web/status/9…</a>
+                <a href='http://www.twitter.com/grantpalin'>@grantpalin</a> Please, try to clear your cache to see if that helps.
             </div>
             <div class="relative-time">
-                <a href="https://twitter.com/ManningBooks/status/988526676911910912">10 hours ago</a>
+                <a href="https://twitter.com/ManningBooks/status/988864209399279617">11 hours ago</a>
             </div>
         </div>
     
@@ -404,12 +404,7 @@
                                     <div class="carousel-inner" role="listbox">
                                         
                                             
-                                                <a href="https://www.manning.com/books/classic-computer-science-problems-in-swift" class="item active" style="background-image: url(&#39;https://images.manning.com/970/545/resize/heroSlide/9/57bf830-aca0-48f3-ac5f-78f3a7a3f143/DOTD_Release_Kopec.png&#39;);">
-                                                </a>
-                                            
-                                        
-                                            
-                                                <a href="https://www.manning.com/books/unity-in-action-second-edition" class="item" style="background-image: url(&#39;https://images.manning.com/970/545/resize/heroSlide/b/f178b93-a415-4a75-8ce9-64a3f4992c58/DOTD_Release_Unity.png&#39;);">
+                                                <a href="https://www.manning.com/books/unity-in-action-second-edition" class="item active" style="background-image: url(&#39;https://images.manning.com/970/545/resize/heroSlide/b/f178b93-a415-4a75-8ce9-64a3f4992c58/DOTD_Release_Unity.png&#39;);">
                                                 </a>
                                             
                                         
@@ -430,6 +425,11 @@
                                         
                                             
                                                 <a href="https://www.manning.com/books/data-science-at-scale-with-python-and-dask" class="item" style="background-image: url(&#39;https://images.manning.com/970/545/resize/heroSlide/3/77ac26b-71d3-4de7-9b00-bb6b438e85fd/DOTD_NewMEAP_Daniel.png&#39;);">
+                                                </a>
+                                            
+                                        
+                                            
+                                                <a href="https://www.manning.com/books/deep-learning-with-pytorch" class="item" style="background-image: url(&#39;https://images.manning.com/970/545/resize/heroSlide/d/da95a44-3ce3-4ec0-95d3-af5627a9fd93/DOTD_NewMEAP_DLPy.png&#39;);">
                                                 </a>
                                             
                                         
@@ -466,7 +466,7 @@
                 
                     <span class="homepage-product-range-count"><span class="digit">9</span><span class="bar"></span></span>
                 
-                    <span class="homepage-product-range-count"><span class="digit">0</span><span class="bar"></span></span>
+                    <span class="homepage-product-range-count"><span class="digit">1</span><span class="bar"></span></span>
                 
             </a>
         </div>
@@ -484,7 +484,7 @@
             </div>
         </div>
     </div>
-    <span class="btn btn-default wide-button" data-toggle="modal" data-target="#meap-section-modal">All 90 MEAPs</span>
+    <span class="btn btn-default wide-button" data-toggle="modal" data-target="#meap-section-modal">All 91 MEAPs</span>
 </div>
 
 <!-- Modal -->
@@ -500,7 +500,7 @@
                         
                             <span class="homepage-product-range-count"><span class="digit">9</span><span class="bar"></span></span>
                         
-                            <span class="homepage-product-range-count"><span class="digit">0</span><span class="bar"></span></span>
+                            <span class="homepage-product-range-count"><span class="digit">1</span><span class="bar"></span></span>
                         
                     </a>
                 
@@ -563,6 +563,15 @@
 
                                     <a href="/books/deep-learning-for-search">
                                         <div class="title">Deep Learning for Search</div>
+                                    </a>
+
+                                    <!-- Is it time to change columns? -->
+                                    
+                                
+                                    
+
+                                    <a href="/books/deep-learning-with-pytorch">
+                                        <div class="title"><img src="/assets/new-3d180e39214ec782b08842ed6d82c1a0.svg" class="product-range-bullet new-badge" alt="This MEAP is new"/>Deep Learning with PyTorch</div>
                                     </a>
 
                                     <!-- Is it time to change columns? -->
@@ -774,7 +783,7 @@
                                     
 
                                     <a href="/livevideo/ios-development-with-swift-lv">
-                                        <div class="title"><img src="/assets/new-3d180e39214ec782b08842ed6d82c1a0.svg" class="product-range-bullet new-badge" alt="This MEAP is new"/>iOS Development with Swift</div>
+                                        <div class="title"><img src="/assets/new-3d180e39214ec782b08842ed6d82c1a0.svg" class="product-range-bullet new-badge" alt="This MEAP is new"/>iOS Development with Swift in Motion</div>
                                     </a>
 
                                     <!-- Is it time to change columns? -->
@@ -973,6 +982,17 @@
 
                                     <!-- Is it time to change columns? -->
                                     
+                                        <!-- We are starting a new column. -->
+                                        
+                                        </div>
+                                        <div class="col-md-6">
+
+                                        <!-- If this column is starting with the same category as the end of the previous column...-->
+                                        
+                                            <!-- Put in a copy of the last header and continue normally.-->
+                                            <div class="tag tag-one-in-column tag-additional-appearance">Devices</div>
+                                        
+                                    
                                 
                                     
 
@@ -982,19 +1002,9 @@
 
                                     <!-- Is it time to change columns? -->
                                     
-                                        <!-- We are starting a new column. -->
-                                        
-                                        </div>
-                                        <div class="col-md-6">
-
-                                        <!-- If this column is starting with the same category as the end of the previous column...-->
-                                        
-                                            <!-- If not, that means we're column breaking at the same time as a category break and we must handle that by *not* putting in a category now...-->
-                                        
-                                    
                                 
                             
-                                <div class="tag tag-one-in-column">General</div>
+                                <div class="tag ">General</div>
                                 
 
                                 
@@ -1449,6 +1459,16 @@
 
                                     <!-- Is it time to change columns? -->
                                     
+                                        <!-- We are starting a new column. -->
+                                        
+                                        </div>
+                                        <div class="col-md-6">
+
+                                        <!-- If this column is starting with the same category as the end of the previous column...-->
+                                        
+                                            <!-- If not, that means we're column breaking at the same time as a category break and we must handle that by *not* putting in a category now...-->
+                                        
+                                    
                                 
                             
                         </div>
@@ -1654,7 +1674,7 @@
                     
                         <div class="col-sm-3 col-xs-6">
                             <div class="video-item">
-                                <a href="/livevideo/ios-development-with-swift-lv" class="video-item-image-link">
+                                <a href="/livevideo/production-ready-serverless" class="video-item-image-link">
                                     
     
         
@@ -1664,7 +1684,7 @@
                 </div>
             </div>
         </div>
-        <div style="background-image: url('https://images.manning.com/720/900/resize/video/2/abe1f0c-8f62-4e8f-8f5e-4afd82a4e1c9/livevideo-ios-development-with-swift-meap.png')"
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/b/2ea39e5-bcd1-42f0-a764-3d6890758541/livevideo-production-ready-serverless-meap.png')"
              class="product-thumbnail video-thumbnail">
         </div>
     
@@ -1746,7 +1766,7 @@
                     
                         <div class="col-sm-3 col-xs-6">
                             <div class="video-item">
-                                <a href="/livevideo/production-ready-serverless" class="video-item-image-link">
+                                <a href="/livevideo/ios-development-with-swift-lv" class="video-item-image-link">
                                     
     
         
@@ -1756,7 +1776,7 @@
                 </div>
             </div>
         </div>
-        <div style="background-image: url('https://images.manning.com/720/900/resize/video/b/2ea39e5-bcd1-42f0-a764-3d6890758541/livevideo-production-ready-serverless-meap.png')"
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/f/30b9235-6c00-4419-baf8-8a062c07044a/livevideo-ios-development-with-swift-in-motion-meap.png')"
              class="product-thumbnail video-thumbnail">
         </div>
     
@@ -1925,6 +1945,8 @@
                                 MEAP updates, new products, author news
                             </div>
                             
+                                <div class="block-with-text brief"><b>04/24/2018</b> - Three new chapters have been added to <a href="https://www.manning.com/books/data-wrangling-with-javascript"><i>Data Wrangling with JavaScript</i></a>.</div>
+                            
                                 <div class="block-with-text brief"><b>04/23/2018</b> - <a href="https://www.manning.com/books/get-programming-with-go"><i>Get Programming with Go</i></a> has entered the final stages of revision and will be heading to production soon!</div>
                             
                                 <div class="block-with-text brief"><b>04/22/2018</b> - <a href="https://www.manning.com/books/the-art-of-data-usability"><i>The Art of Data Usability</i></a> has undergone extensive revision and many chapters have been updated and re-ordered.</div>
@@ -1932,8 +1954,6 @@
                                 <div class="block-with-text brief"><b>04/21/2018</b> - Chapter 10, "Sequential Processing" has been added to <a href="https://www.manning.com/books/clojure-standard-library"><i>Clojure Standard Library</i></a>.</div>
                             
                                 <div class="block-with-text brief"><b>04/20/2018</b> - Danilo Poccia, author of <a href="https://www.manning.com/books/aws-lambda-in-action"><i>AWS Lambda in Action</i></a> will be speaking at DevOne Conf Austria next week.</div>
-                            
-                                <div class="block-with-text brief"><b>04/19/2018</b> - <a href="https://www.manning.com/books/dependency-injection-in-dot-net-second-edition"><i>Dependency Injection in .NET, Second Edition</i></a> has a new chapter, dealing with tool-based aspect-oriented programming.</div>
                             
                             <a href="/news" class="all-news">
                                 browse all news &raquo;
@@ -1981,6 +2001,55 @@
                                         
                                             
                                             <div class="item active">
+                                                
+                                                    <div class="new-release-layout col-xs-4">
+                                                        <div class="book-cover-item">
+    <div class="new-release-size-container">
+        <a href="/books/deep-learning-with-pytorch" class="book-cover-item-image-link">
+            
+    
+        
+        <div class="product-thumbnail product-placeholder  product-placeholder-meap">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                    
+                        Deep Learning with PyTorch
+                    
+
+                    
+                </div>
+            </div>
+            
+                <div class="product-placeholder-authorspace">
+                    <div class="product-placeholder-author">
+                        Eli Stevens and Luca Antiga
+                    </div>
+                </div>
+            
+            <div class="product-placeholder-meapspace"></div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/960/resize/book/2/a05976a-7251-47f4-a168-a84715e8b701/Stevens-DLPy-MEAP-HI.png')"
+             class="product-thumbnail">
+             
+        </div>
+    
+
+
+
+        </a>
+    </div>
+    <div class="book-cover-item-caption">
+        <ul class="list-unstyled">
+            <li>
+                <a href="/books/deep-learning-with-pytorch">
+                    
+                    <span class="book-cover-item-title">Deep Learning with PyTorch</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+                                                    </div>
                                                 
                                                     <div class="new-release-layout col-xs-4">
                                                         <div class="book-cover-item">
@@ -2044,7 +2113,7 @@
                 </div>
             </div>
         </div>
-        <div style="background-image: url('https://images.manning.com/720/960/resize/video/2/abe1f0c-8f62-4e8f-8f5e-4afd82a4e1c9/livevideo-ios-development-with-swift-meap.png')"
+        <div style="background-image: url('https://images.manning.com/720/960/resize/video/f/30b9235-6c00-4419-baf8-8a062c07044a/livevideo-ios-development-with-swift-in-motion-meap.png')"
              class="product-thumbnail video-thumbnail">
         </div>
     
@@ -2058,13 +2127,18 @@
             <li>
                 <a href="/livevideo/ios-development-with-swift-lv">
                     
-                    <span class="book-cover-item-title">iOS Development with Swift</span>
+                    <span class="book-cover-item-title">iOS Development with Swift in Motion</span>
                 </a>
             </li>
         </ul>
     </div>
 </div>
                                                     </div>
+                                                
+                                            </div>
+                                        
+                                            
+                                            <div class="item">
                                                 
                                                     <div class="new-release-layout col-xs-4">
                                                         <div class="book-cover-item">
@@ -2114,11 +2188,6 @@
     </div>
 </div>
                                                     </div>
-                                                
-                                            </div>
-                                        
-                                            
-                                            <div class="item">
                                                 
                                                     <div class="new-release-layout col-xs-4">
                                                         <div class="book-cover-item">
@@ -2204,6 +2273,11 @@
 </div>
                                                     </div>
                                                 
+                                            </div>
+                                        
+                                            
+                                            <div class="item">
+                                                
                                                     <div class="new-release-layout col-xs-4">
                                                         <div class="book-cover-item">
     <div class="new-release-size-container">
@@ -2252,11 +2326,6 @@
     </div>
 </div>
                                                     </div>
-                                                
-                                            </div>
-                                        
-                                            
-                                            <div class="item">
                                                 
                                                     <div class="new-release-layout col-xs-4">
                                                         <div class="book-cover-item">
@@ -2356,6 +2425,11 @@
 </div>
                                                     </div>
                                                 
+                                            </div>
+                                        
+                                            
+                                            <div class="item">
+                                                
                                                     <div class="new-release-layout col-xs-4">
                                                         <div class="book-cover-item">
     <div class="new-release-size-container">
@@ -2404,11 +2478,6 @@
     </div>
 </div>
                                                     </div>
-                                                
-                                            </div>
-                                        
-                                            
-                                            <div class="item">
                                                 
                                                     <div class="new-release-layout col-xs-4">
                                                         <div class="book-cover-item">
@@ -2501,55 +2570,6 @@
                 <a href="/books/css-in-depth">
                     
                     <span class="book-cover-item-title">CSS in Depth</span>
-                </a>
-            </li>
-        </ul>
-    </div>
-</div>
-                                                    </div>
-                                                
-                                                    <div class="new-release-layout col-xs-4">
-                                                        <div class="book-cover-item">
-    <div class="new-release-size-container">
-        <a href="/books/angular-in-action" class="book-cover-item-image-link">
-            
-    
-        
-        <div class="product-thumbnail product-placeholder  product-placeholder-released">
-            <div class="product-placeholder-titlespace">
-                <div class="product-placeholder-title">
-                    
-                        Angular in Action
-                    
-
-                    
-                </div>
-            </div>
-            
-                <div class="product-placeholder-authorspace">
-                    <div class="product-placeholder-author">
-                        Jeremy Wilken
-                    </div>
-                </div>
-            
-            <div class="product-placeholder-meapspace"></div>
-        </div>
-        <div style="background-image: url('https://images.manning.com/720/960/resize/book/d/429f68a-5162-4798-853e-4cb04f91bc63/Wilken-Angular-HI.png')"
-             class="product-thumbnail">
-             
-        </div>
-    
-
-
-
-        </a>
-    </div>
-    <div class="book-cover-item-caption">
-        <ul class="list-unstyled">
-            <li>
-                <a href="/books/angular-in-action">
-                    
-                    <span class="book-cover-item-title">Angular in Action</span>
                 </a>
             </li>
         </ul>
@@ -2779,6 +2799,20 @@
                                                     
                                                     Deep Learning for
                                                     <i class="last-word">Search<span class="inline-badge meap-badge"><img src="/assets/meap-badge-d62b04aad706f67da57c95d645882800.svg" alt="This is a MEAP"/></span></i>
+                                                </div>
+                                            </a>
+
+                                            <!-- Is it time to change columns? -->
+                                            
+                                        
+                                            
+
+                                            <a href="/books/deep-learning-with-pytorch">
+                                                
+                                                <div class="title">
+                                                    
+                                                    Deep Learning with
+                                                    <i class="last-word">PyTorch<span class="inline-badge meap-badge"><img src="/assets/meap-badge-d62b04aad706f67da57c95d645882800.svg" alt="This is a MEAP"/></span></i>
                                                 </div>
                                             </a>
 
@@ -3146,8 +3180,8 @@
                                                 
                                                 <div class="title">
                                                     
-                                                    iOS Development with
-                                                    <i class="last-word">Swift<span class="inline-badge meap-badge"><img src="/assets/meap-badge-d62b04aad706f67da57c95d645882800.svg" alt="This is a MEAP"/></span><span class="inline-badge livevideo-badge"><img src="/assets/livevideo-badge-0e3bc1d7e6af638e289fbafbcf9f4c41.svg" alt="This is a liveVideo"/></span></i>
+                                                    iOS Development with Swift in
+                                                    <i class="last-word">Motion<span class="inline-badge meap-badge"><img src="/assets/meap-badge-d62b04aad706f67da57c95d645882800.svg" alt="This is a MEAP"/></span><span class="inline-badge livevideo-badge"><img src="/assets/livevideo-badge-0e3bc1d7e6af638e289fbafbcf9f4c41.svg" alt="This is a liveVideo"/></span></i>
                                                 </div>
                                             </a>
 
@@ -3508,6 +3542,17 @@
 
                                             <!-- Is it time to change columns? -->
                                             
+                                                <!-- We are starting a new column. -->
+                                                
+                                                </div>
+                                                <div class="col-md-6">
+
+                                        <!-- If this column is starting with the same category as the end of the previous column...-->
+                                                
+                                                    <!-- Put in a copy of the last header and continue normally.-->
+                                                    <div class="tag tag-one-in-column tag-additional-appearance">Devices</div>
+                                                
+                                            
                                         
                                             
 
@@ -3522,19 +3567,9 @@
 
                                             <!-- Is it time to change columns? -->
                                             
-                                                <!-- We are starting a new column. -->
-                                                
-                                                </div>
-                                                <div class="col-md-6">
-
-                                        <!-- If this column is starting with the same category as the end of the previous column...-->
-                                                
-                                                    <!-- If not, that means we're column breaking at the same time as a category break and we must handle that by *not* putting in a category now...-->
-                                                
-                                            
                                         
                                     
-                                        <div class="tag tag-one-in-column">General</div>
+                                        <div class="tag ">General</div>
                                         
 
                                         
@@ -4332,6 +4367,16 @@
 
                                             <!-- Is it time to change columns? -->
                                             
+                                                <!-- We are starting a new column. -->
+                                                
+                                                </div>
+                                                <div class="col-md-6">
+
+                                        <!-- If this column is starting with the same category as the end of the previous column...-->
+                                                
+                                                    <!-- If not, that means we're column breaking at the same time as a category break and we must handle that by *not* putting in a category now...-->
+                                                
+                                            
                                         
                                     
                                 </div>
@@ -4474,6 +4519,8 @@
                                 MEAP updates, new products, author news
                             </div>
                             
+                                <div class="block-with-text brief"><b>04/24/2018</b> - Three new chapters have been added to <a href="https://www.manning.com/books/data-wrangling-with-javascript"><i>Data Wrangling with JavaScript</i></a>.</div>
+                            
                                 <div class="block-with-text brief"><b>04/23/2018</b> - <a href="https://www.manning.com/books/get-programming-with-go"><i>Get Programming with Go</i></a> has entered the final stages of revision and will be heading to production soon!</div>
                             
                                 <div class="block-with-text brief"><b>04/22/2018</b> - <a href="https://www.manning.com/books/the-art-of-data-usability"><i>The Art of Data Usability</i></a> has undergone extensive revision and many chapters have been updated and re-ordered.</div>
@@ -4481,8 +4528,6 @@
                                 <div class="block-with-text brief"><b>04/21/2018</b> - Chapter 10, "Sequential Processing" has been added to <a href="https://www.manning.com/books/clojure-standard-library"><i>Clojure Standard Library</i></a>.</div>
                             
                                 <div class="block-with-text brief"><b>04/20/2018</b> - Danilo Poccia, author of <a href="https://www.manning.com/books/aws-lambda-in-action"><i>AWS Lambda in Action</i></a> will be speaking at DevOne Conf Austria next week.</div>
-                            
-                                <div class="block-with-text brief"><b>04/19/2018</b> - <a href="https://www.manning.com/books/dependency-injection-in-dot-net-second-edition"><i>Dependency Injection in .NET, Second Edition</i></a> has a new chapter, dealing with tool-based aspect-oriented programming.</div>
                             
                             <a href="/news" class="all-news">
                                 browse all news &raquo;
@@ -4495,20 +4540,20 @@
         
         <div class="tweet-box">
             <div class="tweet">
-                Hey <a href='https://twitter.com/hashtag/dotnext?src=hash'>#dotnext</a>! Save 40% on "RxNet in Action" by Tamir Dresher <a href='https://t.co/fkXJPMqzSj'>bit.ly/2HFEHSi</a> and other Manning books and vi… <a href='https://t.co/2arZ0jrMlx'>twitter.com/i/web/status/9…</a>
+                Have a look at the first chapter from D3.js in Action, Second Ed. for free on <a href='https://twitter.com/hashtag/liveBook?src=hash'>#liveBook</a>: <a href='https://t.co/OOcpIVxRMz…'>https://t.co/OOcpIVxRMz…</a> <a href='https://t.co/ZaSVBVPPgJ'>twitter.com/i/web/status/9…</a>
             </div>
             <div class="relative-time">
-                <a href="https://twitter.com/ManningBooks/status/988673900270751744">55 minutes ago</a>
+                <a href="https://twitter.com/ManningBooks/status/988873690845728768">10 hours ago</a>
             </div>
         </div>
     
         
         <div class="tweet-box">
             <div class="tweet">
-                Setting up an HTTP imposter, from Testing Microservices with Mountebank <a href='https://t.co/8ZlOgudGvB'>bit.ly/2wOnNZX</a> <a href='http://www.twitter.com/BrandonByars'>@BrandonByars</a>… <a href='https://t.co/6LUT8MQJUz'>twitter.com/i/web/status/9…</a>
+                <a href='http://www.twitter.com/grantpalin'>@grantpalin</a> Please, try to clear your cache to see if that helps.
             </div>
             <div class="relative-time">
-                <a href="https://twitter.com/ManningBooks/status/988526676911910912">10 hours ago</a>
+                <a href="https://twitter.com/ManningBooks/status/988864209399279617">11 hours ago</a>
             </div>
         </div>
     
@@ -4524,20 +4569,20 @@
         
         <div class="tweet-box">
             <div class="tweet">
-                Hey <a href='https://twitter.com/hashtag/dotnext?src=hash'>#dotnext</a>! Save 40% on "RxNet in Action" by Tamir Dresher <a href='https://t.co/fkXJPMqzSj'>bit.ly/2HFEHSi</a> and other Manning books and vi… <a href='https://t.co/2arZ0jrMlx'>twitter.com/i/web/status/9…</a>
+                Have a look at the first chapter from D3.js in Action, Second Ed. for free on <a href='https://twitter.com/hashtag/liveBook?src=hash'>#liveBook</a>: <a href='https://t.co/OOcpIVxRMz…'>https://t.co/OOcpIVxRMz…</a> <a href='https://t.co/ZaSVBVPPgJ'>twitter.com/i/web/status/9…</a>
             </div>
             <div class="relative-time">
-                <a href="https://twitter.com/ManningBooks/status/988673900270751744">55 minutes ago</a>
+                <a href="https://twitter.com/ManningBooks/status/988873690845728768">10 hours ago</a>
             </div>
         </div>
     
         
         <div class="tweet-box">
             <div class="tweet">
-                Setting up an HTTP imposter, from Testing Microservices with Mountebank <a href='https://t.co/8ZlOgudGvB'>bit.ly/2wOnNZX</a> <a href='http://www.twitter.com/BrandonByars'>@BrandonByars</a>… <a href='https://t.co/6LUT8MQJUz'>twitter.com/i/web/status/9…</a>
+                <a href='http://www.twitter.com/grantpalin'>@grantpalin</a> Please, try to clear your cache to see if that helps.
             </div>
             <div class="relative-time">
-                <a href="https://twitter.com/ManningBooks/status/988526676911910912">10 hours ago</a>
+                <a href="https://twitter.com/ManningBooks/status/988864209399279617">11 hours ago</a>
             </div>
         </div>
     

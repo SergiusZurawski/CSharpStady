@@ -48,6 +48,10 @@ namespace ExtentionMethods
 			IEnumerableTExtentionMethods.Example2();
 			IEnumerableTExtentionMethods.Example3_FilteringWithWhere();
 			IEnumerableTExtentionMethods.Example5_FilteringWithWhere();
+			Console.WriteLine("SelectProjectionUsingLambdaAndAnonymousType");
+			SelectProjectionUsingLambdaAndAnonymousType.Example1();
+			Console.WriteLine("OrderBy");
+			OrderBy.Example1();
         }
 
 		public static void ExampleWithAndWithoutExtentionMethod()

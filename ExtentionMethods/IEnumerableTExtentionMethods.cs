@@ -79,9 +79,6 @@ namespace ExtentionMethods
             // One query example, The same code
             var collection = Enumerable.Reverse(Enumerable.Where(Enumerable.Range(0, 10), x => x % 2 != 0));
         }
-
-        // Implementing where method manually
-        
     }
    
 }
