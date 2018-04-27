@@ -26,6 +26,7 @@ namespace ImplicitTyping
 
             // If you explisitly specify it is work
             // new[] { (IDisposable)new MemoryStream(), new StringWriter() });
+            //The type of this last expression is implicitly IDisposable[] .
 
         }
 

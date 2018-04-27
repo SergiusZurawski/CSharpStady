@@ -1,46 +1,49 @@
 using System.IO;
 
 // Static class for Extention method
-public static class StreamUtil
+namespace ExtentionMethods
 {
-    const int BufferSize = 8192;
-    public static void Copy(Stream input, Stream output)
+    public static class StreamUtil
     {
-        byte[] buffer = new byte[BufferSize];
-        int read;
-        while ((read = input.Read(buffer, 0, buffer.Length))> 0)
+        const int BufferSize = 8192;
+        public static void Copy(Stream input, Stream output)
         {
-            output.Write(buffer, 0, read);
+            byte[] buffer = new byte[BufferSize];
+            int read;
+            while ((read = input.Read(buffer, 0, buffer.Length))> 0)
+            {
+                output.Write(buffer, 0, read);
+            }
         }
-    }
 
-    //Extention
-    public static void CopyTo(this Stream input, Stream output)
-    {
-        byte[] buffer = new byte[BufferSize];
-        int read;
-        while ((read = input.Read(buffer, 0, buffer.Length))> 0)
+        //Extention
+        public static void CopyTo(this Stream input, Stream output)
         {
-            output.Write(buffer, 0, read);
+            byte[] buffer = new byte[BufferSize];
+            int read;
+            while ((read = input.Read(buffer, 0, buffer.Length))> 0)
+            {
+                output.Write(buffer, 0, read);
+            }
         }
-    }
 
-    public static byte[] ReadFully(Stream input)
-    {
-        using (MemoryStream tempStream = new MemoryStream())
+        public static byte[] ReadFully(Stream input)
         {
-            Copy(input, tempStream);
-            return tempStream.ToArray();
+            using (MemoryStream tempStream = new MemoryStream())
+            {
+                Copy(input, tempStream);
+                return tempStream.ToArray();
+            }
         }
-    }
 
-    public static byte[] ReadFullyExt(this Stream input)
-    {
-        using (MemoryStream tempStream = new MemoryStream())
+        public static byte[] ReadFullyExt(this Stream input)
         {
-            CopyTo(input, tempStream);
-            return tempStream.ToArray();
+            using (MemoryStream tempStream = new MemoryStream())
+            {
+                CopyTo(input, tempStream);
+                return tempStream.ToArray();
+            }
         }
-    }
 
+    }
 }

@@ -31,6 +31,11 @@ namespace ExtentionMethods
     {
         static void Main(string[] args)
         {
+			CallExample1();
+        }
+
+		static void CallExample1()
+        {
 			// Example without Extention method , doesn't look object oriented
             WebRequest request = WebRequest.Create("http://manning.com");
 			using (WebResponse response = request.GetResponse()) 
@@ -38,6 +43,18 @@ namespace ExtentionMethods
 			using (FileStream output = File.Create("response .dat")) 
 			{ 
 				StreamUtil.Copy(responseStream, output);
+			}
+        }
+
+		static void CallExample2WithExtentionMethod()
+        {
+			// Example without Extention method , doesn't look object oriented
+            WebRequest request = WebRequest.Create("http://manning.com");
+			using (WebResponse response = request.GetResponse()) 
+			using (Stream responseStream = response.GetResponseStream()) 
+			using (FileStream output = File.Create("response .dat")) 
+			{ 
+				responseStream.CopyTo(output);
 			}
         }
     }

@@ -14,6 +14,8 @@ namespace ImplicitTyping
         // without the tedium of writing a fresh type each time.
         // (If you find yourself creating a type that’s only used in a single method, and that only contains fields and trivial properties,
         // consider whether an anonymous type would be appropriate.)
+        // If you find yourself using the same sequence of properties for the same purpose in several places, though, -
+        //  - consider creating a normal type for the purpose,
 
         //Anonymous types contain the following members: 
         // A constructor taking all the initialization values.
