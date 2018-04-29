@@ -24,9 +24,21 @@ using System.Net;
 		The first parameter can’t have any other modifiers (such as out or ref ).
 		The type of the first parameter must not be a pointer type.
 
+
+	it’s very wide-ranging for the whole code/asembly ???
+	there’s no way of importing a namespace for the sake of making types available using only their simple names,
+
 */
 namespace ExtentionMethods
 {
+	/**
+	 	1. in order to undrtstand whether it is a regular static class or an extention method
+		compiler checks whether
+		System.Runtime.CompilerServices.ExtensionAttribute has been applied to the method and the class.
+
+		2. if an applicable instance method is available, that will always be used before searching for extension methods,
+		but the compiler doesn’t issue a warning if an extension method also matches an existing instance method.
+	 */
     class Program
     {
         static void Main(string[] args)
@@ -37,12 +49,28 @@ namespace ExtentionMethods
 		static void CallExample1()
         {
 			// Example without Extention method , doesn't look object oriented
+			ExampleWithAndWithoutExtentionMethod();
+			IEnumerableTExtentionMethods.Example1();
+			IEnumerableTExtentionMethods.Example2();
+			IEnumerableTExtentionMethods.Example3_FilteringWithWhere();
+			IEnumerableTExtentionMethods.Example5_FilteringWithWhere();
+			Console.WriteLine("SelectProjectionUsingLambdaAndAnonymousType");
+			SelectProjectionUsingLambdaAndAnonymousType.Example1();
+			Console.WriteLine("OrderBy");
+			OrderBy.Example1();
+            OrderBy.Example2();
+        }
+
+		public static void ExampleWithAndWithoutExtentionMethod()
+		{
+		    // Example without Extention method , doesn't look object oriented
             WebRequest request = WebRequest.Create("http://manning.com");
 			using (WebResponse response = request.GetResponse()) 
 			using (Stream responseStream = response.GetResponseStream()) 
 			using (FileStream output = File.Create("response .dat")) 
 			{ 
-				StreamUtil.Copy(responseStream, output);
+				//StreamUtil.Copy(responseStream, output); //Old Way
+				responseStream.CopyTo(output);
 			}
         }
 

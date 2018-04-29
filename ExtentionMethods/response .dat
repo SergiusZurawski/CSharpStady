@@ -50,7 +50,7 @@
     <meta name="apple-mobile-web-app-title" content="Home"/>
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic&subset=latin' rel='stylesheet' type='text/css'>
     <title>Manning | Home</title>
-    <link rel="stylesheet" href="/assets/application-0ac36cfbe251391a0b213c3b3d8ba82c.css"/>
+    <link rel="stylesheet" href="/assets/application-7172af404b50ced12c5ea58d27fc4750.css"/>
     
     
     <script type="text/javascript">
@@ -114,7 +114,7 @@
                 <span class="fa fa-clock-o"></span>
                 <label>DotD:</label>
                 <span class="deal-of-the-day-link" uri="/dotd">
-                    <em class="deal-of-the-day-brief">Get Half off Algorithms in Motion - use code dotd042018</em>
+                    <em class="deal-of-the-day-brief">Get Half off Data Science at Scale with Python and Dask - use code dotd042518</em>
                 </span>
             </div>
         </a>
@@ -264,7 +264,7 @@
                 <span class="fa fa-clock-o"></span>
                 <label>DEAL OF THE DAY:</label>
                 <span class="deal-of-the-day-link" id="dotd-link-non-mobile">
-                    <em class="deal-of-the-day-brief">Get Half off Algorithms in Motion - use code dotd042018</em>
+                    <em class="deal-of-the-day-brief">Get Half off Data Science at Scale with Python and Dask - use code dotd042518</em>
                 </span>
             </div>
         </a>
@@ -367,26 +367,20 @@
         
         <div class="tweet-box">
             <div class="tweet">
-                RT <a href='http://www.twitter.com/jrlarsen'>@jrlarsen</a>: 42% off everything at <a href='http://www.twitter.com/ManningBooks'>@ManningBooks</a> until Apr 25 
-
-Use code wm041918lt
-
-<a href='https://t.co/eSjbceHXTk'>manning.com/?a_aid=r51&cha…</a>
-
-<a href='https://twitter.com/hashtag/golang?src=hash'>#golang</a> <a href='https://twitter.com/hashtag/swiftlang?src=hash'>#swiftlang</a> <a href='https://twitter.com/hashtag/csharp?src=hash'>#csharp</a> #…
+                Have a look at the first chapter from D3.js in Action, Second Ed. for free on <a href='https://twitter.com/hashtag/liveBook?src=hash'>#liveBook</a>: <a href='https://t.co/OOcpIVxRMz…'>https://t.co/OOcpIVxRMz…</a> <a href='https://t.co/ZaSVBVPPgJ'>twitter.com/i/web/status/9…</a>
             </div>
             <div class="relative-time">
-                <a href="https://twitter.com/ManningBooks/status/987290352716566528">11 minutes ago</a>
+                <a href="https://twitter.com/ManningBooks/status/988873690845728768">10 hours ago</a>
             </div>
         </div>
     
         
         <div class="tweet-box">
             <div class="tweet">
-                RT <a href='http://www.twitter.com/Dhabolt'>@Dhabolt</a>: Also 50% off <a href='http://www.twitter.com/ManningBooks'>@ManningBooks</a> video (Apr. 20): "Keras in Motion" by Dan Van Boxel <a href='http://www.twitter.com/DanDoesData'>@DanDoesData</a> <a href='https://twitter.com/hashtag/keras?src=hash'>#keras</a> <a href='https://twitter.com/hashtag/python?src=hash'>#python</a> <a href='https://twitter.com/hashtag/DeepLearning?src=hash'>#DeepLearning</a> <a href='https://twitter.com/hashtag/Neur?src=hash'>#Neur</a>…
+                <a href='http://www.twitter.com/grantpalin'>@grantpalin</a> Please, try to clear your cache to see if that helps.
             </div>
             <div class="relative-time">
-                <a href="https://twitter.com/ManningBooks/status/987286072035028994">28 minutes ago</a>
+                <a href="https://twitter.com/ManningBooks/status/988864209399279617">11 hours ago</a>
             </div>
         </div>
     
@@ -410,12 +404,7 @@ Use code wm041918lt
                                     <div class="carousel-inner" role="listbox">
                                         
                                             
-                                                <a href="https://www.manning.com/books/classic-computer-science-problems-in-swift" class="item active" style="background-image: url(&#39;https://images.manning.com/970/545/resize/heroSlide/9/57bf830-aca0-48f3-ac5f-78f3a7a3f143/DOTD_Release_Kopec.png&#39;);">
-                                                </a>
-                                            
-                                        
-                                            
-                                                <a href="https://www.manning.com/books/unity-in-action-second-edition" class="item" style="background-image: url(&#39;https://images.manning.com/970/545/resize/heroSlide/b/f178b93-a415-4a75-8ce9-64a3f4992c58/DOTD_Release_Unity.png&#39;);">
+                                                <a href="https://www.manning.com/books/unity-in-action-second-edition" class="item active" style="background-image: url(&#39;https://images.manning.com/970/545/resize/heroSlide/b/f178b93-a415-4a75-8ce9-64a3f4992c58/DOTD_Release_Unity.png&#39;);">
                                                 </a>
                                             
                                         
@@ -431,6 +420,16 @@ Use code wm041918lt
                                         
                                             
                                                 <a href="https://www.manning.com/books/get-programming-with-javascript-next" class="item" style="background-image: url(&#39;https://images.manning.com/970/545/resize/heroSlide/1/7937fda-87e8-419e-9584-042f5ad3791c/NewRelease-Isaacks-JavaScriptNext.png&#39;);">
+                                                </a>
+                                            
+                                        
+                                            
+                                                <a href="https://www.manning.com/books/data-science-at-scale-with-python-and-dask" class="item" style="background-image: url(&#39;https://images.manning.com/970/545/resize/heroSlide/3/77ac26b-71d3-4de7-9b00-bb6b438e85fd/DOTD_NewMEAP_Daniel.png&#39;);">
+                                                </a>
+                                            
+                                        
+                                            
+                                                <a href="https://www.manning.com/books/deep-learning-with-pytorch" class="item" style="background-image: url(&#39;https://images.manning.com/970/545/resize/heroSlide/d/da95a44-3ce3-4ec0-95d3-af5627a9fd93/DOTD_NewMEAP_DLPy.png&#39;);">
                                                 </a>
                                             
                                         
@@ -465,9 +464,9 @@ Use code wm041918lt
             <a href="/meap-catalog" class="homepage-product-range-count-box-banner">
                 <img src="/assets/meap-filled-marginless-b91a48282f8d7eb41c5d388d019cfe5e.svg" class="product-range-badge"/>
                 
-                    <span class="homepage-product-range-count"><span class="digit">8</span><span class="bar"></span></span>
+                    <span class="homepage-product-range-count"><span class="digit">9</span><span class="bar"></span></span>
                 
-                    <span class="homepage-product-range-count"><span class="digit">8</span><span class="bar"></span></span>
+                    <span class="homepage-product-range-count"><span class="digit">1</span><span class="bar"></span></span>
                 
             </a>
         </div>
@@ -485,7 +484,7 @@ Use code wm041918lt
             </div>
         </div>
     </div>
-    <span class="btn btn-default wide-button" data-toggle="modal" data-target="#meap-section-modal">All 88 MEAPs</span>
+    <span class="btn btn-default wide-button" data-toggle="modal" data-target="#meap-section-modal">All 91 MEAPs</span>
 </div>
 
 <!-- Modal -->
@@ -499,9 +498,9 @@ Use code wm041918lt
                     <a href="/meap-catalog" class="homepage-product-range-count-box-banner">
                         <img src="/assets/meap-filled-marginless-b91a48282f8d7eb41c5d388d019cfe5e.svg" class="product-range-badge"/>
                         
-                            <span class="homepage-product-range-count"><span class="digit">8</span><span class="bar"></span></span>
+                            <span class="homepage-product-range-count"><span class="digit">9</span><span class="bar"></span></span>
                         
-                            <span class="homepage-product-range-count"><span class="digit">8</span><span class="bar"></span></span>
+                            <span class="homepage-product-range-count"><span class="digit">1</span><span class="bar"></span></span>
                         
                     </a>
                 
@@ -544,6 +543,15 @@ Use code wm041918lt
                                 
                                     
 
+                                    <a href="/books/data-science-at-scale-with-python-and-dask">
+                                        <div class="title"><img src="/assets/new-3d180e39214ec782b08842ed6d82c1a0.svg" class="product-range-bullet new-badge" alt="This MEAP is new"/>Data Science at Scale with Python and Dask</div>
+                                    </a>
+
+                                    <!-- Is it time to change columns? -->
+                                    
+                                
+                                    
+
                                     <a href="/books/deep-learning-and-the-game-of-go">
                                         <div class="title">Deep Learning and the Game of Go</div>
                                     </a>
@@ -555,6 +563,15 @@ Use code wm041918lt
 
                                     <a href="/books/deep-learning-for-search">
                                         <div class="title">Deep Learning for Search</div>
+                                    </a>
+
+                                    <!-- Is it time to change columns? -->
+                                    
+                                
+                                    
+
+                                    <a href="/books/deep-learning-with-pytorch">
+                                        <div class="title"><img src="/assets/new-3d180e39214ec782b08842ed6d82c1a0.svg" class="product-range-bullet new-badge" alt="This MEAP is new"/>Deep Learning with PyTorch</div>
                                     </a>
 
                                     <!-- Is it time to change columns? -->
@@ -765,6 +782,15 @@ Use code wm041918lt
                                 
                                     
 
+                                    <a href="/livevideo/ios-development-with-swift-lv">
+                                        <div class="title"><img src="/assets/new-3d180e39214ec782b08842ed6d82c1a0.svg" class="product-range-bullet new-badge" alt="This MEAP is new"/>iOS Development with Swift in Motion</div>
+                                    </a>
+
+                                    <!-- Is it time to change columns? -->
+                                    
+                                
+                                    
+
                                     <a href="/books/kafka-in-action">
                                         <div class="title">Kafka in Action</div>
                                     </a>
@@ -956,6 +982,17 @@ Use code wm041918lt
 
                                     <!-- Is it time to change columns? -->
                                     
+                                        <!-- We are starting a new column. -->
+                                        
+                                        </div>
+                                        <div class="col-md-6">
+
+                                        <!-- If this column is starting with the same category as the end of the previous column...-->
+                                        
+                                            <!-- Put in a copy of the last header and continue normally.-->
+                                            <div class="tag tag-one-in-column tag-additional-appearance">Devices</div>
+                                        
+                                    
                                 
                                     
 
@@ -978,17 +1015,6 @@ Use code wm041918lt
                                     </a>
 
                                     <!-- Is it time to change columns? -->
-                                    
-                                        <!-- We are starting a new column. -->
-                                        
-                                        </div>
-                                        <div class="col-md-6">
-
-                                        <!-- If this column is starting with the same category as the end of the previous column...-->
-                                        
-                                            <!-- Put in a copy of the last header and continue normally.-->
-                                            <div class="tag tag-one-in-column tag-additional-appearance">General</div>
-                                        
                                     
                                 
                                     
@@ -1433,6 +1459,16 @@ Use code wm041918lt
 
                                     <!-- Is it time to change columns? -->
                                     
+                                        <!-- We are starting a new column. -->
+                                        
+                                        </div>
+                                        <div class="col-md-6">
+
+                                        <!-- If this column is starting with the same category as the end of the previous column...-->
+                                        
+                                            <!-- If not, that means we're column breaking at the same time as a category break and we must handle that by *not* putting in a category now...-->
+                                        
+                                    
                                 
                             
                         </div>
@@ -1459,7 +1495,7 @@ Use code wm041918lt
                 
                     <span class="homepage-product-range-count"><span class="digit">1</span><span class="bar"></span></span>
                 
-                    <span class="homepage-product-range-count"><span class="digit">5</span><span class="bar"></span></span>
+                    <span class="homepage-product-range-count"><span class="digit">6</span><span class="bar"></span></span>
                 
             </a>
         </div>
@@ -1491,35 +1527,12 @@ Use code wm041918lt
                             
                                 <span class="homepage-product-range-count"><span class="digit">1</span><span class="bar"></span></span>
                             
-                                <span class="homepage-product-range-count"><span class="digit">5</span><span class="bar"></span></span>
+                                <span class="homepage-product-range-count"><span class="digit">6</span><span class="bar"></span></span>
                             
                     </a>
                 </div>
 
                 <div class="row product-ranges">
-                    
-                        <div class="col-sm-3 col-xs-6">
-                            <div class="video-item">
-                                <a href="/livevideo/spark-in-motion" class="video-item-image-link">
-                                    
-    
-        
-        <div class="product-thumbnail product-placeholder">
-            <div class="product-placeholder-titlespace">
-                <div class="product-placeholder-title">
-                </div>
-            </div>
-        </div>
-        <div style="background-image: url('https://images.manning.com/720/900/resize/video/1/ef12711-cbb1-43b7-a2bf-713108e1aa99/livevideo-product-kolter_meap.png')"
-             class="product-thumbnail video-thumbnail">
-        </div>
-    
-
-
-
-                                </a>
-                            </div>
-                        </div>
                     
                         <div class="col-sm-3 col-xs-6">
                             <div class="video-item">
@@ -1534,75 +1547,6 @@ Use code wm041918lt
             </div>
         </div>
         <div style="background-image: url('https://images.manning.com/720/900/resize/video/b/0228c5e-39ab-4fd0-a63e-cc3ff4980d4b/livevideo-redux-in-motion-meap.png')"
-             class="product-thumbnail video-thumbnail">
-        </div>
-    
-
-
-
-                                </a>
-                            </div>
-                        </div>
-                    
-                        <div class="col-sm-3 col-xs-6">
-                            <div class="video-item">
-                                <a href="/livevideo/nodejs-in-motion" class="video-item-image-link">
-                                    
-    
-        
-        <div class="product-thumbnail product-placeholder">
-            <div class="product-placeholder-titlespace">
-                <div class="product-placeholder-title">
-                </div>
-            </div>
-        </div>
-        <div style="background-image: url('https://images.manning.com/720/900/resize/video/2/881c433-81c7-45e9-bbf1-50c117844dce/livevideo-nodejs-in-motion-meap.png')"
-             class="product-thumbnail video-thumbnail">
-        </div>
-    
-
-
-
-                                </a>
-                            </div>
-                        </div>
-                    
-                        <div class="col-sm-3 col-xs-6">
-                            <div class="video-item">
-                                <a href="/livevideo/graphql-in-motion" class="video-item-image-link">
-                                    
-    
-        
-        <div class="product-thumbnail product-placeholder">
-            <div class="product-placeholder-titlespace">
-                <div class="product-placeholder-title">
-                </div>
-            </div>
-        </div>
-        <div style="background-image: url('https://images.manning.com/720/900/resize/video/c/547b25b-13fe-4f09-b9c0-19c893efcb26/livevideo-graphql-in-motion-meap.png')"
-             class="product-thumbnail video-thumbnail">
-        </div>
-    
-
-
-
-                                </a>
-                            </div>
-                        </div>
-                    
-                        <div class="col-sm-3 col-xs-6">
-                            <div class="video-item">
-                                <a href="/livevideo/d3-js-in-motion" class="video-item-image-link">
-                                    
-    
-        
-        <div class="product-thumbnail product-placeholder">
-            <div class="product-placeholder-titlespace">
-                <div class="product-placeholder-title">
-                </div>
-            </div>
-        </div>
-        <div style="background-image: url('https://images.manning.com/720/900/resize/video/d/6a21f0c-3295-45b2-8902-acf7366c4278/livevideo-d3js-in-motion-meap.png')"
              class="product-thumbnail video-thumbnail">
         </div>
     
@@ -1707,6 +1651,29 @@ Use code wm041918lt
                     
                         <div class="col-sm-3 col-xs-6">
                             <div class="video-item">
+                                <a href="/livevideo/spark-in-motion" class="video-item-image-link">
+                                    
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/1/ef12711-cbb1-43b7-a2bf-713108e1aa99/livevideo-product-kolter_meap.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="video-item">
                                 <a href="/livevideo/production-ready-serverless" class="video-item-image-link">
                                     
     
@@ -1718,6 +1685,98 @@ Use code wm041918lt
             </div>
         </div>
         <div style="background-image: url('https://images.manning.com/720/900/resize/video/b/2ea39e5-bcd1-42f0-a764-3d6890758541/livevideo-production-ready-serverless-meap.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="video-item">
+                                <a href="/livevideo/nodejs-in-motion" class="video-item-image-link">
+                                    
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/2/881c433-81c7-45e9-bbf1-50c117844dce/livevideo-nodejs-in-motion-meap.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="video-item">
+                                <a href="/livevideo/graphql-in-motion" class="video-item-image-link">
+                                    
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/c/547b25b-13fe-4f09-b9c0-19c893efcb26/livevideo-graphql-in-motion-meap.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="video-item">
+                                <a href="/livevideo/d3-js-in-motion" class="video-item-image-link">
+                                    
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/d/6a21f0c-3295-45b2-8902-acf7366c4278/livevideo-d3js-in-motion-meap.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="video-item">
+                                <a href="/livevideo/ios-development-with-swift-lv" class="video-item-image-link">
+                                    
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/f/30b9235-6c00-4419-baf8-8a062c07044a/livevideo-ios-development-with-swift-in-motion-meap.png')"
              class="product-thumbnail video-thumbnail">
         </div>
     
@@ -1799,7 +1858,7 @@ Use code wm041918lt
                     
                         <div class="col-sm-3 col-xs-6">
                             <div class="video-item">
-                                <a href="/livevideo/es6-in-motion" class="video-item-image-link">
+                                <a href="/livevideo/sql-in-motion" class="video-item-image-link">
                                     
     
         
@@ -1809,7 +1868,7 @@ Use code wm041918lt
                 </div>
             </div>
         </div>
-        <div style="background-image: url('https://images.manning.com/720/900/resize/video/0/f214ea1-3ced-4a57-aa72-a9e69a4677b1/livevideo-product-higbee.png')"
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/4/a9f98d5-4ac8-43f8-8f41-5847c327de22/livevideo-product-brumm.png')"
              class="product-thumbnail video-thumbnail">
         </div>
     
@@ -1822,7 +1881,7 @@ Use code wm041918lt
                     
                         <div class="col-sm-3 col-xs-6">
                             <div class="video-item">
-                                <a href="/livevideo/sql-in-motion" class="video-item-image-link">
+                                <a href="/livevideo/es6-in-motion" class="video-item-image-link">
                                     
     
         
@@ -1832,7 +1891,7 @@ Use code wm041918lt
                 </div>
             </div>
         </div>
-        <div style="background-image: url('https://images.manning.com/720/900/resize/video/4/a9f98d5-4ac8-43f8-8f41-5847c327de22/livevideo-product-brumm.png')"
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/0/f214ea1-3ced-4a57-aa72-a9e69a4677b1/livevideo-product-higbee.png')"
              class="product-thumbnail video-thumbnail">
         </div>
     
@@ -1886,15 +1945,15 @@ Use code wm041918lt
                                 MEAP updates, new products, author news
                             </div>
                             
-                                <div class="block-with-text brief"><b>04/19/2018</b> - <a href="https://www.manning.com/books/dependency-injection-in-dot-net-second-edition"><i>Dependency Injection in .NET, Second Edition</i></a> has a new chapter, dealing with tool-based aspect-oriented programming.</div>
+                                <div class="block-with-text brief"><b>04/24/2018</b> - Three new chapters have been added to <a href="https://www.manning.com/books/data-wrangling-with-javascript"><i>Data Wrangling with JavaScript</i></a>.</div>
                             
-                                <div class="block-with-text brief"><b>04/18/2018</b> - Chapter 9, "Effortless Error Handling" has been added to <a href="https://www.manning.com/books/swift-in-depth"><i>Swift in Depth</i></a>.</div>
+                                <div class="block-with-text brief"><b>04/23/2018</b> - <a href="https://www.manning.com/books/get-programming-with-go"><i>Get Programming with Go</i></a> has entered the final stages of revision and will be heading to production soon!</div>
                             
-                                <div class="block-with-text brief"><b>04/17/2018</b> - Chapter 10, "Developing production-ready services" is new to <a href="https://www.manning.com/books/microservices-patterns"><i>Microservices Patterns</i></a>.</div>
+                                <div class="block-with-text brief"><b>04/22/2018</b> - <a href="https://www.manning.com/books/the-art-of-data-usability"><i>The Art of Data Usability</i></a> has undergone extensive revision and many chapters have been updated and re-ordered.</div>
                             
-                                <div class="block-with-text brief"><b>04/16/2018</b> - <i>Java 8&9 in Action, Second Edition</i> has been renamed to <a href="https://www.manning.com/books/modern-java-in-action"><i>Modern Java in Action</i></a> and has had many chapters updated.</div>
+                                <div class="block-with-text brief"><b>04/21/2018</b> - Chapter 10, "Sequential Processing" has been added to <a href="https://www.manning.com/books/clojure-standard-library"><i>Clojure Standard Library</i></a>.</div>
                             
-                                <div class="block-with-text brief"><b>04/15/2018</b> - Chapter 14, "Customizing runtime images with jlink" has been added to <a href="https://www.manning.com/books/the-java-module-system"><i>The Java Module System</i></a>.</div>
+                                <div class="block-with-text brief"><b>04/20/2018</b> - Danilo Poccia, author of <a href="https://www.manning.com/books/aws-lambda-in-action"><i>AWS Lambda in Action</i></a> will be speaking at DevOne Conf Austria next week.</div>
                             
                             <a href="/news" class="all-news">
                                 browse all news &raquo;
@@ -1942,6 +2001,193 @@ Use code wm041918lt
                                         
                                             
                                             <div class="item active">
+                                                
+                                                    <div class="new-release-layout col-xs-4">
+                                                        <div class="book-cover-item">
+    <div class="new-release-size-container">
+        <a href="/books/deep-learning-with-pytorch" class="book-cover-item-image-link">
+            
+    
+        
+        <div class="product-thumbnail product-placeholder  product-placeholder-meap">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                    
+                        Deep Learning with PyTorch
+                    
+
+                    
+                </div>
+            </div>
+            
+                <div class="product-placeholder-authorspace">
+                    <div class="product-placeholder-author">
+                        Eli Stevens and Luca Antiga
+                    </div>
+                </div>
+            
+            <div class="product-placeholder-meapspace"></div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/960/resize/book/2/a05976a-7251-47f4-a168-a84715e8b701/Stevens-DLPy-MEAP-HI.png')"
+             class="product-thumbnail">
+             
+        </div>
+    
+
+
+
+        </a>
+    </div>
+    <div class="book-cover-item-caption">
+        <ul class="list-unstyled">
+            <li>
+                <a href="/books/deep-learning-with-pytorch">
+                    
+                    <span class="book-cover-item-title">Deep Learning with PyTorch</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+                                                    </div>
+                                                
+                                                    <div class="new-release-layout col-xs-4">
+                                                        <div class="book-cover-item">
+    <div class="new-release-size-container">
+        <a href="/books/writing-great-specifications-mini-ebook" class="book-cover-item-image-link">
+            
+    
+        
+        <div class="product-thumbnail product-placeholder  product-placeholder-released">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                    
+                        Writing Great Specifications
+                    
+
+                    
+                </div>
+            </div>
+            
+                <div class="product-placeholder-authorspace">
+                    <div class="product-placeholder-author">
+                        With chapters selected by Kamil Nicieja
+                    </div>
+                </div>
+            
+            <div class="product-placeholder-meapspace"></div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/960/resize/book/e/e660910-e374-4547-941f-4f53b8127112/Nicieja_WGS_free_hires.png')"
+             class="product-thumbnail">
+             
+        </div>
+    
+
+
+
+        </a>
+    </div>
+    <div class="book-cover-item-caption">
+        <ul class="list-unstyled">
+            <li>
+                <a href="/books/writing-great-specifications-mini-ebook">
+                    
+                    <span class="book-cover-item-title">Writing Great Specifications</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+                                                    </div>
+                                                
+                                                    <div class="new-release-layout col-xs-4">
+                                                        <div class="book-cover-item">
+    <div class="new-release-size-container">
+        <a href="/livevideo/ios-development-with-swift-lv" class="book-cover-item-image-link">
+            
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/960/resize/video/f/30b9235-6c00-4419-baf8-8a062c07044a/livevideo-ios-development-with-swift-in-motion-meap.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+        </a>
+    </div>
+    <div class="book-cover-item-caption">
+        <ul class="list-unstyled">
+            <li>
+                <a href="/livevideo/ios-development-with-swift-lv">
+                    
+                    <span class="book-cover-item-title">iOS Development with Swift in Motion</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+                                                    </div>
+                                                
+                                            </div>
+                                        
+                                            
+                                            <div class="item">
+                                                
+                                                    <div class="new-release-layout col-xs-4">
+                                                        <div class="book-cover-item">
+    <div class="new-release-size-container">
+        <a href="/books/data-science-at-scale-with-python-and-dask" class="book-cover-item-image-link">
+            
+    
+        
+        <div class="product-thumbnail product-placeholder  product-placeholder-meap">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                    
+                        Data Science at Scale with Python and Dask
+                    
+
+                    
+                </div>
+            </div>
+            
+                <div class="product-placeholder-authorspace">
+                    <div class="product-placeholder-author">
+                        Jesse C. Daniel
+                    </div>
+                </div>
+            
+            <div class="product-placeholder-meapspace"></div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/960/resize/book/6/f0e5a29-ec22-46fa-b0b2-e96dd6df6107/Daniel-DSS-MEAP-HI.png')"
+             class="product-thumbnail">
+             
+        </div>
+    
+
+
+
+        </a>
+    </div>
+    <div class="book-cover-item-caption">
+        <ul class="list-unstyled">
+            <li>
+                <a href="/books/data-science-at-scale-with-python-and-dask">
+                    
+                    <span class="book-cover-item-title">Data Science at Scale with Python and Dask</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+                                                    </div>
                                                 
                                                     <div class="new-release-layout col-xs-4">
                                                         <div class="book-cover-item">
@@ -2027,6 +2273,11 @@ Use code wm041918lt
 </div>
                                                     </div>
                                                 
+                                            </div>
+                                        
+                                            
+                                            <div class="item">
+                                                
                                                     <div class="new-release-layout col-xs-4">
                                                         <div class="book-cover-item">
     <div class="new-release-size-container">
@@ -2075,11 +2326,6 @@ Use code wm041918lt
     </div>
 </div>
                                                     </div>
-                                                
-                                            </div>
-                                        
-                                            
-                                            <div class="item">
                                                 
                                                     <div class="new-release-layout col-xs-4">
                                                         <div class="book-cover-item">
@@ -2179,6 +2425,11 @@ Use code wm041918lt
 </div>
                                                     </div>
                                                 
+                                            </div>
+                                        
+                                            
+                                            <div class="item">
+                                                
                                                     <div class="new-release-layout col-xs-4">
                                                         <div class="book-cover-item">
     <div class="new-release-size-container">
@@ -2227,11 +2478,6 @@ Use code wm041918lt
     </div>
 </div>
                                                     </div>
-                                                
-                                            </div>
-                                        
-                                            
-                                            <div class="item">
                                                 
                                                     <div class="new-release-layout col-xs-4">
                                                         <div class="book-cover-item">
@@ -2331,207 +2577,6 @@ Use code wm041918lt
 </div>
                                                     </div>
                                                 
-                                                    <div class="new-release-layout col-xs-4">
-                                                        <div class="book-cover-item">
-    <div class="new-release-size-container">
-        <a href="/books/angular-in-action" class="book-cover-item-image-link">
-            
-    
-        
-        <div class="product-thumbnail product-placeholder  product-placeholder-released">
-            <div class="product-placeholder-titlespace">
-                <div class="product-placeholder-title">
-                    
-                        Angular in Action
-                    
-
-                    
-                </div>
-            </div>
-            
-                <div class="product-placeholder-authorspace">
-                    <div class="product-placeholder-author">
-                        Jeremy Wilken
-                    </div>
-                </div>
-            
-            <div class="product-placeholder-meapspace"></div>
-        </div>
-        <div style="background-image: url('https://images.manning.com/720/960/resize/book/d/429f68a-5162-4798-853e-4cb04f91bc63/Wilken-Angular-HI.png')"
-             class="product-thumbnail">
-             
-        </div>
-    
-
-
-
-        </a>
-    </div>
-    <div class="book-cover-item-caption">
-        <ul class="list-unstyled">
-            <li>
-                <a href="/books/angular-in-action">
-                    
-                    <span class="book-cover-item-title">Angular in Action</span>
-                </a>
-            </li>
-        </ul>
-    </div>
-</div>
-                                                    </div>
-                                                
-                                            </div>
-                                        
-                                            
-                                            <div class="item">
-                                                
-                                                    <div class="new-release-layout col-xs-4">
-                                                        <div class="book-cover-item">
-    <div class="new-release-size-container">
-        <a href="/books/get-programming-with-haskell" class="book-cover-item-image-link">
-            
-    
-        
-        <div class="product-thumbnail product-placeholder  product-placeholder-released">
-            <div class="product-placeholder-titlespace">
-                <div class="product-placeholder-title">
-                    
-                        Get Programming with Haskell
-                    
-
-                    
-                </div>
-            </div>
-            
-                <div class="product-placeholder-authorspace">
-                    <div class="product-placeholder-author">
-                        Will Kurt
-                    </div>
-                </div>
-            
-            <div class="product-placeholder-meapspace"></div>
-        </div>
-        <div style="background-image: url('https://images.manning.com/720/960/resize/book/d/fc73b0e-44c8-4c24-a20b-0f24b7c8e598/Kurt-Haskell_hi-res.png')"
-             class="product-thumbnail">
-             
-        </div>
-    
-
-
-
-        </a>
-    </div>
-    <div class="book-cover-item-caption">
-        <ul class="list-unstyled">
-            <li>
-                <a href="/books/get-programming-with-haskell">
-                    
-                    <span class="book-cover-item-title">Get Programming with Haskell</span>
-                </a>
-            </li>
-        </ul>
-    </div>
-</div>
-                                                    </div>
-                                                
-                                                    <div class="new-release-layout col-xs-4">
-                                                        <div class="book-cover-item">
-    <div class="new-release-size-container">
-        <a href="/books/exploring-microservice-development" class="book-cover-item-image-link">
-            
-    
-        
-        <div class="product-thumbnail product-placeholder  product-placeholder-released">
-            <div class="product-placeholder-titlespace">
-                <div class="product-placeholder-title">
-                    
-                        Exploring Microservice Development
-                    
-
-                    
-                </div>
-            </div>
-            
-                <div class="product-placeholder-authorspace">
-                    <div class="product-placeholder-author">
-                        With chapters selected by John Carnell
-                    </div>
-                </div>
-            
-            <div class="product-placeholder-meapspace"></div>
-        </div>
-        <div style="background-image: url('https://images.manning.com/720/960/resize/book/1/6c006f2-0774-4e8c-a43b-4960541d86f6/Carnell_EMD_hires.png')"
-             class="product-thumbnail">
-             
-        </div>
-    
-
-
-
-        </a>
-    </div>
-    <div class="book-cover-item-caption">
-        <ul class="list-unstyled">
-            <li>
-                <a href="/books/exploring-microservice-development">
-                    
-                    <span class="book-cover-item-title">Exploring Microservice Development</span>
-                </a>
-            </li>
-        </ul>
-    </div>
-</div>
-                                                    </div>
-                                                
-                                                    <div class="new-release-layout col-xs-4">
-                                                        <div class="book-cover-item">
-    <div class="new-release-size-container">
-        <a href="/books/get-programming-with-f-sharp" class="book-cover-item-image-link">
-            
-    
-        
-        <div class="product-thumbnail product-placeholder  product-placeholder-released">
-            <div class="product-placeholder-titlespace">
-                <div class="product-placeholder-title">
-                    
-                        Get Programming with F#
-                    
-
-                    
-                </div>
-            </div>
-            
-                <div class="product-placeholder-authorspace">
-                    <div class="product-placeholder-author">
-                        Isaac Abraham<br/><i>Forewords by Dustin Campbell and Tomas Petricek</i>
-                    </div>
-                </div>
-            
-            <div class="product-placeholder-meapspace"></div>
-        </div>
-        <div style="background-image: url('https://images.manning.com/720/960/resize/book/2/6ccdc18-2956-4d1b-8773-8f4d3bbf09c9/Abraham-Fsharp_FC_hires.png')"
-             class="product-thumbnail">
-             
-        </div>
-    
-
-
-
-        </a>
-    </div>
-    <div class="book-cover-item-caption">
-        <ul class="list-unstyled">
-            <li>
-                <a href="/books/get-programming-with-f-sharp">
-                    
-                    <span class="book-cover-item-title">Get Programming with F#</span>
-                </a>
-            </li>
-        </ul>
-    </div>
-</div>
-                                                    </div>
-                                                
                                             </div>
                                         
                                     </div>
@@ -2560,12 +2605,12 @@ Use code wm041918lt
                         
 
                         <div class="bestsellers well">
-                            <h1>Bestsellers<span class="bestsellers-date-subheading proper-name">April 8, 2018</span></h1>
+                            <h1>Bestsellers<span class="bestsellers-date-subheading proper-name">April 15, 2018</span></h1>
                             <ol>
                                 
                                     <li>
-                                        <a href="/books/modern-fortran">
-                                            Modern Fortran
+                                        <a href="/books/modern-java-in-action">
+                                            Modern Java in Action
                                             
                                                 &nbsp;<span class="meap-badge">
                                                 <img src="/assets/meap-badge-d62b04aad706f67da57c95d645882800.svg" alt="Manning Early Access Program badge"/>
@@ -2577,6 +2622,24 @@ Use code wm041918lt
                                     <li>
                                         <a href="/books/deep-learning-with-python">
                                             Deep Learning with Python
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/books/secure-by-design">
+                                            Secure by Design
+                                            
+                                                &nbsp;<span class="meap-badge">
+                                                <img src="/assets/meap-badge-d62b04aad706f67da57c95d645882800.svg" alt="Manning Early Access Program badge"/>
+                                            </span>
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/books/learn-powershell-scripting-in-a-month-of-lunches">
+                                            Learn PowerShell Scripting in a Month of Lunches
                                             
                                         </a>
                                     </li>
@@ -2596,15 +2659,8 @@ Use code wm041918lt
                                     </li>
                                 
                                     <li>
-                                        <a href="/books/classic-computer-science-problems-in-swift">
-                                            Classic Computer Science Problems in Swift
-                                            
-                                        </a>
-                                    </li>
-                                
-                                    <li>
-                                        <a href="/books/http2-in-action">
-                                            HTTP/2 in Action
+                                        <a href="/books/microservices-patterns">
+                                            Microservices Patterns
                                             
                                                 &nbsp;<span class="meap-badge">
                                                 <img src="/assets/meap-badge-d62b04aad706f67da57c95d645882800.svg" alt="Manning Early Access Program badge"/>
@@ -2621,8 +2677,8 @@ Use code wm041918lt
                                     </li>
                                 
                                     <li>
-                                        <a href="/books/microservices-patterns">
-                                            Microservices Patterns
+                                        <a href="/books/isomorphic-web-applications">
+                                            Isomorphic Web Applications
                                             
                                                 &nbsp;<span class="meap-badge">
                                                 <img src="/assets/meap-badge-d62b04aad706f67da57c95d645882800.svg" alt="Manning Early Access Program badge"/>
@@ -2632,15 +2688,12 @@ Use code wm041918lt
                                     </li>
                                 
                                     <li>
-                                        <a href="/books/writing-great-specifications">
-                                            Writing Great Specifications
+                                        <a href="/books/cloud-native">
+                                            Cloud Native
                                             
-                                        </a>
-                                    </li>
-                                
-                                    <li>
-                                        <a href="/books/functional-programming-in-java">
-                                            Functional Programming in Java
+                                                &nbsp;<span class="meap-badge">
+                                                <img src="/assets/meap-badge-d62b04aad706f67da57c95d645882800.svg" alt="Manning Early Access Program badge"/>
+                                            </span>
                                             
                                         </a>
                                     </li>
@@ -2712,6 +2765,20 @@ Use code wm041918lt
                                         
                                             
 
+                                            <a href="/books/data-science-at-scale-with-python-and-dask">
+                                                
+                                                <div class="title">
+                                                    
+                                                    Data Science at Scale with Python and
+                                                    <i class="last-word">Dask<span class="inline-badge meap-badge"><img src="/assets/meap-badge-d62b04aad706f67da57c95d645882800.svg" alt="This is a MEAP"/></span></i>
+                                                </div>
+                                            </a>
+
+                                            <!-- Is it time to change columns? -->
+                                            
+                                        
+                                            
+
                                             <a href="/books/deep-learning-and-the-game-of-go">
                                                 
                                                 <div class="title">
@@ -2740,12 +2807,12 @@ Use code wm041918lt
                                         
                                             
 
-                                            <a href="/books/deep-learning-with-r">
+                                            <a href="/books/deep-learning-with-pytorch">
                                                 
                                                 <div class="title">
                                                     
                                                     Deep Learning with
-                                                    <i class="last-word">R</i>
+                                                    <i class="last-word">PyTorch<span class="inline-badge meap-badge"><img src="/assets/meap-badge-d62b04aad706f67da57c95d645882800.svg" alt="This is a MEAP"/></span></i>
                                                 </div>
                                             </a>
 
@@ -3109,6 +3176,20 @@ Use code wm041918lt
                                         
                                             
 
+                                            <a href="/livevideo/ios-development-with-swift-lv">
+                                                
+                                                <div class="title">
+                                                    
+                                                    iOS Development with Swift in
+                                                    <i class="last-word">Motion<span class="inline-badge meap-badge"><img src="/assets/meap-badge-d62b04aad706f67da57c95d645882800.svg" alt="This is a MEAP"/></span><span class="inline-badge livevideo-badge"><img src="/assets/livevideo-badge-0e3bc1d7e6af638e289fbafbcf9f4c41.svg" alt="This is a liveVideo"/></span></i>
+                                                </div>
+                                            </a>
+
+                                            <!-- Is it time to change columns? -->
+                                            
+                                        
+                                            
+
                                             <a href="/books/kafka-in-action">
                                                 
                                                 <div class="title">
@@ -3387,6 +3468,20 @@ Use code wm041918lt
                                             <!-- Is it time to change columns? -->
                                             
                                         
+                                            
+
+                                            <a href="/books/writing-great-specifications-mini-ebook">
+                                                
+                                                <div class="title">
+                                                    
+                                                    Writing Great
+                                                    <i class="last-word">Specifications</i>
+                                                </div>
+                                            </a>
+
+                                            <!-- Is it time to change columns? -->
+                                            
+                                        
                                     
                                         <div class="tag ">Devices</div>
                                         
@@ -3447,6 +3542,17 @@ Use code wm041918lt
 
                                             <!-- Is it time to change columns? -->
                                             
+                                                <!-- We are starting a new column. -->
+                                                
+                                                </div>
+                                                <div class="col-md-6">
+
+                                        <!-- If this column is starting with the same category as the end of the previous column...-->
+                                                
+                                                    <!-- Put in a copy of the last header and continue normally.-->
+                                                    <div class="tag tag-one-in-column tag-additional-appearance">Devices</div>
+                                                
+                                            
                                         
                                             
 
@@ -3479,17 +3585,6 @@ Use code wm041918lt
                                             </a>
 
                                             <!-- Is it time to change columns? -->
-                                            
-                                                <!-- We are starting a new column. -->
-                                                
-                                                </div>
-                                                <div class="col-md-6">
-
-                                        <!-- If this column is starting with the same category as the end of the previous column...-->
-                                                
-                                                    <!-- Put in a copy of the last header and continue normally.-->
-                                                    <div class="tag tag-one-in-column tag-additional-appearance">General</div>
-                                                
                                             
                                         
                                             
@@ -4272,6 +4367,16 @@ Use code wm041918lt
 
                                             <!-- Is it time to change columns? -->
                                             
+                                                <!-- We are starting a new column. -->
+                                                
+                                                </div>
+                                                <div class="col-md-6">
+
+                                        <!-- If this column is starting with the same category as the end of the previous column...-->
+                                                
+                                                    <!-- If not, that means we're column breaking at the same time as a category break and we must handle that by *not* putting in a category now...-->
+                                                
+                                            
                                         
                                     
                                 </div>
@@ -4414,15 +4519,15 @@ Use code wm041918lt
                                 MEAP updates, new products, author news
                             </div>
                             
-                                <div class="block-with-text brief"><b>04/19/2018</b> - <a href="https://www.manning.com/books/dependency-injection-in-dot-net-second-edition"><i>Dependency Injection in .NET, Second Edition</i></a> has a new chapter, dealing with tool-based aspect-oriented programming.</div>
+                                <div class="block-with-text brief"><b>04/24/2018</b> - Three new chapters have been added to <a href="https://www.manning.com/books/data-wrangling-with-javascript"><i>Data Wrangling with JavaScript</i></a>.</div>
                             
-                                <div class="block-with-text brief"><b>04/18/2018</b> - Chapter 9, "Effortless Error Handling" has been added to <a href="https://www.manning.com/books/swift-in-depth"><i>Swift in Depth</i></a>.</div>
+                                <div class="block-with-text brief"><b>04/23/2018</b> - <a href="https://www.manning.com/books/get-programming-with-go"><i>Get Programming with Go</i></a> has entered the final stages of revision and will be heading to production soon!</div>
                             
-                                <div class="block-with-text brief"><b>04/17/2018</b> - Chapter 10, "Developing production-ready services" is new to <a href="https://www.manning.com/books/microservices-patterns"><i>Microservices Patterns</i></a>.</div>
+                                <div class="block-with-text brief"><b>04/22/2018</b> - <a href="https://www.manning.com/books/the-art-of-data-usability"><i>The Art of Data Usability</i></a> has undergone extensive revision and many chapters have been updated and re-ordered.</div>
                             
-                                <div class="block-with-text brief"><b>04/16/2018</b> - <i>Java 8&9 in Action, Second Edition</i> has been renamed to <a href="https://www.manning.com/books/modern-java-in-action"><i>Modern Java in Action</i></a> and has had many chapters updated.</div>
+                                <div class="block-with-text brief"><b>04/21/2018</b> - Chapter 10, "Sequential Processing" has been added to <a href="https://www.manning.com/books/clojure-standard-library"><i>Clojure Standard Library</i></a>.</div>
                             
-                                <div class="block-with-text brief"><b>04/15/2018</b> - Chapter 14, "Customizing runtime images with jlink" has been added to <a href="https://www.manning.com/books/the-java-module-system"><i>The Java Module System</i></a>.</div>
+                                <div class="block-with-text brief"><b>04/20/2018</b> - Danilo Poccia, author of <a href="https://www.manning.com/books/aws-lambda-in-action"><i>AWS Lambda in Action</i></a> will be speaking at DevOne Conf Austria next week.</div>
                             
                             <a href="/news" class="all-news">
                                 browse all news &raquo;
@@ -4435,26 +4540,20 @@ Use code wm041918lt
         
         <div class="tweet-box">
             <div class="tweet">
-                RT <a href='http://www.twitter.com/jrlarsen'>@jrlarsen</a>: 42% off everything at <a href='http://www.twitter.com/ManningBooks'>@ManningBooks</a> until Apr 25 
-
-Use code wm041918lt
-
-<a href='https://t.co/eSjbceHXTk'>manning.com/?a_aid=r51&cha…</a>
-
-<a href='https://twitter.com/hashtag/golang?src=hash'>#golang</a> <a href='https://twitter.com/hashtag/swiftlang?src=hash'>#swiftlang</a> <a href='https://twitter.com/hashtag/csharp?src=hash'>#csharp</a> #…
+                Have a look at the first chapter from D3.js in Action, Second Ed. for free on <a href='https://twitter.com/hashtag/liveBook?src=hash'>#liveBook</a>: <a href='https://t.co/OOcpIVxRMz…'>https://t.co/OOcpIVxRMz…</a> <a href='https://t.co/ZaSVBVPPgJ'>twitter.com/i/web/status/9…</a>
             </div>
             <div class="relative-time">
-                <a href="https://twitter.com/ManningBooks/status/987290352716566528">11 minutes ago</a>
+                <a href="https://twitter.com/ManningBooks/status/988873690845728768">10 hours ago</a>
             </div>
         </div>
     
         
         <div class="tweet-box">
             <div class="tweet">
-                RT <a href='http://www.twitter.com/Dhabolt'>@Dhabolt</a>: Also 50% off <a href='http://www.twitter.com/ManningBooks'>@ManningBooks</a> video (Apr. 20): "Keras in Motion" by Dan Van Boxel <a href='http://www.twitter.com/DanDoesData'>@DanDoesData</a> <a href='https://twitter.com/hashtag/keras?src=hash'>#keras</a> <a href='https://twitter.com/hashtag/python?src=hash'>#python</a> <a href='https://twitter.com/hashtag/DeepLearning?src=hash'>#DeepLearning</a> <a href='https://twitter.com/hashtag/Neur?src=hash'>#Neur</a>…
+                <a href='http://www.twitter.com/grantpalin'>@grantpalin</a> Please, try to clear your cache to see if that helps.
             </div>
             <div class="relative-time">
-                <a href="https://twitter.com/ManningBooks/status/987286072035028994">28 minutes ago</a>
+                <a href="https://twitter.com/ManningBooks/status/988864209399279617">11 hours ago</a>
             </div>
         </div>
     
@@ -4470,26 +4569,20 @@ Use code wm041918lt
         
         <div class="tweet-box">
             <div class="tweet">
-                RT <a href='http://www.twitter.com/jrlarsen'>@jrlarsen</a>: 42% off everything at <a href='http://www.twitter.com/ManningBooks'>@ManningBooks</a> until Apr 25 
-
-Use code wm041918lt
-
-<a href='https://t.co/eSjbceHXTk'>manning.com/?a_aid=r51&cha…</a>
-
-<a href='https://twitter.com/hashtag/golang?src=hash'>#golang</a> <a href='https://twitter.com/hashtag/swiftlang?src=hash'>#swiftlang</a> <a href='https://twitter.com/hashtag/csharp?src=hash'>#csharp</a> #…
+                Have a look at the first chapter from D3.js in Action, Second Ed. for free on <a href='https://twitter.com/hashtag/liveBook?src=hash'>#liveBook</a>: <a href='https://t.co/OOcpIVxRMz…'>https://t.co/OOcpIVxRMz…</a> <a href='https://t.co/ZaSVBVPPgJ'>twitter.com/i/web/status/9…</a>
             </div>
             <div class="relative-time">
-                <a href="https://twitter.com/ManningBooks/status/987290352716566528">11 minutes ago</a>
+                <a href="https://twitter.com/ManningBooks/status/988873690845728768">10 hours ago</a>
             </div>
         </div>
     
         
         <div class="tweet-box">
             <div class="tweet">
-                RT <a href='http://www.twitter.com/Dhabolt'>@Dhabolt</a>: Also 50% off <a href='http://www.twitter.com/ManningBooks'>@ManningBooks</a> video (Apr. 20): "Keras in Motion" by Dan Van Boxel <a href='http://www.twitter.com/DanDoesData'>@DanDoesData</a> <a href='https://twitter.com/hashtag/keras?src=hash'>#keras</a> <a href='https://twitter.com/hashtag/python?src=hash'>#python</a> <a href='https://twitter.com/hashtag/DeepLearning?src=hash'>#DeepLearning</a> <a href='https://twitter.com/hashtag/Neur?src=hash'>#Neur</a>…
+                <a href='http://www.twitter.com/grantpalin'>@grantpalin</a> Please, try to clear your cache to see if that helps.
             </div>
             <div class="relative-time">
-                <a href="https://twitter.com/ManningBooks/status/987286072035028994">28 minutes ago</a>
+                <a href="https://twitter.com/ManningBooks/status/988864209399279617">11 hours ago</a>
             </div>
         </div>
     
