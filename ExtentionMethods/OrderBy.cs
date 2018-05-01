@@ -21,20 +21,21 @@ namespace ExtentionMethods
         //  or a delegate argument has side effects.
         public static void Example1()
         {
-           var collection = Enumerable.Range(-5, 11)
-                                .Select(x => new { Original = x, Square = x * x }) 
-                                .OrderBy(x => x.Square) 
-                                .ThenBy(x => x.Original); 
+            var collection = Enumerable.Range(-5, 11)
+                                 .Select(x => new { Original = x, Square = x * x })
+                                 .OrderBy(x => x.Square)
+                                 .ThenBy(x => x.Original);
 
-            foreach (var element in collection) 
-            { 
+            foreach (var element in collection)
+            {
                 Console.WriteLine(element);
             }
         }
 
         public static void Example2()
         {
-            var company = new {
+            var company = new
+            {
                 Departments = new[]
                                 {
                                     new {
@@ -70,19 +71,46 @@ namespace ExtentionMethods
                                                             },
                                         },
                                 }
-                              };
+            };
             //Main Part
             var companyResult = company.Departments.Select(
                     dept => new
-                              {
-                                dept.Name,
-                                Cost = dept.Employees.Sum(person => person.Salary)
-                               })
+                    {
+                        dept.Name,
+                        Cost = dept.Employees.Sum(person => person.Salary)
+                    })
                                .OrderByDescending(deptWithCost => deptWithCost.Cost);
 
 
-            
+
             foreach (var element in companyResult)
+            {
+                Console.WriteLine(element);
+            }
+        }
+
+        public static void Example3GroupBy()
+        {
+            var bugs = new []
+            {
+               new { AssignedTo = "Mike" },
+               new { AssignedTo = "Igor" },
+               new { AssignedTo = "Mike" },
+               new { AssignedTo = "Igor" },
+               new { AssignedTo = "Igor" },
+               new { AssignedTo = "Serg" },
+               new { AssignedTo = "Thomas" },
+               new { AssignedTo = "Thomas" },
+               new { AssignedTo = "Thomas" },
+               new { AssignedTo = "Thomas" },
+
+            };
+
+            var result = bugs.GroupBy(bug => bug.AssignedTo)
+                                .Select(list => new { Developer = list.Key, Count = list.Count() })
+                                    .OrderByDescending(x => x.Count);
+
+            foreach (var element in result)
             {
                 Console.WriteLine(element);
             }

@@ -50,7 +50,7 @@
     <meta name="apple-mobile-web-app-title" content="Home"/>
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic&subset=latin' rel='stylesheet' type='text/css'>
     <title>Manning | Home</title>
-    <link rel="stylesheet" href="/assets/application-7172af404b50ced12c5ea58d27fc4750.css"/>
+    <link rel="stylesheet" href="/assets/application-699c5fd90d725866162da5d6dabea5ce.css"/>
     
     
     <script type="text/javascript">
@@ -114,7 +114,7 @@
                 <span class="fa fa-clock-o"></span>
                 <label>DotD:</label>
                 <span class="deal-of-the-day-link" uri="/dotd">
-                    <em class="deal-of-the-day-brief">Get Half off Data Science at Scale with Python and Dask - use code dotd042518</em>
+                    <em class="deal-of-the-day-brief">Get Half off Algorithms in Motion - use code dotd043018</em>
                 </span>
             </div>
         </a>
@@ -264,7 +264,7 @@
                 <span class="fa fa-clock-o"></span>
                 <label>DEAL OF THE DAY:</label>
                 <span class="deal-of-the-day-link" id="dotd-link-non-mobile">
-                    <em class="deal-of-the-day-brief">Get Half off Data Science at Scale with Python and Dask - use code dotd042518</em>
+                    <em class="deal-of-the-day-brief">Get Half off Algorithms in Motion - use code dotd043018</em>
                 </span>
             </div>
         </a>
@@ -340,19 +340,19 @@
             
                 <div class="list-item">
                     <div class="freeContentEntry-title">
-                        <a href="https://freecontent.manning.com/slideshare-using-apache-spark-with-java/">Slideshare: Using Apache Spark with Java</a>
+                        <a href="https://freecontent.manning.com/dependency-injection-in-net-2nd-edition-abuse-of-abstract-factories/">Dependency Injection in .NET, 2nd Edition: Abuse of Abstract Factories</a>
                     </div>
                 </div>
             
                 <div class="list-item">
                     <div class="freeContentEntry-title">
-                        <a href="https://freecontent.manning.com/pestering-your-script/">Pestering your script</a>
+                        <a href="https://freecontent.manning.com/slideshare-crunching-data-with-dask/">Slideshare: Crunching Data with Dask</a>
                     </div>
                 </div>
             
                 <div class="list-item">
                     <div class="freeContentEntry-title">
-                        <a href="https://freecontent.manning.com/aunt-marias-serverless-pizzeria/">Aunt Maria’s Serverless Pizzeria</a>
+                        <a href="https://freecontent.manning.com/kafka-streams-in-action-ksql/">Kafka Streams in Action: KSQL</a>
                     </div>
                 </div>
             
@@ -367,20 +367,20 @@
         
         <div class="tweet-box">
             <div class="tweet">
-                Have a look at the first chapter from D3.js in Action, Second Ed. for free on <a href='https://twitter.com/hashtag/liveBook?src=hash'>#liveBook</a>: <a href='https://t.co/OOcpIVxRMz…'>https://t.co/OOcpIVxRMz…</a> <a href='https://t.co/ZaSVBVPPgJ'>twitter.com/i/web/status/9…</a>
+                Check out the intro module from Machine Learning for Mere Mortals for free. <a href='https://t.co/F2uIwNvAWw'>goo.gl/4Rc5yY</a> <a href='https://twitter.com/hashtag/ML?src=hash'>#ML</a>… <a href='https://t.co/TPpK8ru77u'>twitter.com/i/web/status/9…</a>
             </div>
             <div class="relative-time">
-                <a href="https://twitter.com/ManningBooks/status/988873690845728768">10 hours ago</a>
+                <a href="https://twitter.com/ManningBooks/status/990986636207865857">20 minutes ago</a>
             </div>
         </div>
     
         
         <div class="tweet-box">
             <div class="tweet">
-                <a href='http://www.twitter.com/grantpalin'>@grantpalin</a> Please, try to clear your cache to see if that helps.
+                See the free clips from Algorithms in Motion here: <a href='https://t.co/eUut1o4iIb'>bit.ly/2BcsS2t</a> <a href='http://www.twitter.com/CarnesBeau'>@CarnesBeau</a> <a href='https://twitter.com/hashtag/algorithm?src=hash'>#algorithm</a> <a href='https://twitter.com/hashtag/programming?src=hash'>#programming</a> <a href='https://twitter.com/hashtag/liveVideo?src=hash'>#liveVideo</a> <a href='https://twitter.com/hashtag/compsci?src=hash'>#compsci</a>
             </div>
             <div class="relative-time">
-                <a href="https://twitter.com/ManningBooks/status/988864209399279617">11 hours ago</a>
+                <a href="https://twitter.com/ManningBooks/status/990984132867051521">30 minutes ago</a>
             </div>
         </div>
     
@@ -404,22 +404,7 @@
                                     <div class="carousel-inner" role="listbox">
                                         
                                             
-                                                <a href="https://www.manning.com/books/unity-in-action-second-edition" class="item active" style="background-image: url(&#39;https://images.manning.com/970/545/resize/heroSlide/b/f178b93-a415-4a75-8ce9-64a3f4992c58/DOTD_Release_Unity.png&#39;);">
-                                                </a>
-                                            
-                                        
-                                            
-                                                <a href="https://www.manning.com/books/get-programming" class="item" style="background-image: url(&#39;https://images.manning.com/970/545/resize/heroSlide/d/a0d87b3-8734-4774-99dc-d0a6c8e70f47/NewReleasePython-Bell.png&#39;);">
-                                                </a>
-                                            
-                                        
-                                            
-                                                <a href="https://www.manning.com/books/modern-fortran" class="item" style="background-image: url(&#39;https://images.manning.com/970/545/resize/heroSlide/1/41b7fa2-6da7-4e1b-b243-6b099a4078cf/DOTD_NewMEAP_Curcic.png&#39;);">
-                                                </a>
-                                            
-                                        
-                                            
-                                                <a href="https://www.manning.com/books/get-programming-with-javascript-next" class="item" style="background-image: url(&#39;https://images.manning.com/970/545/resize/heroSlide/1/7937fda-87e8-419e-9584-042f5ad3791c/NewRelease-Isaacks-JavaScriptNext.png&#39;);">
+                                                <a href="https://www.manning.com/books/get-programming-with-javascript-next" class="item active" style="background-image: url(&#39;https://images.manning.com/970/545/resize/heroSlide/1/7937fda-87e8-419e-9584-042f5ad3791c/NewRelease-Isaacks-JavaScriptNext.png&#39;);">
                                                 </a>
                                             
                                         
@@ -430,6 +415,11 @@
                                         
                                             
                                                 <a href="https://www.manning.com/books/deep-learning-with-pytorch" class="item" style="background-image: url(&#39;https://images.manning.com/970/545/resize/heroSlide/d/da95a44-3ce3-4ec0-95d3-af5627a9fd93/DOTD_NewMEAP_DLPy.png&#39;);">
+                                                </a>
+                                            
+                                        
+                                            
+                                                <a href="https://www.manning.com/books/xamarin-in-action" class="item" style="background-image: url(&#39;https://images.manning.com/970/545/resize/heroSlide/9/9644ce7-b209-4abb-bd80-22c3435b9cb8/DOTD_ReleaseP_Xamarin.png&#39;);">
                                                 </a>
                                             
                                         
@@ -464,9 +454,9 @@
             <a href="/meap-catalog" class="homepage-product-range-count-box-banner">
                 <img src="/assets/meap-filled-marginless-b91a48282f8d7eb41c5d388d019cfe5e.svg" class="product-range-badge"/>
                 
-                    <span class="homepage-product-range-count"><span class="digit">9</span><span class="bar"></span></span>
+                    <span class="homepage-product-range-count"><span class="digit">8</span><span class="bar"></span></span>
                 
-                    <span class="homepage-product-range-count"><span class="digit">1</span><span class="bar"></span></span>
+                    <span class="homepage-product-range-count"><span class="digit">8</span><span class="bar"></span></span>
                 
             </a>
         </div>
@@ -484,7 +474,7 @@
             </div>
         </div>
     </div>
-    <span class="btn btn-default wide-button" data-toggle="modal" data-target="#meap-section-modal">All 91 MEAPs</span>
+    <span class="btn btn-default wide-button" data-toggle="modal" data-target="#meap-section-modal">All 88 MEAPs</span>
 </div>
 
 <!-- Modal -->
@@ -498,9 +488,9 @@
                     <a href="/meap-catalog" class="homepage-product-range-count-box-banner">
                         <img src="/assets/meap-filled-marginless-b91a48282f8d7eb41c5d388d019cfe5e.svg" class="product-range-badge"/>
                         
-                            <span class="homepage-product-range-count"><span class="digit">9</span><span class="bar"></span></span>
+                            <span class="homepage-product-range-count"><span class="digit">8</span><span class="bar"></span></span>
                         
-                            <span class="homepage-product-range-count"><span class="digit">1</span><span class="bar"></span></span>
+                            <span class="homepage-product-range-count"><span class="digit">8</span><span class="bar"></span></span>
                         
                     </a>
                 
@@ -773,15 +763,6 @@
                                 
                                     
 
-                                    <a href="/books/grokking-reactivex">
-                                        <div class="title">Grokking ReactiveX</div>
-                                    </a>
-
-                                    <!-- Is it time to change columns? -->
-                                    
-                                
-                                    
-
                                     <a href="/livevideo/ios-development-with-swift-lv">
                                         <div class="title"><img src="/assets/new-3d180e39214ec782b08842ed6d82c1a0.svg" class="product-range-bullet new-badge" alt="This MEAP is new"/>iOS Development with Swift in Motion</div>
                                     </a>
@@ -989,22 +970,12 @@
 
                                         <!-- If this column is starting with the same category as the end of the previous column...-->
                                         
-                                            <!-- Put in a copy of the last header and continue normally.-->
-                                            <div class="tag tag-one-in-column tag-additional-appearance">Devices</div>
+                                            <!-- If not, that means we're column breaking at the same time as a category break and we must handle that by *not* putting in a category now...-->
                                         
                                     
                                 
-                                    
-
-                                    <a href="/books/xamarin-in-action">
-                                        <div class="title">Xamarin in Action</div>
-                                    </a>
-
-                                    <!-- Is it time to change columns? -->
-                                    
-                                
                             
-                                <div class="tag ">General</div>
+                                <div class="tag tag-one-in-column">General</div>
                                 
 
                                 
@@ -1417,15 +1388,6 @@
                                 
                                     
 
-                                    <a href="/livevideo/redux-in-motion">
-                                        <div class="title">Redux in Motion</div>
-                                    </a>
-
-                                    <!-- Is it time to change columns? -->
-                                    
-                                
-                                    
-
                                     <a href="/books/testing-angular-applications">
                                         <div class="title">Testing Angular Applications</div>
                                     </a>
@@ -1458,16 +1420,6 @@
                                     </a>
 
                                     <!-- Is it time to change columns? -->
-                                    
-                                        <!-- We are starting a new column. -->
-                                        
-                                        </div>
-                                        <div class="col-md-6">
-
-                                        <!-- If this column is starting with the same category as the end of the previous column...-->
-                                        
-                                            <!-- If not, that means we're column breaking at the same time as a category break and we must handle that by *not* putting in a category now...-->
-                                        
                                     
                                 
                             
@@ -1533,75 +1485,6 @@
                 </div>
 
                 <div class="row product-ranges">
-                    
-                        <div class="col-sm-3 col-xs-6">
-                            <div class="video-item">
-                                <a href="/livevideo/redux-in-motion" class="video-item-image-link">
-                                    
-    
-        
-        <div class="product-thumbnail product-placeholder">
-            <div class="product-placeholder-titlespace">
-                <div class="product-placeholder-title">
-                </div>
-            </div>
-        </div>
-        <div style="background-image: url('https://images.manning.com/720/900/resize/video/b/0228c5e-39ab-4fd0-a63e-cc3ff4980d4b/livevideo-redux-in-motion-meap.png')"
-             class="product-thumbnail video-thumbnail">
-        </div>
-    
-
-
-
-                                </a>
-                            </div>
-                        </div>
-                    
-                        <div class="col-sm-3 col-xs-6">
-                            <div class="video-item">
-                                <a href="/livevideo/serverless-applications-with-AWS" class="video-item-image-link">
-                                    
-    
-        
-        <div class="product-thumbnail product-placeholder">
-            <div class="product-placeholder-titlespace">
-                <div class="product-placeholder-title">
-                </div>
-            </div>
-        </div>
-        <div style="background-image: url('https://images.manning.com/720/900/resize/video/a/483f604-f303-4fbd-884a-40f59b5cd483/livevideo-serverless-applications-with-aws-meap.png')"
-             class="product-thumbnail video-thumbnail">
-        </div>
-    
-
-
-
-                                </a>
-                            </div>
-                        </div>
-                    
-                        <div class="col-sm-3 col-xs-6">
-                            <div class="video-item">
-                                <a href="/livevideo/machine-learning-for-mere-mortals" class="video-item-image-link">
-                                    
-    
-        
-        <div class="product-thumbnail product-placeholder">
-            <div class="product-placeholder-titlespace">
-                <div class="product-placeholder-title">
-                </div>
-            </div>
-        </div>
-        <div style="background-image: url('https://images.manning.com/720/900/resize/video/e/012041d-3a4e-4b48-93b3-906b95a89487/livevideo-machine-learning-for-mere-mortals-meap.png')"
-             class="product-thumbnail video-thumbnail">
-        </div>
-    
-
-
-
-                                </a>
-                            </div>
-                        </div>
                     
                         <div class="col-sm-3 col-xs-6">
                             <div class="video-item">
@@ -1674,6 +1557,29 @@
                     
                         <div class="col-sm-3 col-xs-6">
                             <div class="video-item">
+                                <a href="/livevideo/serverless-applications-with-AWS" class="video-item-image-link">
+                                    
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/a/483f604-f303-4fbd-884a-40f59b5cd483/livevideo-serverless-applications-with-aws-meap.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="video-item">
                                 <a href="/livevideo/production-ready-serverless" class="video-item-image-link">
                                     
     
@@ -1708,6 +1614,52 @@
             </div>
         </div>
         <div style="background-image: url('https://images.manning.com/720/900/resize/video/2/881c433-81c7-45e9-bbf1-50c117844dce/livevideo-nodejs-in-motion-meap.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="video-item">
+                                <a href="/livevideo/ios-development-with-swift-lv" class="video-item-image-link">
+                                    
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/f/30b9235-6c00-4419-baf8-8a062c07044a/livevideo-ios-development-with-swift-in-motion-meap.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+                                </a>
+                            </div>
+                        </div>
+                    
+                        <div class="col-sm-3 col-xs-6">
+                            <div class="video-item">
+                                <a href="/livevideo/machine-learning-for-mere-mortals" class="video-item-image-link">
+                                    
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/e/012041d-3a4e-4b48-93b3-906b95a89487/livevideo-machine-learning-for-mere-mortals-meap.png')"
              class="product-thumbnail video-thumbnail">
         </div>
     
@@ -1766,7 +1718,7 @@
                     
                         <div class="col-sm-3 col-xs-6">
                             <div class="video-item">
-                                <a href="/livevideo/ios-development-with-swift-lv" class="video-item-image-link">
+                                <a href="/livevideo/redux-in-motion" class="video-item-image-link">
                                     
     
         
@@ -1776,7 +1728,7 @@
                 </div>
             </div>
         </div>
-        <div style="background-image: url('https://images.manning.com/720/900/resize/video/f/30b9235-6c00-4419-baf8-8a062c07044a/livevideo-ios-development-with-swift-in-motion-meap.png')"
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/6/0763b16-87d2-4190-aafe-baeedc97cddb/livevideo-redux-in-motion.png')"
              class="product-thumbnail video-thumbnail">
         </div>
     
@@ -1858,7 +1810,7 @@
                     
                         <div class="col-sm-3 col-xs-6">
                             <div class="video-item">
-                                <a href="/livevideo/sql-in-motion" class="video-item-image-link">
+                                <a href="/livevideo/es6-in-motion" class="video-item-image-link">
                                     
     
         
@@ -1868,7 +1820,7 @@
                 </div>
             </div>
         </div>
-        <div style="background-image: url('https://images.manning.com/720/900/resize/video/4/a9f98d5-4ac8-43f8-8f41-5847c327de22/livevideo-product-brumm.png')"
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/0/f214ea1-3ced-4a57-aa72-a9e69a4677b1/livevideo-product-higbee.png')"
              class="product-thumbnail video-thumbnail">
         </div>
     
@@ -1881,7 +1833,7 @@
                     
                         <div class="col-sm-3 col-xs-6">
                             <div class="video-item">
-                                <a href="/livevideo/es6-in-motion" class="video-item-image-link">
+                                <a href="/livevideo/sql-in-motion" class="video-item-image-link">
                                     
     
         
@@ -1891,7 +1843,7 @@
                 </div>
             </div>
         </div>
-        <div style="background-image: url('https://images.manning.com/720/900/resize/video/0/f214ea1-3ced-4a57-aa72-a9e69a4677b1/livevideo-product-higbee.png')"
+        <div style="background-image: url('https://images.manning.com/720/900/resize/video/4/a9f98d5-4ac8-43f8-8f41-5847c327de22/livevideo-product-brumm.png')"
              class="product-thumbnail video-thumbnail">
         </div>
     
@@ -1916,6 +1868,37 @@
                         
                         
                             
+                        
+                        
+                            
+
+<div class="well homepage-product-range-count-box homepage-livebook-count-box">
+    <div class="homepage-product-range-count-box-sm">
+        <div class="homepage-product-range-count-box-sm-left">
+            <a href="https://livebook.manning.com" class="homepage-product-range-count-box-banner">
+                <img src="/assets/livebook-filled-marginless-2aec1bd393bbebfe8b39cb21f7fca58c.svg" class="product-range-badge"/>
+                
+                    <span class="homepage-product-range-count"><span class="digit">3</span><span class="bar"></span></span>
+                
+                    <span class="homepage-product-range-count"><span class="digit">9</span><span class="bar"></span></span>
+                
+                    <span class="homepage-product-range-count"><span class="digit">6</span><span class="bar"></span></span>
+                
+            </a>
+        </div>
+        <div class="homepage-product-range-count-box-title" ><!-- Empty --></div>
+        <div class="homepage-product-range-count-box-sm-right">
+            <div class="homepage-product-range-count-footer">
+                <ul class="homepage-product-range-links list-inline margin-top">
+                    <li><a href="/livebook-program#section-what-is-livebook">What is a liveBook?</a></li>
+                </ul>
+                <p>liveBooks are enhanced books. They add narration, interactive exercises, code execution, and other features to eBooks.</p>
+            </div>
+        </div>
+    </div>
+    <a href="/livebook-catalog" class="btn btn-default wide-button">All 396 liveBooks</a>
+</div>
+
                         
                         <div class="visible-md visible-sm">
                             <div class="perm-ebook-ad">
@@ -1945,15 +1928,15 @@
                                 MEAP updates, new products, author news
                             </div>
                             
-                                <div class="block-with-text brief"><b>04/24/2018</b> - Three new chapters have been added to <a href="https://www.manning.com/books/data-wrangling-with-javascript"><i>Data Wrangling with JavaScript</i></a>.</div>
+                                <div class="block-with-text brief"><b>04/30/2018</b> - Chapter 6, "Retrieving Similar Documents" has been added to <a href="https://www.manning.com/books/deep-learning-for-search"><i>Deep Learning for Search</i></a>.</div>
                             
-                                <div class="block-with-text brief"><b>04/23/2018</b> - <a href="https://www.manning.com/books/get-programming-with-go"><i>Get Programming with Go</i></a> has entered the final stages of revision and will be heading to production soon!</div>
+                                <div class="block-with-text brief"><b>04/29/2018</b> - Chapter 8, "Leveraging your delivery pipeline for Security" is new to <a href="https://www.manning.com/books/secure-by-design"><i>Secure by Design</i></a>.</div>
                             
-                                <div class="block-with-text brief"><b>04/22/2018</b> - <a href="https://www.manning.com/books/the-art-of-data-usability"><i>The Art of Data Usability</i></a> has undergone extensive revision and many chapters have been updated and re-ordered.</div>
+                                <div class="block-with-text brief"><b>04/28/2018</b> - Chapter 7, "The Application Lifecycle" has been added to <a href="https://www.manning.com/books/cloud-native"><i>Cloud Native</i></a>.</div>
                             
-                                <div class="block-with-text brief"><b>04/21/2018</b> - Chapter 10, "Sequential Processing" has been added to <a href="https://www.manning.com/books/clojure-standard-library"><i>Clojure Standard Library</i></a>.</div>
+                                <div class="block-with-text brief"><b>04/27/2018</b> - <a href="https://www.manning.com/books/asp-dot-net-core-in-action"><i>ASP.NET Core in Action</i></a> has had all its chapters updated and is nearly finished.</div>
                             
-                                <div class="block-with-text brief"><b>04/20/2018</b> - Danilo Poccia, author of <a href="https://www.manning.com/books/aws-lambda-in-action"><i>AWS Lambda in Action</i></a> will be speaking at DevOne Conf Austria next week.</div>
+                                <div class="block-with-text brief"><b>04/26/2018</b> - <a href="https://www.manning.com/books/docker-in-practice-second-edition"><i>Docker in Practice, Second Edition</i></a> is nearing the finish line and going into production soon!</div>
                             
                             <a href="/news" class="all-news">
                                 browse all news &raquo;
@@ -2005,6 +1988,90 @@
                                                     <div class="new-release-layout col-xs-4">
                                                         <div class="book-cover-item">
     <div class="new-release-size-container">
+        <a href="/livevideo/redux-in-motion" class="book-cover-item-image-link">
+            
+    
+        
+        <div class="product-thumbnail product-placeholder">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                </div>
+            </div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/960/resize/video/6/0763b16-87d2-4190-aafe-baeedc97cddb/livevideo-redux-in-motion.png')"
+             class="product-thumbnail video-thumbnail">
+        </div>
+    
+
+
+
+        </a>
+    </div>
+    <div class="book-cover-item-caption">
+        <ul class="list-unstyled">
+            <li>
+                <a href="/livevideo/redux-in-motion">
+                    
+                    <span class="book-cover-item-title">Redux in Motion</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+                                                    </div>
+                                                
+                                                    <div class="new-release-layout col-xs-4">
+                                                        <div class="book-cover-item">
+    <div class="new-release-size-container">
+        <a href="/books/xamarin-in-action" class="book-cover-item-image-link">
+            
+    
+        
+        <div class="product-thumbnail product-placeholder  product-placeholder-released">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                    
+                        Xamarin in Action
+                    
+
+                    
+                </div>
+            </div>
+            
+                <div class="product-placeholder-authorspace">
+                    <div class="product-placeholder-author">
+                        Jim Bennett<br><i>Foreword by James Montemagno</i>
+                    </div>
+                </div>
+            
+            <div class="product-placeholder-meapspace"></div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/960/resize/book/d/98c41b2-1fbc-42f0-a172-79c205022f34/Bennett-Xamarin-HI.png')"
+             class="product-thumbnail">
+             
+        </div>
+    
+
+
+
+        </a>
+    </div>
+    <div class="book-cover-item-caption">
+        <ul class="list-unstyled">
+            <li>
+                <a href="/books/xamarin-in-action">
+                    
+                    <span class="book-cover-item-title">Xamarin in Action</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+                                                    </div>
+                                                
+                                                    <div class="new-release-layout col-xs-4">
+                                                        <div class="book-cover-item">
+    <div class="new-release-size-container">
         <a href="/books/deep-learning-with-pytorch" class="book-cover-item-image-link">
             
     
@@ -2050,6 +2117,11 @@
     </div>
 </div>
                                                     </div>
+                                                
+                                            </div>
+                                        
+                                            
+                                            <div class="item">
                                                 
                                                     <div class="new-release-layout col-xs-4">
                                                         <div class="book-cover-item">
@@ -2135,11 +2207,6 @@
 </div>
                                                     </div>
                                                 
-                                            </div>
-                                        
-                                            
-                                            <div class="item">
-                                                
                                                     <div class="new-release-layout col-xs-4">
                                                         <div class="book-cover-item">
     <div class="new-release-size-container">
@@ -2188,6 +2255,11 @@
     </div>
 </div>
                                                     </div>
+                                                
+                                            </div>
+                                        
+                                            
+                                            <div class="item">
                                                 
                                                     <div class="new-release-layout col-xs-4">
                                                         <div class="book-cover-item">
@@ -2273,11 +2345,6 @@
 </div>
                                                     </div>
                                                 
-                                            </div>
-                                        
-                                            
-                                            <div class="item">
-                                                
                                                     <div class="new-release-layout col-xs-4">
                                                         <div class="book-cover-item">
     <div class="new-release-size-container">
@@ -2320,6 +2387,60 @@
                 <a href="/books/modern-fortran">
                     
                     <span class="book-cover-item-title">Modern Fortran</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+                                                    </div>
+                                                
+                                            </div>
+                                        
+                                            
+                                            <div class="item">
+                                                
+                                                    <div class="new-release-layout col-xs-4">
+                                                        <div class="book-cover-item">
+    <div class="new-release-size-container">
+        <a href="/books/unity-in-action-second-edition" class="book-cover-item-image-link">
+            
+    
+        
+        <div class="product-thumbnail product-placeholder  product-placeholder-released">
+            <div class="product-placeholder-titlespace">
+                <div class="product-placeholder-title">
+                    
+                        Unity in Action, Second Edition
+                    
+
+                    
+                </div>
+            </div>
+            
+                <div class="product-placeholder-authorspace">
+                    <div class="product-placeholder-author">
+                        Joseph Hocking<br/><i>Foreword by Jesse Schell</i>
+                    </div>
+                </div>
+            
+            <div class="product-placeholder-meapspace"></div>
+        </div>
+        <div style="background-image: url('https://images.manning.com/720/960/resize/book/9/899e03b-f2b4-4e9b-9b5b-0230606ffc8b/Hocking-Unity-2-ed-HI.png')"
+             class="product-thumbnail">
+             
+        </div>
+    
+
+
+
+        </a>
+    </div>
+    <div class="book-cover-item-caption">
+        <ul class="list-unstyled">
+            <li>
+                <a href="/books/unity-in-action-second-edition">
+                    
+                    <span class="book-cover-item-title">Unity in Action, Second Edition</span>
                 </a>
             </li>
         </ul>
@@ -2379,60 +2500,6 @@
                                                     <div class="new-release-layout col-xs-4">
                                                         <div class="book-cover-item">
     <div class="new-release-size-container">
-        <a href="/books/unity-in-action-second-edition" class="book-cover-item-image-link">
-            
-    
-        
-        <div class="product-thumbnail product-placeholder  product-placeholder-released">
-            <div class="product-placeholder-titlespace">
-                <div class="product-placeholder-title">
-                    
-                        Unity in Action, Second Edition
-                    
-
-                    
-                </div>
-            </div>
-            
-                <div class="product-placeholder-authorspace">
-                    <div class="product-placeholder-author">
-                        Joseph Hocking<br/><i>Foreword by Jesse Schell</i>
-                    </div>
-                </div>
-            
-            <div class="product-placeholder-meapspace"></div>
-        </div>
-        <div style="background-image: url('https://images.manning.com/720/960/resize/book/9/899e03b-f2b4-4e9b-9b5b-0230606ffc8b/Hocking-Unity-2-ed-HI.png')"
-             class="product-thumbnail">
-             
-        </div>
-    
-
-
-
-        </a>
-    </div>
-    <div class="book-cover-item-caption">
-        <ul class="list-unstyled">
-            <li>
-                <a href="/books/unity-in-action-second-edition">
-                    
-                    <span class="book-cover-item-title">Unity in Action, Second Edition</span>
-                </a>
-            </li>
-        </ul>
-    </div>
-</div>
-                                                    </div>
-                                                
-                                            </div>
-                                        
-                                            
-                                            <div class="item">
-                                                
-                                                    <div class="new-release-layout col-xs-4">
-                                                        <div class="book-cover-item">
-    <div class="new-release-size-container">
         <a href="/books/classic-computer-science-problems-in-swift" class="book-cover-item-image-link">
             
     
@@ -2479,104 +2546,6 @@
 </div>
                                                     </div>
                                                 
-                                                    <div class="new-release-layout col-xs-4">
-                                                        <div class="book-cover-item">
-    <div class="new-release-size-container">
-        <a href="/books/spark-with-java" class="book-cover-item-image-link">
-            
-    
-        
-        <div class="product-thumbnail product-placeholder  product-placeholder-meap">
-            <div class="product-placeholder-titlespace">
-                <div class="product-placeholder-title">
-                    
-                        Spark with Java
-                    
-
-                    
-                </div>
-            </div>
-            
-                <div class="product-placeholder-authorspace">
-                    <div class="product-placeholder-author">
-                        Jean Georges Perrin
-                    </div>
-                </div>
-            
-            <div class="product-placeholder-meapspace"></div>
-        </div>
-        <div style="background-image: url('https://images.manning.com/720/960/resize/book/c/d957839-ecd4-4ceb-a665-df71889152dc/Perrin-Spark-MEAP-HI.png')"
-             class="product-thumbnail">
-             
-        </div>
-    
-
-
-
-        </a>
-    </div>
-    <div class="book-cover-item-caption">
-        <ul class="list-unstyled">
-            <li>
-                <a href="/books/spark-with-java">
-                    
-                    <span class="book-cover-item-title">Spark with Java</span>
-                </a>
-            </li>
-        </ul>
-    </div>
-</div>
-                                                    </div>
-                                                
-                                                    <div class="new-release-layout col-xs-4">
-                                                        <div class="book-cover-item">
-    <div class="new-release-size-container">
-        <a href="/books/css-in-depth" class="book-cover-item-image-link">
-            
-    
-        
-        <div class="product-thumbnail product-placeholder  product-placeholder-released">
-            <div class="product-placeholder-titlespace">
-                <div class="product-placeholder-title">
-                    
-                        CSS in Depth
-                    
-
-                    
-                </div>
-            </div>
-            
-                <div class="product-placeholder-authorspace">
-                    <div class="product-placeholder-author">
-                        Keith J. Grant<br/><i>Foreword by Chris Coyier</i>
-                    </div>
-                </div>
-            
-            <div class="product-placeholder-meapspace"></div>
-        </div>
-        <div style="background-image: url('https://images.manning.com/720/960/resize/book/1/05a18b1-751e-4bcd-9d61-71757f0d2d54/Grant-CSS-HI.png')"
-             class="product-thumbnail">
-             
-        </div>
-    
-
-
-
-        </a>
-    </div>
-    <div class="book-cover-item-caption">
-        <ul class="list-unstyled">
-            <li>
-                <a href="/books/css-in-depth">
-                    
-                    <span class="book-cover-item-title">CSS in Depth</span>
-                </a>
-            </li>
-        </ul>
-    </div>
-</div>
-                                                    </div>
-                                                
                                             </div>
                                         
                                     </div>
@@ -2605,7 +2574,7 @@
                         
 
                         <div class="bestsellers well">
-                            <h1>Bestsellers<span class="bestsellers-date-subheading proper-name">April 15, 2018</span></h1>
+                            <h1>Bestsellers<span class="bestsellers-date-subheading proper-name">April 22, 2018</span></h1>
                             <ol>
                                 
                                     <li>
@@ -2627,33 +2596,19 @@
                                     </li>
                                 
                                     <li>
-                                        <a href="/books/secure-by-design">
-                                            Secure by Design
+                                        <a href="/books/learn-git-in-a-month-of-lunches">
+                                            Learn Git in a Month of Lunches
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/books/kafka-in-action">
+                                            Kafka in Action
                                             
                                                 &nbsp;<span class="meap-badge">
                                                 <img src="/assets/meap-badge-d62b04aad706f67da57c95d645882800.svg" alt="Manning Early Access Program badge"/>
                                             </span>
-                                            
-                                        </a>
-                                    </li>
-                                
-                                    <li>
-                                        <a href="/books/learn-powershell-scripting-in-a-month-of-lunches">
-                                            Learn PowerShell Scripting in a Month of Lunches
-                                            
-                                        </a>
-                                    </li>
-                                
-                                    <li>
-                                        <a href="/books/get-programming">
-                                            Get Programming
-                                            
-                                        </a>
-                                    </li>
-                                
-                                    <li>
-                                        <a href="/books/unity-in-action-second-edition">
-                                            Unity in Action, Second Edition
                                             
                                         </a>
                                     </li>
@@ -2670,15 +2625,8 @@
                                     </li>
                                 
                                     <li>
-                                        <a href="/books/deep-learning-with-r">
-                                            Deep Learning with R
-                                            
-                                        </a>
-                                    </li>
-                                
-                                    <li>
-                                        <a href="/books/isomorphic-web-applications">
-                                            Isomorphic Web Applications
+                                        <a href="/books/the-joy-of-kotlin">
+                                            The Joy of Kotlin
                                             
                                                 &nbsp;<span class="meap-badge">
                                                 <img src="/assets/meap-badge-d62b04aad706f67da57c95d645882800.svg" alt="Manning Early Access Program badge"/>
@@ -2688,12 +2636,37 @@
                                     </li>
                                 
                                     <li>
-                                        <a href="/books/cloud-native">
-                                            Cloud Native
+                                        <a href="/books/elixir-in-action-second-edition">
+                                            Elixir in Action, Second Edition
                                             
                                                 &nbsp;<span class="meap-badge">
                                                 <img src="/assets/meap-badge-d62b04aad706f67da57c95d645882800.svg" alt="Manning Early Access Program badge"/>
                                             </span>
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/books/kotlin-in-action">
+                                            Kotlin in Action
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/books/spring-in-action-fifth-edition">
+                                            Spring in Action, Fifth Edition
+                                            
+                                                &nbsp;<span class="meap-badge">
+                                                <img src="/assets/meap-badge-d62b04aad706f67da57c95d645882800.svg" alt="Manning Early Access Program badge"/>
+                                            </span>
+                                            
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/books/camel-in-action-second-edition">
+                                            Camel in Action, Second Edition
                                             
                                         </a>
                                     </li>
@@ -3162,20 +3135,6 @@
                                         
                                             
 
-                                            <a href="/books/grokking-reactivex">
-                                                
-                                                <div class="title">
-                                                    
-                                                    Grokking
-                                                    <i class="last-word">ReactiveX<span class="inline-badge meap-badge"><img src="/assets/meap-badge-d62b04aad706f67da57c95d645882800.svg" alt="This is a MEAP"/></span></i>
-                                                </div>
-                                            </a>
-
-                                            <!-- Is it time to change columns? -->
-                                            
-                                        
-                                            
-
                                             <a href="/livevideo/ios-development-with-swift-lv">
                                                 
                                                 <div class="title">
@@ -3210,20 +3169,6 @@
                                                     
                                                     Linux in
                                                     <i class="last-word">Action<span class="inline-badge meap-badge"><img src="/assets/meap-badge-d62b04aad706f67da57c95d645882800.svg" alt="This is a MEAP"/></span></i>
-                                                </div>
-                                            </a>
-
-                                            <!-- Is it time to change columns? -->
-                                            
-                                        
-                                            
-
-                                            <a href="/books/machine-learning-with-tensorflow">
-                                                
-                                                <div class="title">
-                                                    
-                                                    Machine Learning with
-                                                    <i class="last-word">TensorFlow</i>
                                                 </div>
                                             </a>
 
@@ -3561,7 +3506,7 @@
                                                 <div class="title">
                                                     
                                                     Xamarin in
-                                                    <i class="last-word">Action<span class="inline-badge meap-badge"><img src="/assets/meap-badge-d62b04aad706f67da57c95d645882800.svg" alt="This is a MEAP"/></span></i>
+                                                    <i class="last-word">Action</i>
                                                 </div>
                                             </a>
 
@@ -3740,25 +3685,6 @@
                                                     
                                                     The Joy of
                                                     <i class="last-word">Kotlin<span class="inline-badge meap-badge"><img src="/assets/meap-badge-d62b04aad706f67da57c95d645882800.svg" alt="This is a MEAP"/></span></i>
-                                                </div>
-                                            </a>
-
-                                            <!-- Is it time to change columns? -->
-                                            
-                                        
-                                    
-                                        <div class="tag ">Machine Learning</div>
-                                        
-
-                                        
-                                            
-
-                                            <a href="/books/machine-learning-with-tensorflow">
-                                                
-                                                <div class="title">
-                                                    
-                                                    Machine Learning with
-                                                    <i class="last-word">TensorFlow</i>
                                                 </div>
                                             </a>
 
@@ -4305,7 +4231,7 @@
                                                 <div class="title">
                                                     
                                                     Redux in
-                                                    <i class="last-word">Motion<span class="inline-badge meap-badge"><img src="/assets/meap-badge-d62b04aad706f67da57c95d645882800.svg" alt="This is a MEAP"/></span><span class="inline-badge livevideo-badge"><img src="/assets/livevideo-badge-0e3bc1d7e6af638e289fbafbcf9f4c41.svg" alt="This is a liveVideo"/></span></i>
+                                                    <i class="last-word">Motion<span class="inline-badge livevideo-badge"><img src="/assets/livevideo-badge-0e3bc1d7e6af638e289fbafbcf9f4c41.svg" alt="This is a liveVideo"/></span></i>
                                                 </div>
                                             </a>
 
@@ -4455,19 +4381,19 @@
             
                 <div class="list-item">
                     <div class="freeContentEntry-title">
-                        <a href="https://freecontent.manning.com/slideshare-using-apache-spark-with-java/">Slideshare: Using Apache Spark with Java</a>
+                        <a href="https://freecontent.manning.com/dependency-injection-in-net-2nd-edition-abuse-of-abstract-factories/">Dependency Injection in .NET, 2nd Edition: Abuse of Abstract Factories</a>
                     </div>
                 </div>
             
                 <div class="list-item">
                     <div class="freeContentEntry-title">
-                        <a href="https://freecontent.manning.com/pestering-your-script/">Pestering your script</a>
+                        <a href="https://freecontent.manning.com/slideshare-crunching-data-with-dask/">Slideshare: Crunching Data with Dask</a>
                     </div>
                 </div>
             
                 <div class="list-item">
                     <div class="freeContentEntry-title">
-                        <a href="https://freecontent.manning.com/aunt-marias-serverless-pizzeria/">Aunt Maria’s Serverless Pizzeria</a>
+                        <a href="https://freecontent.manning.com/kafka-streams-in-action-ksql/">Kafka Streams in Action: KSQL</a>
                     </div>
                 </div>
             
@@ -4493,19 +4419,19 @@
             
                 <div class="list-item">
                     <div class="freeContentEntry-title">
-                        <a href="https://freecontent.manning.com/slideshare-using-apache-spark-with-java/">Slideshare: Using Apache Spark with Java</a>
+                        <a href="https://freecontent.manning.com/dependency-injection-in-net-2nd-edition-abuse-of-abstract-factories/">Dependency Injection in .NET, 2nd Edition: Abuse of Abstract Factories</a>
                     </div>
                 </div>
             
                 <div class="list-item">
                     <div class="freeContentEntry-title">
-                        <a href="https://freecontent.manning.com/pestering-your-script/">Pestering your script</a>
+                        <a href="https://freecontent.manning.com/slideshare-crunching-data-with-dask/">Slideshare: Crunching Data with Dask</a>
                     </div>
                 </div>
             
                 <div class="list-item">
                     <div class="freeContentEntry-title">
-                        <a href="https://freecontent.manning.com/aunt-marias-serverless-pizzeria/">Aunt Maria’s Serverless Pizzeria</a>
+                        <a href="https://freecontent.manning.com/kafka-streams-in-action-ksql/">Kafka Streams in Action: KSQL</a>
                     </div>
                 </div>
             
@@ -4519,15 +4445,15 @@
                                 MEAP updates, new products, author news
                             </div>
                             
-                                <div class="block-with-text brief"><b>04/24/2018</b> - Three new chapters have been added to <a href="https://www.manning.com/books/data-wrangling-with-javascript"><i>Data Wrangling with JavaScript</i></a>.</div>
+                                <div class="block-with-text brief"><b>04/30/2018</b> - Chapter 6, "Retrieving Similar Documents" has been added to <a href="https://www.manning.com/books/deep-learning-for-search"><i>Deep Learning for Search</i></a>.</div>
                             
-                                <div class="block-with-text brief"><b>04/23/2018</b> - <a href="https://www.manning.com/books/get-programming-with-go"><i>Get Programming with Go</i></a> has entered the final stages of revision and will be heading to production soon!</div>
+                                <div class="block-with-text brief"><b>04/29/2018</b> - Chapter 8, "Leveraging your delivery pipeline for Security" is new to <a href="https://www.manning.com/books/secure-by-design"><i>Secure by Design</i></a>.</div>
                             
-                                <div class="block-with-text brief"><b>04/22/2018</b> - <a href="https://www.manning.com/books/the-art-of-data-usability"><i>The Art of Data Usability</i></a> has undergone extensive revision and many chapters have been updated and re-ordered.</div>
+                                <div class="block-with-text brief"><b>04/28/2018</b> - Chapter 7, "The Application Lifecycle" has been added to <a href="https://www.manning.com/books/cloud-native"><i>Cloud Native</i></a>.</div>
                             
-                                <div class="block-with-text brief"><b>04/21/2018</b> - Chapter 10, "Sequential Processing" has been added to <a href="https://www.manning.com/books/clojure-standard-library"><i>Clojure Standard Library</i></a>.</div>
+                                <div class="block-with-text brief"><b>04/27/2018</b> - <a href="https://www.manning.com/books/asp-dot-net-core-in-action"><i>ASP.NET Core in Action</i></a> has had all its chapters updated and is nearly finished.</div>
                             
-                                <div class="block-with-text brief"><b>04/20/2018</b> - Danilo Poccia, author of <a href="https://www.manning.com/books/aws-lambda-in-action"><i>AWS Lambda in Action</i></a> will be speaking at DevOne Conf Austria next week.</div>
+                                <div class="block-with-text brief"><b>04/26/2018</b> - <a href="https://www.manning.com/books/docker-in-practice-second-edition"><i>Docker in Practice, Second Edition</i></a> is nearing the finish line and going into production soon!</div>
                             
                             <a href="/news" class="all-news">
                                 browse all news &raquo;
@@ -4540,20 +4466,20 @@
         
         <div class="tweet-box">
             <div class="tweet">
-                Have a look at the first chapter from D3.js in Action, Second Ed. for free on <a href='https://twitter.com/hashtag/liveBook?src=hash'>#liveBook</a>: <a href='https://t.co/OOcpIVxRMz…'>https://t.co/OOcpIVxRMz…</a> <a href='https://t.co/ZaSVBVPPgJ'>twitter.com/i/web/status/9…</a>
+                Check out the intro module from Machine Learning for Mere Mortals for free. <a href='https://t.co/F2uIwNvAWw'>goo.gl/4Rc5yY</a> <a href='https://twitter.com/hashtag/ML?src=hash'>#ML</a>… <a href='https://t.co/TPpK8ru77u'>twitter.com/i/web/status/9…</a>
             </div>
             <div class="relative-time">
-                <a href="https://twitter.com/ManningBooks/status/988873690845728768">10 hours ago</a>
+                <a href="https://twitter.com/ManningBooks/status/990986636207865857">20 minutes ago</a>
             </div>
         </div>
     
         
         <div class="tweet-box">
             <div class="tweet">
-                <a href='http://www.twitter.com/grantpalin'>@grantpalin</a> Please, try to clear your cache to see if that helps.
+                See the free clips from Algorithms in Motion here: <a href='https://t.co/eUut1o4iIb'>bit.ly/2BcsS2t</a> <a href='http://www.twitter.com/CarnesBeau'>@CarnesBeau</a> <a href='https://twitter.com/hashtag/algorithm?src=hash'>#algorithm</a> <a href='https://twitter.com/hashtag/programming?src=hash'>#programming</a> <a href='https://twitter.com/hashtag/liveVideo?src=hash'>#liveVideo</a> <a href='https://twitter.com/hashtag/compsci?src=hash'>#compsci</a>
             </div>
             <div class="relative-time">
-                <a href="https://twitter.com/ManningBooks/status/988864209399279617">11 hours ago</a>
+                <a href="https://twitter.com/ManningBooks/status/990984132867051521">30 minutes ago</a>
             </div>
         </div>
     
@@ -4569,20 +4495,20 @@
         
         <div class="tweet-box">
             <div class="tweet">
-                Have a look at the first chapter from D3.js in Action, Second Ed. for free on <a href='https://twitter.com/hashtag/liveBook?src=hash'>#liveBook</a>: <a href='https://t.co/OOcpIVxRMz…'>https://t.co/OOcpIVxRMz…</a> <a href='https://t.co/ZaSVBVPPgJ'>twitter.com/i/web/status/9…</a>
+                Check out the intro module from Machine Learning for Mere Mortals for free. <a href='https://t.co/F2uIwNvAWw'>goo.gl/4Rc5yY</a> <a href='https://twitter.com/hashtag/ML?src=hash'>#ML</a>… <a href='https://t.co/TPpK8ru77u'>twitter.com/i/web/status/9…</a>
             </div>
             <div class="relative-time">
-                <a href="https://twitter.com/ManningBooks/status/988873690845728768">10 hours ago</a>
+                <a href="https://twitter.com/ManningBooks/status/990986636207865857">20 minutes ago</a>
             </div>
         </div>
     
         
         <div class="tweet-box">
             <div class="tweet">
-                <a href='http://www.twitter.com/grantpalin'>@grantpalin</a> Please, try to clear your cache to see if that helps.
+                See the free clips from Algorithms in Motion here: <a href='https://t.co/eUut1o4iIb'>bit.ly/2BcsS2t</a> <a href='http://www.twitter.com/CarnesBeau'>@CarnesBeau</a> <a href='https://twitter.com/hashtag/algorithm?src=hash'>#algorithm</a> <a href='https://twitter.com/hashtag/programming?src=hash'>#programming</a> <a href='https://twitter.com/hashtag/liveVideo?src=hash'>#liveVideo</a> <a href='https://twitter.com/hashtag/compsci?src=hash'>#compsci</a>
             </div>
             <div class="relative-time">
-                <a href="https://twitter.com/ManningBooks/status/988864209399279617">11 hours ago</a>
+                <a href="https://twitter.com/ManningBooks/status/990984132867051521">30 minutes ago</a>
             </div>
         </div>
     

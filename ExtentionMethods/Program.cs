@@ -59,6 +59,7 @@ namespace ExtentionMethods
 			Console.WriteLine("OrderBy");
 			OrderBy.Example1();
             OrderBy.Example2();
+            OrderBy.Example3GroupBy();
         }
 
 		public static void ExampleWithAndWithoutExtentionMethod()
