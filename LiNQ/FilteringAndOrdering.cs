@@ -14,6 +14,51 @@ namespace LiNQExample
         {
            
         }
-        
+
+        public static void Example3()
+        {
+            User tim = SampleData.Users.TesterTim;
+
+            var query = from bug in SampleData.AllDefects
+                        where bug.Status != Status.Closed
+                        where bug.AssignedTo == tim
+                        orderby bug.Severity descending
+                        select bug;
+
+            foreach (var bug in query)
+            {
+                Console.WriteLine("{0}: {1}", bug.Severity, bug.Summary);
+            }
+        }
+
+        public static void Example4()
+        {
+            User tim = SampleData.Users.TesterTim;
+
+            var query = from bug in SampleData.AllDefects
+                        where bug.Status != Status.Closed
+                        where bug.AssignedTo == tim
+                        orderby bug.Severity descending, bug.LastModified
+                        select bug;
+
+            foreach (var bug in query)
+            {
+                Console.WriteLine("{0}: {1} ({2:d})",
+                                  bug.Severity, bug.Summary, bug.LastModified);
+            }
+
+            // Translated to :
+            SampleData.AllDefects.Where(defect => defect.Status != Status.Closed)
+                                 .Where(defect => defect.AssignedTo == tim)
+                                 .OrderByDescending(defect => defect.Severity)
+                                 .ThenBy(defect => defect.LastModified);
+
+            /*
+                It’s important to note that although you can use multiple orderby clauses, 
+                each one will start with its own OrderBy or OrderByDescending clause, 
+                which means the last one will effectively win.
+             */
+        }
+
     }
 }
