@@ -38,7 +38,7 @@ namespace WhereImplementation
         {
             var source = new Dummy<string>();
 
-            var query0 = source.Where((Dummy<string> dummy) => dummy.ToString() == "Ignored");
+            var query0 = source.Where<string>((string dummy) => dummy.ToString() == "Ignored");
             var query = source.Where(dummy => dummy.ToString() == "Ignored").Select(dummy => "Anything");
             var query1 = source.Where(dummy => dummy.ToString() == "Ignored").Select<int>(delegate(String a) { return 1; });
         }

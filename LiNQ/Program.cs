@@ -29,6 +29,9 @@ namespace LiNQExample
 
             Console.WriteLine("------------");
             RangeVariables.Example3();
+
+            Console.WriteLine("------------");
+            FilteringAndOrdering.Example1();
         }
 
         static void Example1()
