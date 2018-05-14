@@ -20,18 +20,31 @@ namespace LiNQExample
     {
         static void Main(string[] args)
         {
-            BrakeDownQuery.Example1();
-            Example1();
+            //BrakeDownQuery.Example1();
+            //Example1();
 
-            TranslationExample.Example();
-            Console.WriteLine("------------");
-            RangeVariables.Example2();
+            //TranslationExample.Example();
+            //Console.WriteLine("------------");
+            //RangeVariables.Example2();
+
+            //Console.WriteLine("------------");
+            //RangeVariables.Example3();
+
+            //Console.WriteLine("------------");
+            //FilteringAndOrdering.Example3();
+
+            //Console.WriteLine("------------");
+            //FilteringAndOrdering.Example4();
+
+            //Console.WriteLine("------------");
+            //Joins.Example();
 
             Console.WriteLine("------------");
             RangeVariables.Example3();
 
             Console.WriteLine("------------");
             FilteringAndOrdering.Example1();
+            JoinsGroupping.Example2();
         }
 
         static void Example1()
