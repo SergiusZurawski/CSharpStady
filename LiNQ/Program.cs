@@ -39,12 +39,15 @@ namespace LiNQExample
             //Console.WriteLine("------------");
             //Joins.Example();
 
-            Console.WriteLine("------------");
-            RangeVariables.Example3();
+            //Console.WriteLine("------------");
+            //RangeVariables.Example3();
+
+            //Console.WriteLine("------------");
+            //FilteringAndOrdering.Example1();
+            //JoinsGroupping.Example2();
 
             Console.WriteLine("------------");
-            FilteringAndOrdering.Example1();
-            JoinsGroupping.Example2();
+            Groupings.Example();
         }
 
         static void Example1()
