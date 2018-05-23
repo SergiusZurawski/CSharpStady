@@ -67,5 +67,58 @@ namespace ExtendedLINQClassicNetFramework
             }
         }
 
+        public static void Example4()
+        {
+            using (var context = new DefectModelDataContext())
+            {
+                context.Log = Console.Out;
+
+                var query = from defect in context.Defects
+                            join subscription in context.NotificationSubscriptions
+                                on defect.Project equals subscription.Project
+                                into groupedSubscriptions
+                            select new { Defect = defect, Subscriptions = groupedSubscriptions };
+
+                foreach (var entry in query)
+                {
+                    Console.WriteLine(entry);
+                }
+            }
+        }
+
+        public static void Example5()    //Inner Join, because you navigate via object property , SQL has to create a join
+        {
+            using (var context = new DefectModelDataContext())
+            {
+                context.Log = Console.Out;
+
+                var query = from defect in context.Defects
+                            select new { defect.Summary, ProjectName = defect.Project.Name };
+
+                foreach (var entry in query)
+                {
+                    Console.WriteLine(entry);
+                }
+            }
+
+        }
+
+        public static void Example6()    //left Outer Join, because you navigate via object property , SQL has to create a join and this property is nullable
+        {
+            using (var context = new DefectModelDataContext())
+            {
+                context.Log = Console.Out;
+
+                var query = from defect in context.Defects
+                            select new { defect.Summary, Assignee = defect.AssignedTo.Name };
+
+                foreach (var entry in query)
+                {
+                    Console.WriteLine(entry);
+                }
+            }
+
+        }
+
     }
 }
