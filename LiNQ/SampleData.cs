@@ -574,10 +574,33 @@ namespace DataModel
             };
         }
 
+        public static void AssignIDs()
+        {
+            AssignIDs (SampleData.AllProjects,
+                       (project, id) => project.ProjectID = id);
+            AssignIDs (SampleData.AllUsers,
+                       (user, id) => user.UserID = id);
+            AssignIDs (SampleData.AllDefects,
+                       (defect, id) => defect.ID = id);
+            AssignIDs (SampleData.AllSubscriptions,
+                       (subscription, id) => subscription.NotificationSubscriptionID = id);
+        }
+
+        static void AssignIDs<T>(IEnumerable<T> elements,
+                                 Action<T,int> action)
+        {
+            int id = 1;
+            foreach (T element in elements)
+            {
+                action(element, id++);
+            }
+        }
+
         public static DateTime May(int day)
         {
             return new DateTime(2013, 5, day);
         }
+        
     }
 
 }
