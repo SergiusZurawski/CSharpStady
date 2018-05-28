@@ -38,12 +38,15 @@ namespace LINQToXml
 
         }
 
+
+        //Investigate
         static void Example3()
         {
             XElement root = XmlSampleData.GetElement();
 
             var query = root.Element("users").Elements()
-                            .Select(user => new {
+                            .Select(user => new
+                            {
                                 Name = (string)user.Attribute("name"),
                                 UserType = (string)user.Attribute("type")
                             });
@@ -52,6 +55,13 @@ namespace LINQToXml
             {
                 Console.WriteLine("{0}: {1}", user.Name, user.UserType);
             }
+        }
+
+        static void Example4()
+        {
+            //from project in root.Element("projects").Elements()
+            //from subscription in project.Elements("su bscription")
+            //select subscription
         }
     }
 }

@@ -10,13 +10,13 @@ namespace LINQToXml
     {
         public static XElement GetElement()
         {
-            SampleData.AssignIDs();
+            //SampleData.AssignIDs();
 
             var projects = new XElement("projects",
                 from project in SampleData.AllProjects
                 select new XElement("project",
                     new XAttribute("name", project.Name),
-                    new XAttribute("id", project.ProjectID),
+                    //new XAttribute("id", project.ProjectID),
                     from subscription in SampleData.AllSubscriptions
                     where subscription.Project == project
                     select new XElement("subscription",
@@ -29,7 +29,7 @@ namespace LINQToXml
                 from user in SampleData.AllUsers
                 select new XElement("user",
                     new XAttribute("name", user.Name),
-                    new XAttribute("id", user.UserID),
+                    //new XAttribute("id", user.UserID),
                     new XAttribute("type", user.UserType))
             );
 
@@ -39,9 +39,9 @@ namespace LINQToXml
                     new XAttribute("id", defect.ID),
                     new XAttribute("summary", defect.Summary),
                     new XAttribute("created", defect.Created),
-                    new XAttribute("project", defect.Project.ProjectID),
-                    defect.AssignedTo == null ? null : new XAttribute("assigned-to", defect.AssignedTo.UserID),
-                    new XAttribute("created-by", defect.CreatedByUserID),
+                    //new XAttribute("project", defect.Project.ProjectID),
+                    defect.AssignedTo == null ? null : new XAttribute("assigned-to", defect.AssignedTo),  //Changed
+                    //new XAttribute("created-by", defect.CreatedByUserID),
                     new XAttribute("status", defect.Status),
                     new XAttribute("severity", defect.Severity),
                     new XAttribute("last-modified", defect.LastModified))
