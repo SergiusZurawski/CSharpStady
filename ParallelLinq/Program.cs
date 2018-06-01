@@ -6,7 +6,13 @@ namespace ParallelLinq
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ParralleExample.Example1NotOrderred();
+            ParralleExample.Example2NotOrderred();
+            ParralleExample.Example3Orderred();
+            ParralleExample.Example4ParallelQuery();
+            ParralleExample.Example5ParallelQuery();
+            ParralleExample.Example6ParallelQueryWithDotNotation();
+
         }
     }
 }
