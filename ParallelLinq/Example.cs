@@ -68,6 +68,104 @@ namespace ParallelLinq
 
         }
 
+        public static void ExampleCLIDecidesWhetherToUseparalelismOrNot()
+        {
+            var numbers = Enumerable.Range(0, 100000000);
+            var parallelResult = numbers.AsParallel()
+                            .Where(i => i % 2 == 0)
+                            .ToArray();
+            foreach (var i in parallelResult) { Console.Write(i); Console.Write(" "); }
+        }
+
+        public static void ExampleEnforsingParalelism()
+        {
+            var numbers = Enumerable.Range(0, 100000000);
+            var parallelResult = numbers.AsParallel()
+                            .WithExecutionMode(ParallelExecutionMode.ForceParallelism)
+                            .Where(i => i % 2 == 0)
+                            .ToArray();
+            foreach (var i in parallelResult) { Console.Write(i); Console.Write(" "); }
+        }
+
+        public static void ExampleLimitAmountOfParalelizm()
+        {
+            var numbers = Enumerable.Range(0, 100000000);
+            var parallelResult = numbers.AsParallel()
+                            .WithExecutionMode(ParallelExecutionMode.ForceParallelism)
+                            .WithDegreeOfParallelism(2)
+                            .Where(i => i % 2 == 0)
+                            .ToArray();
+            foreach (var i in parallelResult) { Console.Write(i); Console.Write(" "); }
+        }
+
+        //Don't Undestand difference betten prevoius queries
+        public static void ExampleUnordered1()
+        {
+            var numbers = Enumerable.Range(0, 10);
+            var parallelResult = numbers.AsParallel().Where(i => i % 2 == 0).ToArray();
+            foreach (int i in parallelResult)
+                Console.WriteLine(i);
+        }
+
+        public static void ExampleOrdered1()
+        {
+            var numbers = Enumerable.Range(0, 10);
+            var parallelResult = numbers.AsParallel()
+                                        .AsOrdered()
+                                        .Where(i => i % 2 == 0).ToArray();
+            foreach (int i in parallelResult)
+                Console.WriteLine(i);
+        }
+
+        public static void ExampleOrderedSequential()
+        {
+            var numbers = Enumerable.Range(0, 20);
+
+            var parallelResult = numbers.AsParallel().AsOrdered().Where(i => i % 2 == 0).AsSequential();
+
+            foreach (int i in parallelResult.Take(5)) Console.WriteLine(i);
+
+        }
+
+
+        /// <summary>
+        /// In contrast to foreach, ForAll does not need all results before it starts executing.
+        /// In this example, ForAll does, however, remove any sort order that is specified. 
+        /// </summary>
+        public static void ExampleForAll()
+        {
+            var numbers = Enumerable.Range(0, 20);
+
+            var parallelResult = numbers.AsParallel().Where(i => i % 2 == 0);
+
+            parallelResult.ForAll(e => Console.WriteLine(e));
+
+        }
+
+        /// <summary>
+        /// if an operation parallel query throw an exception
+        ///  Framework handles this by aggregating all exceptions into one AggregateException. 
+        ///  This exception exposes a list of all exceptions that have happened during parallel execution. 
+        /// </summary>
+        public static void ExampleAggregateException()
+        {
+            var numbers = Enumerable.Range(0, 20);
+            try
+            {
+                var parallelResult = numbers.AsParallel().Where(i => IsEven(i)); parallelResult.ForAll(e => Console.WriteLine(e));
+            }
+            catch (AggregateException e)
+            {
+                Console.WriteLine("Therewhere {0} exceptions", e.InnerExceptions.Count);
+            }
+        }
+
+        public static bool IsEven(int i)
+        {
+            if (i % 10 == 0)
+                throw new ArgumentException("i");
+            return i % 2 == 0;
+        }
         private static string giveMeCurrTime()
         {
             return DateTime.Now.ToString(new CultureInfo("en-GB"));
