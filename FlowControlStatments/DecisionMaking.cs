@@ -94,10 +94,13 @@ namespace FlowControlStatments
 
         static void ExampleSwitch()
         {
-            //
+            // CLASSIC IF 
+            Check('a');
+            // SWITCH - sysntatic sugar -loks better
+            CheckWithSwitch('a');
         }
 
-        void Check(char input)
+        static void Check(char input)
         {
             if (input == 'a'
             || input == 'e'
@@ -112,7 +115,7 @@ namespace FlowControlStatments
                 Console.WriteLine("Input is a consonant");
             }
         }
-        void CheckWithSwitch(char input)
+        static void CheckWithSwitch(char input)
         {
             switch (input)
             {
