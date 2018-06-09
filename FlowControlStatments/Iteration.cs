@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace FlowControlStatments
 {
@@ -97,5 +98,62 @@ namespace FlowControlStatments
             // Displays 123456
         }
 
+        /// Loop variable 
+        /// cannot be modified. You can make modifications to the object that the variable points to, but you can’t assign a new value to it.
+        ///
+
+        public class Person 
+        {     
+            public string FirstName { get; set; }     
+            public string LastName { get; set; } 
+        } 
+        public static void Example8foreachWithModificationOfLoopVarible()
+        {
+            var people = new List<Person>
+            {
+                new Person() { FirstName = "John", LastName = "Doe"},
+                new Person() { FirstName = "Jane", LastName = "Doe"},
+            }; 
+            
+                foreach (Person p in people)
+            {
+                p.LastName = "Changed"; // This is allowed
+                // p = new Person(); // This gives a compile error
+            }
+        }
+
+        public static void Example9ForEachTranslated()
+        {
+            var people = new List<Person>
+            {
+                new Person(){FirstName="John",LastName="Doe"},
+                new Person(){FirstName="Jane",LastName="Doe"},
+            };
+
+            List<Person>.Enumerator e = people.GetEnumerator();
+
+            try
+            {
+                Person v;
+                while (e.MoveNext())
+                {
+                    v = e.Current;
+                }
+            }
+            finally
+            {
+                System.IDisposable d = e as System.IDisposable;
+                if (d != null) d.Dispose();
+            }
+
+            /*
+             * If you change the value of e.Current to something else, the iterator pattern can’t determine what to do when e.MoveNext is called. 
+             * This is why it’s not allowed to change the value of the iteration variable in a foreach statement
+             */
+        }
+
     }
+
+    
+ 
 }
