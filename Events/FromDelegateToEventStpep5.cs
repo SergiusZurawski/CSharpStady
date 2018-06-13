@@ -5,14 +5,7 @@ using System.Linq;
 namespace Events
 {
 
-    /*
-     ■■ Delegates are a type that defines a method signature and can contain a reference to a method. 
-     ■■ Delegates can be instantiated, passed around, and invoked. 
-     ■■ Lambda expressions, also known as anonymous methods, use the => operator and form a compact way of creating inline methods. 
-     ■■ Events are a layer of syntactic sugar on top of delegates to easily implement the publish-subscribe pattern. 
-     ■■ Events can be raised only from the declaring class. Users of events can only remove and add methods the invocation list. 
-     ■■ You can customize events by adding a custom event accessor and by directly using the underlying delegate type.
-    */
+
     public class PubWithExceptionHandling
     {
         public event EventHandler OnChange = delegate { };
