@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Runtime.ExceptionServices;
 
 namespace ExceptionHandling
 {
@@ -30,23 +31,21 @@ namespace ExceptionHandling
             }
         }
 
-        public static void SomeOperation()
-        {
-            throw new ArgumentException();
-        }
+        public static void SomeOperation(){throw new ArgumentException();}
 
-        public static void Log(Exception log)
-        {}
+        public static void Log(Exception log){}
 
         public static string OpenAndParse(string fileName)
         {
-            if (string.IsNullOrWhiteSpace(fileName)) throw new ArgumentNullException("fileName", "Filename is required");
+            if (string.IsNullOrWhiteSpace(fileName))
+                throw new ArgumentNullException("fileName", "Filename is required");
 
             return File.ReadAllText(fileName);
         }
 
         /*
-          
+            In some situations you want to wrap original exception to more user freandly or context freandly
+            and  set the InnerException to the original exception
          */
 
         public static void  Example2()
@@ -56,8 +55,43 @@ namespace ExceptionHandling
                 ProcessOrder();
             } catch (MessageQueueException ex)
             {
-                throw new OrderProcessingException("Errorwhileprocessingorder", ex); }
+                throw new OrderProcessingException("Errorwhileprocessingorder", ex);
+            }
+        }
+
+        public static void ProcessOrder() { throw new ArgumentException(); }
+        public class MessageQueueException: Exception {}
+        public class OrderProcessingException : Exception
+        {
+            public OrderProcessingException(string m, Exception e):base(m, e)
+            {}
+        }
+
+        /*
+         ExceptionDispatchInfo.Throw method, which can be found in the System.Runtime.ExceptionServices namespace. 
+         This method can be used to throw an exception and preserve the original stack trace. 
+         This method can be used even outside of a catch block, 
+        */
+
+        public static void Example3()
+        {
+            ExceptionDispatchInfo possibleException = null;
+
+            try
+            {
+                string s = Console.ReadLine();
+                int.Parse(s);
+            } catch (FormatException ex)
+            {
+                possibleException = ExceptionDispatchInfo.Capture(ex);
+            }
+
+            if (possibleException != null)
+            {
+                possibleException.Throw();
+            }
 
         }
+
     }
 }
