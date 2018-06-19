@@ -30,6 +30,7 @@ namespace ExceptionHandling
      *  You should never inherit from System.ApplicationException. The original idea was that all C# runtime exceptions should inherit from System.Exception 
      *  and all custom exceptions from System.ApplicationException. 
      *  However, because the .NET Framework doesn’t follow this pattern, the class became useless and lost its meaning.
+     
          */
 
     [Serializable]
