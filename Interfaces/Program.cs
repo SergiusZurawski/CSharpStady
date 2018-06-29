@@ -1,5 +1,4 @@
 ﻿using System;
-<<<<<<< HEAD
 using System.Collections.Generic;
 
 namespace Interfaces
@@ -10,16 +9,11 @@ namespace Interfaces
     //                       properties, 
     //                       events, 
     //                       and indexers
-=======
 
-namespace Interfaces
-{
->>>>>>> 4455e980860c69552527a26aad5832d705cbe63b
     class Program
     {
         static void Main(string[] args)
         {
-<<<<<<< HEAD
            
         }
     }
@@ -60,12 +54,6 @@ namespace Interfaces
 
 
 
-
-=======
-            Console.WriteLine("Hello World!");
-        }
-    }
-
     interface IReadOnlyInterface
     {
         int Value { get; }
@@ -74,5 +62,4 @@ namespace Interfaces
     {
         public int Value { get; set; }
     }
->>>>>>> 4455e980860c69552527a26aad5832d705cbe63b
 }
