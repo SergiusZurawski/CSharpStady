@@ -1,5 +1,8 @@
 ﻿using System;
 
+
+/// Investigate default(T)
+
 using System.Collections.Generic;  //name space with generics 
     //System.Collections           //old collections
 
