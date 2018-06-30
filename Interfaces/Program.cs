@@ -25,7 +25,9 @@ namespace Interfaces
         event EventHandler ResultRetrieved;
         int this[string index] { get; set; }
         //  all interface members are public by defaul
+        // Therefore all methods on interfaces must be public.
     }
+
     class ExampleImplementation : IExample
     {
         public string GetResult()
