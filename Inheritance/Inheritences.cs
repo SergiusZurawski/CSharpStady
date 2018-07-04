@@ -48,14 +48,18 @@ namespace Inheritance
         public void ExecuteHide() { WriteLine("A.Execute Hide"); }
         // virtual for hidding
         public virtual void ExecuteHideVirutal() { WriteLine("A.Execute HIDE Virtual "); }
+        
+
     }
 
     public class B : A
     {
         public void Execute(){WriteLine("B.Execute");}
+        // No Virtual Override
         //public override void Execute() { } //// cannot override becase method is not vertual
         public override void ExecuteVirutal() {WriteLine("B.Execute Virtual"); }
         public new void ExecuteHide() { WriteLine("B.Execute Hide"); }
         public new void ExecuteHideVirutal() { WriteLine("B.Execute HIDE Virtual "); }
+        
     }
 }
