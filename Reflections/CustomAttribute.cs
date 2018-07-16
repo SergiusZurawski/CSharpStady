@@ -17,9 +17,12 @@ namespace Reflections
     }
 
     /// When creating your own custom attribute from scratch, you also have to define the targets on which an attribute can be used
-    [System.AttributeUsage(System.AttributeTargets.Class |
+    [System.AttributeUsage(
+                            System.AttributeTargets.Class |
                             System.AttributeTargets.Struct |
-                            System.AttributeTargets.Method)]
+                            System.AttributeTargets.Method,
+                            AllowMultiple = true
+                            )]
     public class Author : System.Attribute
     {
         private string name;
