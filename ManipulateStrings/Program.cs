@@ -130,8 +130,45 @@ namespace ManipulateStrings
         //      overriding ToString is not enough - use format strings. 
         public static void FormatingSimpleCultureDependentExample()
         {
-            double cost = 1234.56; Console.WriteLine(cost.ToString("C", new System.Globalization.CultureInfo("en-US"))); // Displays $1,234.56
+            double cost = 1234.56;
+            Console.WriteLine(cost.ToString("C", new System.Globalization.CultureInfo("en-US"))); 
+            // Displays $1,234.56
 
         }
+
+        //You can also implement this custom formatting on your own types.  ToString(string)  
+        public static void FormatingDatesExample()
+        {
+            DateTime d = new DateTime(2013, 4, 22);
+            CultureInfo provider = new CultureInfo("en-US");
+            Console.WriteLine(d.ToString("d", provider)); // Displays 4/22/2013 
+            Console.WriteLine(d.ToString("D", provider)); // Displays Monday, April 22, 2013 
+            Console.WriteLine(d.ToString("M", provider)); // Displays April 22
+        }
+
+        class Person1 : Person
+        {
+            public Person1(string firstName, string lastName) : base(firstName, lastName) { }
+            public string ToString(string format)
+            {
+                if (string.IsNullOrWhiteSpace(format) || format == "G")
+                    format = "FL";
+
+                    format = format.Trim().ToUpperInvariant();
+
+                    switch (format)
+                    {
+                        case "FL":
+                            return FirstName + " " + LastName;
+                        case "LF":
+                            return LastName + " " + FirstName;
+                        case "FSL": return FirstName + ", " + LastName;
+                        case "LSF": return LastName + ", " + FirstName;
+                        default:
+                            throw new FormatException(String.Format("The '{0}' format string is not supported.", format));
+                }
+            }
+        }
+
     }
 }
