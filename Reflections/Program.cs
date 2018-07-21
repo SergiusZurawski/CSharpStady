@@ -116,6 +116,15 @@ namespace Reflections
          */
     }
 
+    // the actual class in the .NET Framework is called SerializableAttribute
+    // By convention, the name is suffixed with Attribute so you can easily distinguish between attributes
+    // You can skip the Attribute suffix When using the attribute 
+    [Serializable]
+    class Person
+    {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+    }
     /*
      Use Assembly to define and load assemblies, 
             load modules that are listed in the assembly manifest, 
@@ -161,5 +170,5 @@ namespace Reflections
      
      */
 
-
 }
+
