@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace Parsing
+namespace EncryptionExamples
 {
     class Program
     {
         static void Main(string[] args)
         {
-            XMLSerizlization.ExampleSerizalization();
+            Console.WriteLine("Hello World!");
         }
     }
 }
