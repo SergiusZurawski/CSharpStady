@@ -10,12 +10,19 @@ namespace Diagnostics
 {
     public class WindowsEventLog
     {
+
+        // ??
+        // Ivestigat Promoting account from code
+        //Ivestigate event sources
         public static void CallExample()
         {
+
+            //Run as administrator
             if (!EventLog.SourceExists("MySource"))
             {
                 EventLog.CreateEventSource("MySource", "MyNewLog");
-                Console.WriteLine("CreatedEventSource"); Console.WriteLine("Please restart application");
+                Console.WriteLine("CreatedEventSource");
+                Console.WriteLine("Please restart application");
                 Console.ReadKey();
                 return;
             }
@@ -33,7 +40,7 @@ namespace Diagnostics
             EventLogEntry last = log.Entries[log.Entries.Count - 1];
             Console.WriteLine("Index:   " + last.Index);
             Console.WriteLine("Source:  " + last.Source);
-            Console.WriteLine("Type:    " + last.EntryType);
+            Console.WriteLine("Type:    " + last.EntryType); 
             Console.WriteLine("Time:    " + last.TimeWritten);
             Console.WriteLine("Message: " + last.Message);
 
