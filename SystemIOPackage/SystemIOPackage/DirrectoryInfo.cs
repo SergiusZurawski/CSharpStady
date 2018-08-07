@@ -94,6 +94,16 @@ namespace SystemIOPackage
 
             FileInfo fileInfo = new FileInfo(path);
             fileInfo.MoveTo(destPath);
+            // Coping files
+
+
+
+            File.CreateText(path).Close();
+            File.Copy(path, destPath);
+
+            fileInfo = new FileInfo(path);
+            fileInfo.CopyTo(destPath);
+
 
         }
 

@@ -8,7 +8,12 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace SystemIOPackage
-{
+{ 
+    /*
+        static File class does not support real asynchronous I/O. 
+        When call asynchronous methods, it fakes this by using another thread from the thread pool to work with the file. 
+        For real async I/O, you need to use the FileStream object and pass a true value for the useAsync parameter. 
+    */
     public class Streams
     {
         public static void Example()
