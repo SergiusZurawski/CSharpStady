@@ -117,5 +117,89 @@ namespace PersistenceAPI
             }
         }
 
+        //A SqlDataReader is a forward-only stream of rows.
+        //You can access the columns of a resulting row both by index and by name.
+
+        // Query  That returns two result sets
+        public async Task SelectMultipleResultSets()
+        {
+            string connectionString = ""//ConfigurationManager.ConnectionStrings["ProgrammingInCSharpConnection"].ConnectionString;
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                SqlCommand command = new SqlCommand("SELECT * FROM People;                 SELECT TOP 1 * FROM People ORDER BY LastName", connection);
+                await connection.OpenAsync();
+                SqlDataReader dataReader = await command.ExecuteReaderAsync();
+                await ReadQueryResults(dataReader);
+                await dataReader.NextResultAsync(); // Move to the next result set
+                await ReadQueryResults(dataReader);
+                dataReader.Close();
+            }
+        }
+        private static async Task ReadQueryResults(SqlDataReader dataReader)
+        {
+            while (await dataReader.ReadAsync())
+            {
+                string formatStringWithMiddleName = "Person ({0}) is named {1} {2} {3}";
+                string formatStringWithoutMiddleName = "Person ({0}) is named {1} {3}";
+                if ((dataReader["middlename"] == null))
+                {
+                    Console.WriteLine(formatStringWithoutMiddleName,
+                    dataReader["id"],
+                    dataReader["firstname"],
+                    dataReader["lastname"]);
+                }
+                else
+                {
+                    Console.WriteLine(formatStringWithMiddleName,
+                    dataReader["id"],
+                    dataReader["firstname"],
+                    dataReader["middlename"],
+                    dataReader["lastname"]);
+                }
+            }
+        }
+
+        //updating the data
+        //  You can do it all by using a connection and a command object. 
+        //  But instead of getting back a reader with the resulting rows, 
+        //  you get an integer value back that shows how many rows are affected by your last query(Only last, if you have multiple SQL queries in). 
+        public async Task UpdateRows()
+        {
+            string connectionString = ""; // ConfigurationManager.ConnectionStrings["ProgrammingInCSharpConnection"].ConnectionString;
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                SqlCommand command = new SqlCommand(
+                "UPDATE People SET FirstName='John'",
+                connection);
+
+                await connection.OpenAsync();
+                int numberOfUpdatedRows = await command.ExecuteNonQueryAsync();
+                Console.WriteLine("Updated {0} rows", numberOfUpdatedRows);
+            }
+
+        }
+        //Security Risk of SQL
+        // Use parametrized quries
+        public async Task InsertRowWithParameterizedQuery()
+        {
+            string connectionString = ""; // ConfigurationManager.ConnectionStrings["ProgrammingInCSharpConnection"].ConnectionString;
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                SqlCommand command = new SqlCommand(
+                "INSERT INTO People([FirstName], [LastName], [MiddleName]) VALUES(@ firstName, @lastName, @middleName)",
+                connection);
+                await connection.OpenAsync();
+
+                command.Parameters.AddWithValue("@firstName", "John");
+                command.Parameters.AddWithValue("@lastName", "Doe");
+                command.Parameters.AddWithValue("@middleName", "Little");
+
+                int numberOfInsertedRows = await command.ExecuteNonQueryAsync();
+                Console.WriteLine("Inserted {0} rows", numberOfInsertedRows);
+            }
+        }
+
     }
 }
