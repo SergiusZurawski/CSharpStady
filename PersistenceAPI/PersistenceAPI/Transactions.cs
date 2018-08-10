@@ -23,9 +23,9 @@ namespace PersistenceAPI
         public static void Example()
         {
             string connectionString = "";// ConfigurationManager.ConnectionStrings["ProgrammingInCSharpConnection"].ConnectionString;
-            using (TransactionScope transactionScope = new TransactionScope())
+            using (SqlConnection connection = new SqlConnection(connectionString))
             {
-                using (SqlConnection connection = new SqlConnection(connectionString))
+                using (SqlTransaction transaction = connection.BeginTransaction("SomeTransaction"))
                 {
                     connection.Open();
 
@@ -38,8 +38,9 @@ namespace PersistenceAPI
 
                     command1.ExecuteNonQuery();
                     command2.ExecuteNonQuery();
+                    transaction.Commit();
+                    Console.WriteLine("Both records are written to database.");
                 }
-                transactionScope.Complete();
             }
         }
 
