@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8957514E-EE44-4FFB-8F4C-C75D2DD08436}</ProjectGuid>
+    <ProjectGuid>{5857D44B-3787-41FC-842A-E8E40FF69522}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CASExample</RootNamespace>
-    <AssemblyName>CASExample</AssemblyName>
+    <RootNamespace>Collections</RootNamespace>
+    <AssemblyName>Collections</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -34,7 +34,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Net" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,6 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="QueuesAndStacks.cs" />
+    <Compile Include="Sets.cs" />
+    <Compile Include="Dictionaries.cs" />
+    <Compile Include="Lists.cs" />
+    <Compile Include="Arrays.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

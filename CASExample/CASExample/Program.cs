@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.InteropServices;
+using System.Runtime.InteropServices;   //The System.Runtime.InteropServices namespace provides a wide variety of members that support COM interop and platform invoke services.
 using System.Security;
 using System.Security.Permissions;
+using System.Net.NetworkCredentials;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,6 +12,13 @@ namespace CASExample
 {
     class Program
     {
+		
+		/*
+			Code Access Security
+				CAS policy – policy levels, code groups, and of course our old friend caspol.exe (CAS policy has been deprecate in v4)
+				CAS enforcement – primarily the act of demanding and asserting permissions
+				CAS permissions – granted by CAS policy or a host to set the level of operations that an application can perform
+		*/
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
@@ -73,6 +81,8 @@ namespace CASExample
             IntPtr unmanagedString = IntPtr.Zero;
             try
             {
+                //Marshal 	
+                //Provides a collection of methods for allocating unmanaged memory, copying unmanaged memory blocks, and converting managed to unmanaged types, as well as other miscellaneous methods used when interacting with unmanaged code.
                 unmanagedString = Marshal.SecureStringToGlobalAllocUnicode(securePassword);
                 Console.WriteLine(Marshal.PtrToStringUni(unmanagedString));
             }
@@ -80,6 +90,33 @@ namespace CASExample
             {
                 Marshal.ZeroFreeGlobalAllocUnicode(unmanagedString);
             }
+        }
+
+
+        public static void ExampleOfConvertingToSecureStringAndBack()
+        {
+            string s = "pass";
+
+            using (SecureString ss = new SecureString())
+            {
+                foreach (var a in s)
+                {
+                    ss.AppendChar(a);
+                }
+
+
+                IntPtr unmanagedString = Marshal.SecureStringToGlobalAllocUnicode(ss);  //Copies the contents of a managed SecureString object into unmanaged memory
+                var sback = Marshal.PtrToStringUni(unmanagedString);                    //Allocates a managed String and copies all characters up to the first null character from an unmanaged Unicode string into it.
+                Marshal.ZeroFreeGlobalAllocUnicode(unmanagedString);                    //Frees an unmanaged string pointer that was allocated using the SecureStringToGlobalAllocUnicode(SecureString) method.
+
+                Console.WriteLine(sback);
+            }
+        }
+
+        public static void ExampleOfUsingNetworkCredentials()
+        {
+            SecureString theSecureString = new NetworkCredentials("", "myPass").SecurePassword;
+            string theString = new NetworkCredential("", theSecureString).Password;
         }
         /* Methods for working with SecureString
             Decrypt method                   Clear memory method
