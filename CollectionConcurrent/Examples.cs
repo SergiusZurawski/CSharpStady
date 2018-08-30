@@ -47,7 +47,7 @@ namespace CollectionConcurrent
                 foreach (string v in col.GetConsumingEnumerable()) Console.WriteLine(v);
             });
         }
-
+		// ConcurrentBag - Represents a thread-safe, unordered collection of objects.  bags support duplicates, accepts null as a valid value for reference types.
         public static void Example3()
         {
             ConcurrentBag<int> bag = new ConcurrentBag<int>();
