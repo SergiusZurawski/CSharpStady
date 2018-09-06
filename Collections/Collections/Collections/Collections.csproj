@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CollectionFramework.cs" />
+    <Compile Include="CollectionGenericFramework.cs" />
     <Compile Include="QueuesAndStacks.cs" />
     <Compile Include="Sets.cs" />
     <Compile Include="Dictionaries.cs" />
