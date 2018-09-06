@@ -38,14 +38,23 @@ namespace Collections
                                                 //  Generic.ICollection<T>,
                                                 //  Generic.IEnumerable<T>
             
-            IReadOnlyCollection<int> iReadOnlyCollection; 	
-            IReadOnlyDictionary<int,int> iReadOnlyDictionary;
-            IReadOnlyList<int> iReadOnlyList;	
-            
+            IReadOnlyCollection<int> iReadOnlyCollection; 	  //System.Collections.Generic.IEnumerable<out T>
+            IReadOnlyDictionary<int,int> iReadOnlyDictionary; //System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>,
+															  //System.Collections.Generic.IReadOnlyCollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>
+            IReadOnlyList<int> iReadOnlyList;                 //System.Collections.Generic.IEnumerable<out T>, 
+                                                              //System.Collections.Generic.IReadOnlyCollection<out T> 
+
+            //Classes
+            //Abstract
+            Comparer<int> comparer = () => 
+            {
+            };                 // :System.Collections.Generic.IComparer<T>, 
+                                                    //  System.Collections.IComparer
+            EqualityComparer<int> equalityComparer; // :System.Collections.Generic.IEqualityComparer<T>; 
+                                                    //  System.Collections.IEqualityComparer
+
+
 
         }
-
-
-
     }
 }
