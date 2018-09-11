@@ -22,13 +22,11 @@ namespace Collections
             IEnumerable<int> iEnumerable; //:System.Collections.IEnumerable
             IEnumerator<int> iEnumerator; //:System.Collections.iEnumerator
             ICollection<int> iCollection; //:System.Collections.IEnumerable<>
-            IComparer<int>
-                iComparer; // It provides a way to customize the sort order of a collection. (Used: List<T>.Sort
+            IComparer<int>   iComparer; // It provides a way to customize the sort order of a collection. (Used: List<T>.Sort
             //                                                                       List<T>.BinarySearch,
             //                                                                       SortedDictionary<TKey,TValue> ,
             //                                                                       SortedList<TKey,TValue>  )
-            IEqualityComparer<int>
-                iEqualityComparer; //Defines methods to support the comparison of objects for equality.
+            IEqualityComparer<int> iEqualityComparer; //Defines methods to support the comparison of objects for equality.
 
             IDictionary<int, int> iDictionary; //ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>, 
             //IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>
@@ -49,7 +47,8 @@ namespace Collections
             //System.Collections.Generic.IReadOnlyCollection<out T>
 
             //Classes 
-            Comparer<int> comparer = new CollectionGenericFramework.IntComparer();
+            
+            Comparer<int> comparer = new CollectionGenericFramework.IntComparer();  //Abstract
             iComparer = comparer;
             IComparer iComparerNonGeneric = comparer;
             Dictionary<int, int>.KeyCollection dicKeyCollection =
@@ -96,6 +95,7 @@ namespace Collections
             {
                 return x == y ? true : false;
             }
+           
 
             public int GetHashCode(int obj)
             {
@@ -104,6 +104,23 @@ namespace Collections
         }
 
 
+        /*
+          IReadOnlyCollection<int> iReadOnlyCollection; 	  //System.Collections.Generic.IEnumerable<out T>
+            IReadOnlyDictionary<int,int> iReadOnlyDictionary; //System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>,
+															  //System.Collections.Generic.IReadOnlyCollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>
+            IReadOnlyList<int> iReadOnlyList;                 //System.Collections.Generic.IEnumerable<out T>, 
+                                                              //System.Collections.Generic.IReadOnlyCollection<out T> 
+
+            //Classes
+            //Abstract
+            Comparer<int> comparer = () => 
+            {
+            };                 // :System.Collections.Generic.IComparer<T>, 
+                                                    //  System.Collections.IComparer
+            EqualityComparer<int> equalityComparer; // :System.Collections.Generic.IEqualityComparer<T>; 
+                                                    //  System.Collections.IEqualityComparer
+         
+         */
     }
     
 
