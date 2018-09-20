@@ -25,6 +25,7 @@ namespace Boxing
             IEquatable<int> f = 7;
 
             //
+            PrimitiveTypes.Example();
 
 
         }

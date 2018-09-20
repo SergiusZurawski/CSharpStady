@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Runtime.InteropServices.WindowsRuntime;
 using System.Runtime.Serialization;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 
 namespace Collections
@@ -45,39 +46,130 @@ namespace Collections
             // System.Collections.Generic.IReadOnlyCollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>
             IReadOnlyList<int> iReadOnlyList; //System.Collections.Generic.IEnumerable<out T>,
             //System.Collections.Generic.IReadOnlyCollection<out T>
-
+            
+            
+            //
+            ISerializable iSerializable;
+            IDeserializationCallback iSerializableCallback;
             //Classes 
             
             Comparer<int> comparer = new CollectionGenericFramework.IntComparer();  //Abstract
-            iComparer = comparer;
-            IComparer iComparerNonGeneric = comparer;
+                iComparer = comparer;
+                IComparer iComparerNonGeneric = comparer;
             Dictionary<int, int>.KeyCollection dicKeyCollection =
                 new Dictionary<int, int>.KeyCollection(new Dictionary<int, int>() {{4, 5}});
 
-            iCollection = dicKeyCollection;
-            iEnumerable = dicKeyCollection;
-            iCollection = dicKeyCollection;
-            iReadOnlyCollection = dicKeyCollection;
+                iCollection = dicKeyCollection;
+                iEnumerable = dicKeyCollection;
+                iCollection = dicKeyCollection;
+                iReadOnlyCollection = dicKeyCollection;
 
             Dictionary<int, int>.ValueCollection valueCollection =
                 new Dictionary<int, int>.ValueCollection(new Dictionary<int, int>() {{4, 5}});
             
-            iCollection = valueCollection;
-            iEnumerable = valueCollection;
-            iCollection = valueCollection;
-            iReadOnlyCollection = valueCollection;
+                iCollection = valueCollection;
+                iEnumerable = valueCollection;
+                iCollection = valueCollection;
+                iReadOnlyCollection = valueCollection;
             
             Dictionary<int, int> dictionary01 = new Dictionary<int, int>() {{4, 5}};
 
-            iDictionary = dictionary01;
-            IEnumerable<KeyValuePair<int, int>> enumarableForDict = dictionary01;
-            ICollection<KeyValuePair<int, int>> collectionKeyValuePairs= dictionary01;
-            ICollection iCollectionNonGen = dictionary01;
-            iReadOnlyDictionary = dictionary01;
-            IReadOnlyCollection<KeyValuePair<int, int>> iReadOnlyCollectionDict = dictionary01;
-            ISerializable iSerializable = dictionary01;
-            IDeserializationCallback iSerializableCallback = dictionary01;
+                iDictionary = dictionary01;
+                IEnumerable<KeyValuePair<int, int>> enumarableForDict = dictionary01;
+                ICollection<KeyValuePair<int, int>> collectionKeyValuePairs= dictionary01;
+                ICollection iCollectionNonGen = dictionary01;
+                iReadOnlyDictionary = dictionary01;
+                IReadOnlyCollection<KeyValuePair<int, int>> iReadOnlyCollectionDict = dictionary01;
+                iSerializable = dictionary01;
+                iSerializableCallback = dictionary01;
             
+            EqualityComparer<int> equalityComparer = new IntEqualityComparer(); //Abstract
+                iEqualityComparer = equalityComparer;
+            
+            HashSet<int> hashSet = new HashSet<int>(){1, 2, 3};
+                iCollection = hashSet;
+                iEnumerable = hashSet;
+                iCollection = hashSet;
+                iReadOnlyCollection = hashSet;
+                iSet = hashSet;
+                
+                iSerializable = hashSet;
+                iSerializableCallback = hashSet;
+            
+            LinkedList<int> ll = new LinkedList<int>(); //System.Collections.Generic.ICollection<T>,
+                                                        //System.Collections.Generic.IEnumerable<T>,
+                                                        //System.Collections.Generic.IReadOnlyCollection<T>,
+                                                        //System.Collections.ICollection,
+                                                        //System.Runtime.Serialization.IDeserializationCallback,
+                                                        //System.Runtime.Serialization.ISerializable
+            //Each node in linke list is LinkedListNode<T>
+            LinkedListNode<int> listNode = new LinkedListNode<int>(1);
+            //The only multithreaded scenario supported by LinkedList<T> is multithreaded read operations.
+                string[] words = { "the", "fox", "jumps", "over", "the", "dog" };
+            LinkedList<string> sentence = new LinkedList<string>(words);
+                sentence.AddFirst("today");
+                sentence.AddLast("mark1");
+                sentence.RemoveFirst();
+                sentence.RemoveLast();
+            
+            List<int> list = new List<int>();    //System.Collections.Generic.ICollection<T>,
+                                                 //System.Collections.Generic.IEnumerable<T>,
+                                                 //System.Collections.Generic.IList<T>,
+                                                 //System.Collections.Generic.IReadOnlyCollection<T>,
+                                                 //System.Collections.Generic.IReadOnlyList<T>,
+                                                 //System.Collections.IList
+
+            Queue<int> queue = new Queue<int>(); //System.Collections.Generic.IEnumerable<T>,
+                                                 //System.Collections.Generic.IReadOnlyCollection<T>,
+                                                 //System.Collections.ICollection
+                queue.Enqueue(1);
+                queue.Dequeue();
+            SortedDictionary<int, int>.KeyCollection keyCollection; 
+                                                 //System.Collections.Generic.ICollection<TKey>,
+                                                 //System.Collections.Generic.IEnumerable<TKey>,
+                                                 //System.Collections.Generic.IReadOnlyCollection<TKey>,
+                                                 //System.Collections.ICollection
+
+            SortedDictionary<int, int>.ValueCollection valueCollection1;
+                                                 //System.Collections.Generic.ICollection<TValue>,
+                                                 //System.Collections.Generic.IEnumerable<TValue>,
+                                                 //System.Collections.Generic.IReadOnlyCollection<TValue>,
+                                                 //System.Collections.ICollection
+            SortedList<int, int> sortedList;
+                                                 //System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>,
+                                                 //System.Collections.Generic.IDictionary<TKey,TValue>,
+                                                 //System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>,
+                                                 //System.Collections.Generic.IReadOnlyCollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>,
+                                                 //System.Collections.Generic.IReadOnlyDictionary<TKey,TValue>, System.Collections.IDictionary
+            SortedSet<int> sortedSet;            
+                                                //System.Collections.Generic.ICollection<T>,
+                                                //System.Collections.Generic.IEnumerable<T>,
+                                                //System.Collections.Generic.IReadOnlyCollection<T>,
+                                                //System.Collections.Generic.ISet<T>,
+                                                //System.Collections.ICollection,
+                                                //System.Runtime.Serialization.IDeserializationCallback,
+                                                //System.Runtime.Serialization.ISerializable
+            
+            Stack<int> stack;                   //(LIFO) 
+                                                //System.Collections.Generic.IEnumerable<T>,
+                                                //System.Collections.Generic.IReadOnlyCollection<T>,
+                                                //System.Collections.ICollection
+            
+            SynchronizedCollection<int> synchronizedCollection;
+                                                // stores data in a List<T> container and it is thread-safe
+                                                //System.Collections.Generic.ICollection<T>,
+                                                //System.Collections.Generic.IEnumerable<T>
+                                                //System.Collections.Generic.IList<T>,
+                                                //System.Collections.IList
+            SynchronizedKeyedCollection<int, int> synchronizedKeyedCollection;  //Provides a thread-safe collection, grouped by keys.
+                                                //System.Collections.Generic.SynchronizedCollection<T>
+
+            SynchronizedReadOnlyCollection<int> synchronizedReadOnlyCollection;  //	Provides a thread-safe, read-onl
+                                                //System.Collections.Generic.ICollection<T>,
+                                                //System.Collections.Generic.IEnumerable<T>,
+                                                //System.Collections.Generic.IList<T>,
+                                                //System.Collections.IList
+
         }
         
         
@@ -89,17 +181,17 @@ namespace Collections
             }
         }
         
-        public class IntEqualityComparer : IEqualityComparer<int>
+        public class IntEqualityComparer : EqualityComparer<int>
         {
-            public bool Equals(int x, int y)
+            public override bool Equals(int x, int y)
             {
                 return x == y ? true : false;
             }
            
 
-            public int GetHashCode(int obj)
+            public override int GetHashCode(int obj)
             {
-                throw new NotImplementedException();
+                return obj;
             }
         }
 
