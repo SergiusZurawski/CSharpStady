@@ -213,7 +213,7 @@ namespace Collections
             EqualityComparer<int> equalityComparer;     // :System.Collections.Generic.IEqualityComparer<T>; 
                                                         //  System.Collections.IEqualityComparer
         }
-
+        */
 
 
     }
@@ -233,8 +233,5 @@ namespace Collections
             return 0;
         }
     }
-
-    public class EqualityComparerExample
-
 
 }

@@ -154,7 +154,28 @@ namespace Collections
             // StructuralComparisons	Provides objects for performing a structural comparison of two collection objects.
         }
 
-        
+        /*
+            IEnumerable iEnumerable;   								IEnumerable<int> iEnumerable;
+            IEnumerator iEnumerator;   							    IEnumerator<int> iEnumerator; 
+            ICollection iCollection;  							    ICollection<int> iCollection
+            IList iList;											IList<int> iList;
+            IDictionary iDictionary;								IDictionary<int, int> iDictionary;
+            IDictionaryEnumerator iDictionaryEnumerator;			List<int> iList; 
+            
+            ICloneable iCloneable;
+            ISerializable iSerializable;
+            IDeserializationCallback iDeserializationCallback;
+            
+            IComparer iComparer;									IComparer<int> iComparer;  
+            IEqualityComparer iHashCodeProvider;					IEqualityComparer<int> iEqualityComparer;
+            IStructuralComparable iStructuralComparable;			
+            IStructuralEquatable iStructuralEquatable;				
+                                                                    ISet<int> iSet;
+                                                                    IReadOnlyCollection<int> iReadOnlyCollection;
+                                                                    IReadOnlyList<int> iReadOnlyList; 
+                                                                    IReadOnlyDictionary<int, int>
+         
+         */
 
     }
 }
