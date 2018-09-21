@@ -34,27 +34,48 @@ namespace Collections
             IList<int> iList;                   //Represents a collection of objects that can be individually accessed by index.
                                                 //  Generic.ICollection<T>,
                                                 //  Generic.IEnumerable<T>
-            ISet<int> iSet;	
-                                                //  Generic.ICollection<T>,
+            ISet<int> iSet;                     //  Generic.ICollection<T>,
                                                 //  Generic.IEnumerable<T>
-            
-            IReadOnlyCollection<int> iReadOnlyCollection; 	  //System.Collections.Generic.IEnumerable<out T>
-            IReadOnlyDictionary<int,int> iReadOnlyDictionary; //System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>,
-															  //System.Collections.Generic.IReadOnlyCollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>
-            IReadOnlyList<int> iReadOnlyList;                 //System.Collections.Generic.IEnumerable<out T>, 
-                                                              //System.Collections.Generic.IReadOnlyCollection<out T> 
+
+            IReadOnlyCollection<int> iReadOnlyCollection; 	   //System.Collections.Generic.IEnumerable<out T>
+            IReadOnlyDictionary<int, int> iReadOnlyDictionary; //System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>,
+                                                               //System.Collections.Generic.IReadOnlyCollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>
+            IReadOnlyList<int> iReadOnlyList;                  //System.Collections.Generic.IEnumerable<out T>, 
+                                                               //System.Collections.Generic.IReadOnlyCollection<out T> 
 
             //Classes
             //Abstract
-            Comparer<int> comparer = () => 
-            {
-            };                 // :System.Collections.Generic.IComparer<T>, 
-                                                    //  System.Collections.IComparer
-            EqualityComparer<int> equalityComparer; // :System.Collections.Generic.IEqualityComparer<T>; 
-                                                    //  System.Collections.IEqualityComparer
+            Comparer<int> comparer = new CompareInts(); // For sorting; Coparer return int; -1; 0; 1.
+                                                        // :System.Collections.Generic.IComparer<T>, 
+                                                        //  System.Collections.IComparer 
+            List<int> listOfInts1 = new List<int> { 3, 2, 2, 5 };
+            listOfInts1.Sort(comparer);
+
+            EqualityComparer<int> equalityComparer;     // :System.Collections.Generic.IEqualityComparer<T>; 
+                                                        //  System.Collections.IEqualityComparer
+        }
 
 
+
+    }
+
+    public class Box
+    {
+        public Box(int lenght, int width)
+        {
 
         }
     }
+
+    public class CompareInts : Comparer<int>
+    {
+        public override int Compare(int a, int b)
+        {
+            return 0;
+        }
+    }
+
+    public class EqualityComparerExample
+
+
 }
