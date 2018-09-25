@@ -104,7 +104,14 @@ namespace Boxing
             
             Console.WriteLine(pt.charValue);
             Console.WriteLine(pt.strValue);
+            
 
+
+        }
+
+        public void ExampleLocal()
+        {
+            
         }
     }
 }

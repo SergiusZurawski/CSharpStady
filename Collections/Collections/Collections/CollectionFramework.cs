@@ -155,12 +155,13 @@ namespace Collections
         }
 
         /*
+            13                                                      11 
             IEnumerable iEnumerable;   								IEnumerable<int> iEnumerable;
             IEnumerator iEnumerator;   							    IEnumerator<int> iEnumerator; 
             ICollection iCollection;  							    ICollection<int> iCollection
             IList iList;											IList<int> iList;
             IDictionary iDictionary;								IDictionary<int, int> iDictionary;
-            IDictionaryEnumerator iDictionaryEnumerator;			List<int> iList; 
+            IDictionaryEnumerator iDictionaryEnumerator;			
             
             ICloneable iCloneable;
             ISerializable iSerializable;
@@ -174,6 +175,34 @@ namespace Collections
                                                                     IReadOnlyCollection<int> iReadOnlyCollection;
                                                                     IReadOnlyList<int> iReadOnlyList; 
                                                                     IReadOnlyDictionary<int, int>
+         
+         */
+        
+        /*  13                                    16
+            CollectionBase	
+            ArrayList							List<T>
+									            LinkedList<T>
+									            LinkedListNode<T>
+            BitArray	
+
+            Comparer							Comparer<T>
+            CaseInsensitiveComparer	
+            CaseInsensitiveHashCodeProvider
+            	
+            DictionaryBase						KeyedByTypeCollection<TItem>
+            Hashtable							Dictionary<TKey,TValue>
+            Queue								Queue<T>
+            ReadOnlyCollectionBase	
+            SortedList							SortedList<TKey,TValue>
+                                                SortedDictionary<TKey,TValue>
+                                                SortedSet<T>
+            Stack								Stack<T>
+            StructuralComparisons	
+                                                EqualityComparer<T>
+                                                HashSet<T>
+                                                SynchronizedCollection<T>
+                                                SynchronizedKeyedCollection<K,T>
+                                                SynchronizedReadOnlyCollection<T>
          
          */
 
