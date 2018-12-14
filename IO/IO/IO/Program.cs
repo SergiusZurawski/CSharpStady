@@ -12,8 +12,9 @@ namespace IOExamples
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            TestRegexp();
+            //TestRegexp();
             //SerializationExample();
+            SerializationToByte.SericalizeTwoParts();
         }
 
        
