@@ -1,9 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
+    <AssemblyName>IOExamples</AssemblyName>
+    <RootNamespace>IOExamples</RootNamespace>
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
-  <ItemGroup>
-    <PackageReference Include="System.Data.SqlClient" Version="4.6.0-preview2-26905-02" />
-  </ItemGroup>
 </Project>

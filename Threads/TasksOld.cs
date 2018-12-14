@@ -6,45 +6,36 @@ using System.Threading.Tasks;
 namespace Threads
 {
     /**
+     1. How to create . 
+     2. How to run.
+     3. Continue
+     4. task statuses
+     5. Delay
+     TaskCompletionSource<T>
+     TaskFactory.FromAsync() 
      
-     Task is an object that
+     ask, which is an object that
             represents some work that should be done. The Task can tell you if the work is completed and
             if the operation returns a result, the Task gives you the result.
         
         A task scheduler is responsible for starting the Task and managing it. By default, the Task
             scheduler uses threads from the thread pool to execute the Task.
-            
          */
-    public static class Tasks
+    public static class TasksOld
     {
-        
-        //1. How to create Task 
-        public static void ExampleCreateTasks()
+        public static void Example()
         {
             
-            Thread.CurrentThread.Name = "Main";
-
-            //1.1 Create a task and supply a user delegate by using a lambda expression. 
-            Task taskA = new Task( () => Console.WriteLine("Hello from taskA."));
-            // Start the task.
-            taskA.Start();
-
-            // Output a message from the calling thread.
-            Console.WriteLine("Hello from thread '{0}'.",  Thread.CurrentThread.Name);
-            taskA.Wait();
-            
-            //1.2 Create And Run
             Task t = Task.Run(() =>
             {
-                for (int x = 0; x < 10; x++)
+                for (int x = 0; x < 100; x++)
                 {
-                    Console.Write("Hello from task 2(t)");
+                    Console.Write("*");
                 }
             });
             t.Wait();
-
-            Task.Factory.StartNew(() => { });
-
+            /* Calling Wait is equivalent tocalling Join on a thread. 
+            It waits till the Task is finished before exiting the application. */
         }
         public static void ExampleWithReturnValues()
         {
@@ -79,16 +70,13 @@ namespace Threads
             
             Task<int> t = Task.Run(() =>
             {
-                Thread.Sleep(1000);
-                Console.WriteLine("Task");
-                throw  new Exception("I was faulty");
                 return 42;
             });
-            var canceledT = t.ContinueWith((i) =>
+            t.ContinueWith((i) =>
             {
                 Console.WriteLine("Canceled");
             }, TaskContinuationOptions.OnlyOnCanceled);
-            var faltedTask  = t.ContinueWith((i) =>
+            t.ContinueWith((i) =>
             {
                 Console.WriteLine("Faulted");
             }, TaskContinuationOptions.OnlyOnFaulted);
@@ -97,15 +85,7 @@ namespace Threads
                 Console.WriteLine("Completed");
             }, TaskContinuationOptions.OnlyOnRanToCompletion);
 
-            //t.Wait();
-            faltedTask.Wait();
-//            
-//            Task.WaitAll(
-//            new Task[]{
-//                canceledT,
-//                faltedTask,
-//                completedTask
-//            });
+            completedTask.Wait();
         }
 
         public static void ExampleChildTask()
